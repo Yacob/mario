@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\__Scripts\Mario.cs">
+    <Files>
+      <File FileName="Assets\__Scripts\Mario.cs" Line="12" Column="42" />
+      <File FileName="Assets\__Scripts\CameraFollow.cs" Line="17" Column="31" />
+      <File FileName="Assets\__Scripts\HideCollisionBoxQuads.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
