@@ -1,9 +1,16 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\__Scripts\CameraFollow.cs">
     <Files>
       <File FileName="Assets\__Scripts\Mario.cs" Line="38" Column="2" />
       <File FileName="Assets\__Scripts\CameraFollow.cs" Line="14" Column="19" />
+=======
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\__Scripts\Mario.cs">
+    <Files>
+      <File FileName="Assets\__Scripts\Mario.cs" Line="1" Column="1" />
+>>>>>>> Change Run/jump/fall speed
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
