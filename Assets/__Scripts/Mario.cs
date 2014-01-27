@@ -43,6 +43,10 @@ public class Mario : MonoBehaviour {
 	void OnTriggerExit2D(Collider2D other) {
 		grounded = false;
 	}
+	void OnTriggerStay2D(Collider2D other){
+		grounded = true;
+		jumping = false;
+	}
 }
 
 
