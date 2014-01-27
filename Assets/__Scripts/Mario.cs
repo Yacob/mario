@@ -10,28 +10,28 @@ public class Mario : MonoBehaviour {
 	public bool			jumping = false;
 
 	void Update () { // Every Frame
-			float h = Input.GetAxis ("Horizontal");
-			//float v = Input.GetAxis ("Vertical");
+		float h = Input.GetAxis ("Horizontal");
+		//float v = Input.GetAxis ("Vertical");
 
-			Vector2 vel = rigidbody2D.velocity;
-			vel.x = h * speed;
+		Vector2 vel = rigidbody2D.velocity;
+		vel.x = h * speed;
 
-			if (Input.GetKeyDown (KeyCode.Space) ||
-					Input.GetKeyDown (KeyCode.UpArrow) ||
-					Input.GetKeyDown (KeyCode.W)) {
-					if (grounded) {
-							vel.y = jumpSpeed;
-							jumping = true;
-							grounded = false;
-					}
+		if (Input.GetKeyDown (KeyCode.Space) ||
+			Input.GetKeyDown (KeyCode.UpArrow) ||
+			Input.GetKeyDown (KeyCode.W)) {
+			if (grounded) {
+					vel.y = jumpSpeed;
+					jumping = true;
+					grounded = false;
 			}
-			if (jumping && !grounded) {
-				if (Input.GetKey (KeyCode.Space) ||
-					Input.GetKey (KeyCode.UpArrow) ||
-					Input.GetKey (KeyCode.W)) {
-					vel.y += jumpAcc * Time.deltaTime;
-				}
+		}
+		if (jumping && !grounded) {
+			if (Input.GetKey (KeyCode.Space) ||
+				Input.GetKey (KeyCode.UpArrow) ||
+				Input.GetKey (KeyCode.W)) {
+				vel.y += jumpAcc * Time.deltaTime;
 			}
+		}
 		rigidbody2D.velocity = vel;
 			
 	}
