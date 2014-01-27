@@ -11,7 +11,7 @@ public class Mario : MonoBehaviour {
 
 	void Update () { // Every Frame
 			float h = Input.GetAxis ("Horizontal");
-			float v = Input.GetAxis ("Vertical");
+			//float v = Input.GetAxis ("Vertical");
 
 			Vector2 vel = rigidbody2D.velocity;
 			vel.x = h * speed;
