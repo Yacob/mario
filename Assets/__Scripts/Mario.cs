@@ -9,6 +9,10 @@ public class Mario : MonoBehaviour {
 	public bool			grounded = true;
 	public bool			jumping = false;
 
+	void Start(){
+		rigidbody.inertiaTensor = rigidbody.inertiaTensor + new Vector3 (0, 0, rigidbody.inertiaTensor.z * 100);
+	}
+
 	void Update () { // Every Frame
 		float h = Input.GetAxis ("Horizontal");
 		//float v = Input.GetAxis ("Vertical");
@@ -36,16 +40,14 @@ public class Mario : MonoBehaviour {
 			
 	}
 
-	void OnTriggerEnter(Collider other) {
+	void OnCollisionEnter(Collision other) {
+		Debug.Log ("gameobject enter " + other.gameObject.tag);
 		grounded = true;
 		jumping = false;
 	}
-	void OnTriggerExit(Collider other) {
+	void OnCollisionExit(Collision other) {
 		grounded = false;
-	}
-	void OnTriggerStay(Collider other){
-		grounded = true;
-		jumping = false;
+		Debug.Log ("gameobject exit " + other.gameObject.tag);
 	}
 }
 
