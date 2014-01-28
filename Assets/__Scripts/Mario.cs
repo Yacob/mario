@@ -13,7 +13,7 @@ public class Mario : MonoBehaviour {
 		float h = Input.GetAxis ("Horizontal");
 		//float v = Input.GetAxis ("Vertical");
 
-		Vector2 vel = rigidbody2D.velocity;
+		Vector3 vel = rigidbody.velocity;
 		vel.x = h * speed;
 
 		if (Input.GetKeyDown (KeyCode.Space) ||
@@ -32,18 +32,18 @@ public class Mario : MonoBehaviour {
 				vel.y += jumpAcc * Time.deltaTime;
 			}
 		}
-		rigidbody2D.velocity = vel;
+		rigidbody.velocity = vel;
 			
 	}
 
-	void OnTriggerEnter2D(Collider2D other) {
+	void OnTriggerEnter(Collider other) {
 		grounded = true;
 		jumping = false;
 	}
-	void OnTriggerExit2D(Collider2D other) {
+	void OnTriggerExit(Collider other) {
 		grounded = false;
 	}
-	void OnTriggerStay2D(Collider2D other){
+	void OnTriggerStay(Collider other){
 		grounded = true;
 		jumping = false;
 	}
