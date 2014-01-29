@@ -16,7 +16,6 @@ public class CameraFollow : MonoBehaviour {
 			pos.y = currPos.y;
 			transform.position = pos;
 		}
-
 		//if y position is < some value we raise camera so that the ground is bottom of screen
 		//same thing for the ceiling
 	}
