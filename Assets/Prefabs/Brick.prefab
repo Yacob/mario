@@ -28,6 +28,7 @@ GameObject:
   - 4: {fileID: 400002}
   - 33: {fileID: 3300002}
   - 65: {fileID: 6500000}
+  - 65: {fileID: 0}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick

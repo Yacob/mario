@@ -13,10 +13,8 @@ public class Goomba : MonoBehaviour {
 		rigidbody.velocity = vel;
 
 	}
-	void onCollisionEnter(Collision col){
-		//Vector3 diff = this.transform.position - col.gameObject.transform.position;
-		Vector3 direction = getNormal (this.transform.position, col.gameObject.transform.position);
-		if (direction.x == moveDir)	moveDir *= -1;
+	void OnCollisionEnter(Collision col){
+
 	}
 	Vector3 getNormal(Vector3 a, Vector3 b){
 		Vector3 c = Vector3.Cross (a, b);
@@ -24,4 +22,27 @@ public class Goomba : MonoBehaviour {
 		Vector3 side2 = c - a;
 		return Vector3.Cross(side1, side2).normalized;
 	}
+	void OnTriggerEnter(Collider other){
+		Vector3 col = other.transform.position - this.transform.position;
+		if (moveDir == 1) {
+			if (col.x > 0) {
+					moveDir = -1;
+			}
+		} else {
+			if(col.x < 0){
+				moveDir = 1;
+			}
+		}
+		if (col.y > 0) {
+			Debug.Log(other.tag);
+
+			//hit from above
+			if (other.tag == "Player"){
+				Debug.Log("die");
+				Destroy(this.gameObject);
+			}
+		}
+	}
 }
+
+

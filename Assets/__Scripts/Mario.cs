@@ -41,13 +41,13 @@ public class Mario : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision other) {
-		Debug.Log ("gameobject enter " + other.gameObject.tag);
+		//Debug.Log ("gameobject enter " + other.gameObject.tag);
 		grounded = true;
 		jumping = false;
 	}
 	void OnCollisionExit(Collision other) {
 		grounded = false;
-		Debug.Log ("gameobject exit " + other.gameObject.tag);
+		//Debug.Log ("gameobject exit " + other.gameObject.tag);
 	}
 }
 
