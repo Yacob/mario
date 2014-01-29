@@ -6,7 +6,7 @@ TagManager:
   - Brick
   - CoinBox
   - Pipe
-  - Enemy
+  - Flag
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -18,7 +18,7 @@ TagManager:
   Builtin Layer 7: 
   User Layer 8: Brick
   User Layer 9: CoinBox
-  User Layer 10: Enemy
+  User Layer 10: Flag
   User Layer 11: 
   User Layer 12: 
   User Layer 13: 
