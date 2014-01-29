@@ -13,7 +13,7 @@ public class Mario : MonoBehaviour {
 		rigidbody.inertiaTensor = rigidbody.inertiaTensor + new Vector3 (0, 0, rigidbody.inertiaTensor.z * 100);
 	}
 
-	void Update () { // Every Frame
+	void FixedUpdate () { // Every Frame
 		float h = Input.GetAxis ("Horizontal");
 		//float v = Input.GetAxis ("Vertical");
 

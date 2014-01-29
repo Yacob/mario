@@ -315,7 +315,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1315048575}
   m_GameObject: {fileID: 19874250}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
 --- !u!4 &268366831
 Transform:
   m_ObjectHideFlags: 0
@@ -341,9 +340,6 @@ BoxCollider:
   m_Size: {x: .800000012, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &273134023
-=======
---- !u!1001 &34588557
->>>>>>> 96a338389bfa511decdaecaefa615b033ad3fce6
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
