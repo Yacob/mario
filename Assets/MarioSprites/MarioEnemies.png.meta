@@ -48,1703 +48,3071 @@ TextureImporter:
     - name: MarioEnemies_0
       rect:
         serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_6
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_10
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_12
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_14
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_15
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_16
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_19
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_20
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_21
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_22
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_24
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_25
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_26
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_27
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_28
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_29
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_30
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_31
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_32
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_33
+      rect:
+        serializedVersion: 2
         x: 0
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_1
+    - name: MarioEnemies_34
       rect:
         serializedVersion: 2
         x: 16
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_2
+    - name: MarioEnemies_35
       rect:
         serializedVersion: 2
         x: 32
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_3
+    - name: MarioEnemies_36
       rect:
         serializedVersion: 2
         x: 48
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_4
+    - name: MarioEnemies_37
       rect:
         serializedVersion: 2
         x: 64
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_5
+    - name: MarioEnemies_38
       rect:
         serializedVersion: 2
         x: 80
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_6
+    - name: MarioEnemies_39
       rect:
         serializedVersion: 2
         x: 96
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_7
+    - name: MarioEnemies_40
       rect:
         serializedVersion: 2
         x: 112
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_8
+    - name: MarioEnemies_41
       rect:
         serializedVersion: 2
         x: 128
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_9
+    - name: MarioEnemies_42
       rect:
         serializedVersion: 2
         x: 144
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_10
+    - name: MarioEnemies_43
       rect:
         serializedVersion: 2
         x: 160
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_11
+    - name: MarioEnemies_44
       rect:
         serializedVersion: 2
         x: 176
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_12
+    - name: MarioEnemies_45
       rect:
         serializedVersion: 2
         x: 192
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_13
+    - name: MarioEnemies_46
       rect:
         serializedVersion: 2
         x: 208
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_14
+    - name: MarioEnemies_47
       rect:
         serializedVersion: 2
         x: 224
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_15
+    - name: MarioEnemies_48
       rect:
         serializedVersion: 2
         x: 240
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_16
+    - name: MarioEnemies_49
       rect:
         serializedVersion: 2
         x: 256
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_17
+    - name: MarioEnemies_50
       rect:
         serializedVersion: 2
         x: 272
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_18
+    - name: MarioEnemies_51
       rect:
         serializedVersion: 2
         x: 288
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_19
+    - name: MarioEnemies_52
       rect:
         serializedVersion: 2
         x: 304
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_20
+    - name: MarioEnemies_53
       rect:
         serializedVersion: 2
         x: 320
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_21
+    - name: MarioEnemies_54
       rect:
         serializedVersion: 2
         x: 336
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_22
+    - name: MarioEnemies_55
       rect:
         serializedVersion: 2
         x: 352
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_23
+    - name: MarioEnemies_56
       rect:
         serializedVersion: 2
         x: 368
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_24
+    - name: MarioEnemies_57
       rect:
         serializedVersion: 2
         x: 384
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_25
+    - name: MarioEnemies_58
       rect:
         serializedVersion: 2
         x: 400
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_26
+    - name: MarioEnemies_59
       rect:
         serializedVersion: 2
         x: 416
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_27
+    - name: MarioEnemies_60
       rect:
         serializedVersion: 2
         x: 432
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_28
+    - name: MarioEnemies_61
       rect:
         serializedVersion: 2
         x: 496
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_29
+    - name: MarioEnemies_62
       rect:
         serializedVersion: 2
         x: 512
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_30
+    - name: MarioEnemies_63
       rect:
         serializedVersion: 2
         x: 528
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_31
+    - name: MarioEnemies_64
       rect:
         serializedVersion: 2
         x: 544
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_32
+    - name: MarioEnemies_65
       rect:
         serializedVersion: 2
         x: 560
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_33
+    - name: MarioEnemies_66
       rect:
         serializedVersion: 2
         x: 576
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_34
+    - name: MarioEnemies_67
       rect:
         serializedVersion: 2
         x: 592
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_35
+    - name: MarioEnemies_68
       rect:
         serializedVersion: 2
         x: 608
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_36
+    - name: MarioEnemies_69
       rect:
         serializedVersion: 2
         x: 624
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_37
+    - name: MarioEnemies_70
       rect:
         serializedVersion: 2
         x: 640
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_38
+    - name: MarioEnemies_71
       rect:
         serializedVersion: 2
         x: 656
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_39
+    - name: MarioEnemies_72
       rect:
         serializedVersion: 2
         x: 672
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_40
+    - name: MarioEnemies_73
       rect:
         serializedVersion: 2
         x: 688
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_41
+    - name: MarioEnemies_74
       rect:
         serializedVersion: 2
         x: 704
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_42
+    - name: MarioEnemies_75
       rect:
         serializedVersion: 2
         x: 720
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_43
+    - name: MarioEnemies_76
       rect:
         serializedVersion: 2
         x: 736
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_44
+    - name: MarioEnemies_77
       rect:
         serializedVersion: 2
         x: 752
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_45
+    - name: MarioEnemies_78
       rect:
         serializedVersion: 2
         x: 768
         y: 96
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_46
+    - name: MarioEnemies_79
       rect:
         serializedVersion: 2
         x: 784
         y: 96
         width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_47
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_48
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_49
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_50
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_51
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_52
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_53
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_54
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_55
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_56
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_57
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_58
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_59
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_60
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_61
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_62
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_63
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_64
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_65
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_66
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_67
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_68
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_69
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_70
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_71
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_72
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_73
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_74
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_75
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_76
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_77
-      rect:
-        serializedVersion: 2
-        x: 528
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_78
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_79
-      rect:
-        serializedVersion: 2
-        x: 560
-        y: 64
-        width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
     - name: MarioEnemies_80
       rect:
         serializedVersion: 2
-        x: 576
-        y: 64
+        x: 0
+        y: 80
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
     - name: MarioEnemies_81
       rect:
         serializedVersion: 2
-        x: 592
-        y: 64
+        x: 16
+        y: 80
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
     - name: MarioEnemies_82
       rect:
         serializedVersion: 2
-        x: 608
-        y: 64
+        x: 32
+        y: 80
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
     - name: MarioEnemies_83
       rect:
         serializedVersion: 2
-        x: 624
-        y: 64
+        x: 48
+        y: 80
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
     - name: MarioEnemies_84
       rect:
         serializedVersion: 2
-        x: 640
-        y: 64
+        x: 64
+        y: 80
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
     - name: MarioEnemies_85
       rect:
         serializedVersion: 2
-        x: 656
-        y: 64
+        x: 80
+        y: 80
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
     - name: MarioEnemies_86
       rect:
         serializedVersion: 2
-        x: 672
-        y: 64
+        x: 96
+        y: 80
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
     - name: MarioEnemies_87
       rect:
         serializedVersion: 2
-        x: 688
-        y: 64
+        x: 112
+        y: 80
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
     - name: MarioEnemies_88
       rect:
         serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_90
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_91
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_93
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_94
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_95
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_96
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_97
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_98
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_99
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_100
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_101
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_102
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_103
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_104
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_105
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_106
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_107
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_108
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_109
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_110
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_111
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_112
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_113
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_114
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_115
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_116
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_117
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_118
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_119
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_120
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_121
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_122
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_123
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_125
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_126
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_127
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_128
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_129
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_130
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_131
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_133
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_134
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_135
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_137
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_138
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_139
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_140
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_141
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_142
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_143
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_144
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_145
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_146
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_147
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_148
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_149
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_150
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_151
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_152
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_153
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_154
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_155
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_156
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_157
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_158
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_159
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_160
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_161
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_162
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_163
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_164
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_165
+      rect:
+        serializedVersion: 2
         x: 704
         y: 64
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_89
+    - name: MarioEnemies_166
       rect:
         serializedVersion: 2
         x: 720
         y: 64
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_90
+    - name: MarioEnemies_167
       rect:
         serializedVersion: 2
         x: 736
         y: 64
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_91
+    - name: MarioEnemies_168
       rect:
         serializedVersion: 2
         x: 752
         y: 64
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_92
+    - name: MarioEnemies_169
       rect:
         serializedVersion: 2
         x: 768
         y: 64
         width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_93
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_94
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_95
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_96
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_97
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_98
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_99
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_100
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_101
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_102
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_103
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_104
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_105
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_106
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_107
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_108
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_109
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_110
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_111
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_112
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_113
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_114
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_115
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_116
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_117
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_118
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_119
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_120
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_121
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_122
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_123
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_124
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_125
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_126
-      rect:
-        serializedVersion: 2
-        x: 528
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_127
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_128
-      rect:
-        serializedVersion: 2
-        x: 560
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_129
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_130
-      rect:
-        serializedVersion: 2
-        x: 592
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_131
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_132
-      rect:
-        serializedVersion: 2
-        x: 624
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_133
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_134
-      rect:
-        serializedVersion: 2
-        x: 656
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_135
-      rect:
-        serializedVersion: 2
-        x: 672
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_136
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_137
-      rect:
-        serializedVersion: 2
-        x: 720
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_138
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_139
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 32
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_140
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_141
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_142
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_143
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_144
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_145
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_146
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_147
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_148
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_149
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_150
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_151
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_152
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_153
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_154
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_155
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_156
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_157
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_158
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_159
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_160
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_161
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_162
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_163
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_164
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_165
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_166
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_167
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_168
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-    - name: MarioEnemies_169
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 0
-        width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
     - name: MarioEnemies_170
       rect:
         serializedVersion: 2
-        x: 480
-        y: 0
+        x: 0
+        y: 48
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
     - name: MarioEnemies_171
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_172
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_173
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_174
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_175
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_176
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_177
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_178
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_179
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_180
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_181
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_182
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_183
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_184
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_185
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_186
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_187
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_188
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_189
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_190
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_191
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_192
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_193
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_194
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_195
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_196
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_197
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_198
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_199
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_200
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_201
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_202
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_203
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_204
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_205
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_206
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_207
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_208
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_209
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_210
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_211
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_212
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_213
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_214
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_215
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_216
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_217
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_218
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_219
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_220
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_221
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_222
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_223
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_224
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_225
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_226
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_227
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_228
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_229
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_230
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_231
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_232
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_233
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_234
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_235
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_236
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_237
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_238
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_239
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_240
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_241
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_242
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_243
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_244
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_245
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_246
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_247
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_248
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_249
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_250
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_251
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_252
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_253
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_254
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_255
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_256
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_257
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_258
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_259
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_260
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_261
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_262
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_263
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_264
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_265
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_266
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_267
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_268
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_269
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_270
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_271
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_272
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_273
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_274
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_275
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_276
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_277
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_278
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_279
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_280
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_281
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_282
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_283
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_284
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_285
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_286
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_287
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_288
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_289
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_290
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_291
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_292
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_293
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_294
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_295
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_296
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_297
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_298
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_299
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_300
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_301
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_302
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_303
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_304
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_305
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_306
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_307
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_308
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_309
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_310
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_311
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_312
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_313
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_314
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_315
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_316
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_317
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_318
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_319
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_320
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_321
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_322
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+    - name: MarioEnemies_323
       rect:
         serializedVersion: 2
         x: 496
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_172
+    - name: MarioEnemies_324
       rect:
         serializedVersion: 2
         x: 512
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_173
+    - name: MarioEnemies_325
       rect:
         serializedVersion: 2
         x: 528
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_174
+    - name: MarioEnemies_326
       rect:
         serializedVersion: 2
         x: 544
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_175
+    - name: MarioEnemies_327
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_176
+    - name: MarioEnemies_328
       rect:
         serializedVersion: 2
         x: 576
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_177
+    - name: MarioEnemies_329
       rect:
         serializedVersion: 2
         x: 592
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_178
+    - name: MarioEnemies_330
       rect:
         serializedVersion: 2
         x: 608
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_179
+    - name: MarioEnemies_331
       rect:
         serializedVersion: 2
         x: 624
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_180
+    - name: MarioEnemies_332
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_181
+    - name: MarioEnemies_333
       rect:
         serializedVersion: 2
         x: 656
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_182
+    - name: MarioEnemies_334
       rect:
         serializedVersion: 2
         x: 672
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_183
+    - name: MarioEnemies_335
       rect:
         serializedVersion: 2
         x: 688
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_184
+    - name: MarioEnemies_336
       rect:
         serializedVersion: 2
         x: 704
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_185
+    - name: MarioEnemies_337
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_186
+    - name: MarioEnemies_338
       rect:
         serializedVersion: 2
         x: 736
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_187
+    - name: MarioEnemies_339
       rect:
         serializedVersion: 2
         x: 752
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
-    - name: MarioEnemies_188
+    - name: MarioEnemies_340
       rect:
         serializedVersion: 2
         x: 768
         y: 0
         width: 16
-        height: 32
-      alignment: 6
+        height: 16
+      alignment: 0
       pivot: {x: 0, y: 0}
   spritePackingTag: 
   userData: 
