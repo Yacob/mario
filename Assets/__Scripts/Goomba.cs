@@ -51,7 +51,7 @@ public class Goomba : MonoBehaviour {
 		Ray lRay = new Ray (this.transform.position, left);
 		Ray uRay = new Ray (this.transform.position, up);
 		
-		RaycastHit hitInfo;
+		//RaycastHit hitInfo;
 
 		//top
 		Debug.DrawLine(topRight, topRight + (uRay.direction * distance), Color.red);

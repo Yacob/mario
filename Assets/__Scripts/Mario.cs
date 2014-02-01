@@ -70,11 +70,16 @@ public class Mario : MonoBehaviour {
 		}
 		vel.x = curSpeed;
 		if ((Input.GetKeyDown (KeyCode.DownArrow) ||
-				Input.GetKeyDown (KeyCode.S)) && Pipe.canUseWarpPipe) {
+				Input.GetKeyDown (KeyCode.S)) && PipeIn.canUseWarpPipeIn) {
 				//teleport mario
 			Vector3 temp = new Vector3(-55.5f,-9.0f,0);
 			transform.position += temp;
-
+		}
+		if ((Input.GetKeyDown (KeyCode.RightArrow) ||
+		     Input.GetKeyDown (KeyCode.D)) && PipeOut.canUseWarpPipeOut) {
+			//teleport mario
+			Vector3 temp = new Vector3(155.0f,2.0f,0);
+			transform.position = temp;
 		}
 		rigidbody.velocity = vel;
 	}
@@ -109,9 +114,9 @@ public class Mario : MonoBehaviour {
 		botLeft.y -= this.collider.bounds.size.y / 2 - distance/2;
 		botLeft.x -= this.collider.bounds.size.x / 2 - distance/2;
 		
-		RaycastHit edgeInfo1;
-		RaycastHit edgeInfo2;
-		RaycastHit centerInfo;
+		RaycastHit edgeInfo1 = new RaycastHit();
+		RaycastHit edgeInfo2 = new RaycastHit();
+		RaycastHit centerInfo = new RaycastHit();
 
 		bool hitTop = Physics.Raycast (topRight, up, out edgeInfo1, distance);
 		hitTop = hitTop || Physics.Raycast (topLeft, up, out edgeInfo2, distance);

@@ -1,15 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Pipe : MonoBehaviour {
+public class PipeIn : MonoBehaviour {
 
-	public static bool canUseWarpPipe = false;
-	
+	public static bool canUseWarpPipeIn = false;
+
 	// Update is called once per frame
 	void OnTriggerEnter(){
-		canUseWarpPipe = true;
+		canUseWarpPipeIn = true;
 	}
 	void OnTriggerExit(){
-		canUseWarpPipe = false;
+		canUseWarpPipeIn = false;
 	}
 }
