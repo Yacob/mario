@@ -36,6 +36,13 @@ public class Mario : MonoBehaviour {
 				vel.y += jumpAcc * Time.deltaTime;
 			}
 		}
+		if ((Input.GetKeyDown (KeyCode.DownArrow) ||
+				Input.GetKeyDown (KeyCode.S)) && Pipe.canUseWarpPipe) {
+				//teleport mario
+			Vector3 temp = new Vector3(-55.5f,-9.0f,0);
+			transform.position += temp;
+
+		}
 		rigidbody.velocity = vel;
 			
 	}
@@ -48,6 +55,9 @@ public class Mario : MonoBehaviour {
 	void OnCollisionExit(Collision other) {
 		grounded = false;
 		//Debug.Log ("gameobject exit " + other.gameObject.tag);
+	}
+	void OnCollisionStay(Collision other){
+		grounded = true;
 	}
 }
 
