@@ -74,58 +74,80 @@ public class Goomba : MonoBehaviour {
 		
 	}
 
-	Vector3 getNormal(Vector3 a, Vector3 b){
+	/*Vector3 getNormal(Vector3 a, Vector3 b){
 		Vector3 c = Vector3.Cross (a, b);
 		Vector3 side1 = b - a;
 		Vector3 side2 = c - a;
 		return Vector3.Cross(side1, side2).normalized;
-	}
-	void OnCollisionEnter(Collider other){
-		//Vector3 dir = other.gameObject.transform.position - this.transform.position;
+	}*/
+	void OnCollisionEnter(Collision other){
 		Vector3 right = Vector3.Cross(-1*this.transform.forward,this.transform.up);
 		Vector3 down = Vector3.Cross(-1*this.transform.forward,this.transform.right);
 		Vector3 left = Vector3.Cross(-1*this.transform.forward,-1*this.transform.up);
 		Vector3 up = Vector3.Cross(-1*this.transform.forward,-1*this.transform.right);
 
-		Ray rRay = new Ray (this.transform.position, right);
+		/*Ray rRay = new Ray (this.transform.position, right);
 		Ray dRay = new Ray (this.transform.position, down);
 		Ray lRay = new Ray (this.transform.position, left);
-		Ray uRay = new Ray (this.transform.position, up);
+		Ray uRay = new Ray (this.transform.position, up);*/
 
-		RaycastHit hitInfo;
-		float distance = .1f + (this.collider.bounds.size.y)/2;
+		Vector3 center = this.collider.bounds.center;
+		float distance = .1f;
+
+		Vector3 topRight = center;
+		topRight.y += this.collider.bounds.size.y / 2 - distance/2;
+		topRight.x += this.collider.bounds.size.x / 2 - distance/2;
 		
-		Debug.DrawLine(uRay.origin, uRay.origin + (uRay.direction * distance), Color.red);
-		if (collider.Raycast (uRay, out hitInfo, distance)) {
-			//hit from above
-			string hit_tag = hitInfo.collider.gameObject.tag;
-			Debug.Log(hit_tag);
-			if (hit_tag == "Player"){
-				Debug.Log("die");
+		Vector3 topCenter = center;
+		topRight.y += this.collider.bounds.size.y / 2 - distance/2;
+		
+		Vector3 topLeft = center;
+		topLeft.y += this.collider.bounds.size.y / 2 - distance/2;
+		topLeft.x -= this.collider.bounds.size.x / 2 - distance/2;
+		
+		Vector3 botRight = center;
+		botRight.y -= this.collider.bounds.size.y / 2 - distance/2;
+		botRight.x += this.collider.bounds.size.x / 2 - distance/2;
+		
+		Vector3 botLeft = center;
+		botLeft.y -= this.collider.bounds.size.y / 2 - distance/2;
+		botLeft.x -= this.collider.bounds.size.x / 2 - distance/2;
 
+		RaycastHit edgeInfo1 = new RaycastHit();
+		RaycastHit edgeInfo2 = new RaycastHit();
+		RaycastHit centerInfo = new RaycastHit();
+
+		//top
+		bool hitTop = Physics.Raycast (topRight, up, out edgeInfo1, distance);
+		hitTop = hitTop || Physics.Raycast (topLeft, up, out edgeInfo2, distance);
+		hitTop = hitTop || Physics.Raycast (topCenter, up, out centerInfo, distance);
+		
+		if (hitTop) {
+			if(other.gameObject.tag == "Player"){
+				Debug.Log("Goomba Killed");
 				Destroy(this.gameObject);
 			}
 		}
+		//left
+		bool hitLeft = Physics.Raycast (topLeft, left, out edgeInfo1, distance);
+		hitLeft = hitLeft || Physics.Raycast (botLeft, left, out edgeInfo2, distance);
 
-		Vector3 hitNormal = hitInfo.normal;
-		//hitNormal = hitInfo.transform.TransformDirection(hitNormal);
+		if (hitLeft) {
+			if(moveDir == -1){
+				moveDir*=-1;
+			}
+		}
+		//right
+		bool hitRight = Physics.Raycast (topRight, right, out edgeInfo1, distance);
+		hitRight = hitRight || Physics.Raycast (botRight, right, out edgeInfo2, distance);
 
-		if(hitNormal == hitInfo.transform.up)
-		{
-			Debug.Log("hit top");
+		if (hitRight) {
+			if(moveDir == 1){
+				moveDir*=-1;
+			}
 		}
-		if(hitNormal == -1*hitInfo.transform.up)
-		{
-			Debug.Log("hit bottom");
-		}
-		if(hitNormal == hitInfo.transform.right)
-		{
-			Debug.Log("hit right");
-		}
-		if(hitNormal == -1*hitInfo.transform.right)
-		{
-			Debug.Log("hit left");
-		}
+
+
 
 		//Vector3 dir = 
 		/*Vector3 hitTrigger = other.bounds.center - this.transform.position;
