@@ -13,6 +13,7 @@ public class Mario : MonoBehaviour {
 	public bool			jumping = false;
 
 	private float		curSpeed = 0;
+	public static bool	inCave = false;
 
 	void Start(){
 		UnityEngine.Time.fixedDeltaTime = 0.005f; 
@@ -75,10 +76,19 @@ public class Mario : MonoBehaviour {
 		vel.x = curSpeed;
 		if ((Input.GetKeyDown (KeyCode.DownArrow) ||
 				Input.GetKeyDown (KeyCode.S)) && PipeIn.canUseWarpPipeIn) {
-				//teleport mario
+				//teleport mario into cave
+			inCave = true;
 			Vector3 temp = new Vector3(-55.5f,-9.0f,0);
 			transform.position += temp;
+		}
+		if ((Input.GetKeyDown (KeyCode.RightArrow) ||
+		     Input.GetKeyDown (KeyCode.D)) && PipeOut.canUseWarpPipeOut) {
+			//teleport mario out of cave
+			inCave = false;
+			Vector3 temp = new Vector3(155.0f,2.5f,0);
+			transform.position = temp;
 
+			
 		}
 		rigidbody.velocity = vel;
 
