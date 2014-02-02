@@ -80,7 +80,7 @@ public class Goomba : MonoBehaviour {
 		Vector3 side2 = c - a;
 		return Vector3.Cross(side1, side2).normalized;
 	}
-	void OnTriggerEnter(Collider other){
+	void OnCollisionEnter(Collider other){
 		//Vector3 dir = other.gameObject.transform.position - this.transform.position;
 		Vector3 right = Vector3.Cross(-1*this.transform.forward,this.transform.up);
 		Vector3 down = Vector3.Cross(-1*this.transform.forward,this.transform.right);

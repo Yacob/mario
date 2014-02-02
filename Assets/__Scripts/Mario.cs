@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Mario : MonoBehaviour {
@@ -15,6 +15,7 @@ public class Mario : MonoBehaviour {
 	private float		curSpeed = 0;
 
 	void Start(){
+		UnityEngine.Time.fixedDeltaTime = 0.005f; 
 		rigidbody.inertiaTensor = rigidbody.inertiaTensor + new Vector3 (0, 0, rigidbody.inertiaTensor.z * 100);
 	}
 
@@ -64,6 +65,9 @@ public class Mario : MonoBehaviour {
 
 				vel.y += jumpAcc * Time.deltaTime;
 			}
+			else{
+				jumping = false;
+			}
 		}
 		if(curSpeed > maxSpeed || curSpeed < -1*maxSpeed){
 			curSpeed = h*maxSpeed;
@@ -74,14 +78,43 @@ public class Mario : MonoBehaviour {
 				//teleport mario
 			Vector3 temp = new Vector3(-55.5f,-9.0f,0);
 			transform.position += temp;
-		}
-		if ((Input.GetKeyDown (KeyCode.RightArrow) ||
-		     Input.GetKeyDown (KeyCode.D)) && PipeOut.canUseWarpPipeOut) {
-			//teleport mario
-			Vector3 temp = new Vector3(155.0f,2.0f,0);
-			transform.position = temp;
+
 		}
 		rigidbody.velocity = vel;
+
+
+		Vector3 right = Vector3.Cross(-1*this.transform.forward,this.transform.up);
+		Vector3 down = Vector3.Cross(-1*this.transform.forward,this.transform.right);
+		Vector3 left = Vector3.Cross(-1*this.transform.forward,-1*this.transform.up);
+		Vector3 up = Vector3.Cross(-1*this.transform.forward,-1*this.transform.right);
+		
+		Vector3 center = this.collider.bounds.center;
+		
+		float distance = .1f;
+		
+		
+		Vector3 topRight = center;
+		topRight.y += this.collider.bounds.size.y / 2 - distance/2;
+		topRight.x += this.collider.bounds.size.x / 2 - distance/2;
+		
+		Vector3 topCenter = center;
+		topRight.y += this.collider.bounds.size.y / 2 - distance/2;
+		
+		Vector3 topLeft = center;
+		topLeft.y += this.collider.bounds.size.y / 2 - distance/2;
+		topLeft.x -= this.collider.bounds.size.x / 2 - distance/2;
+		
+		Vector3 botRight = center;
+		botRight.y -= this.collider.bounds.size.y / 2 - distance/2;
+		botRight.x += this.collider.bounds.size.x / 2 - distance/2;
+		
+		Vector3 botLeft = center;
+		botLeft.y -= this.collider.bounds.size.y / 2 - distance/2;
+		botLeft.x -= this.collider.bounds.size.x / 2 - distance/2;
+
+		Debug.DrawLine(botRight, botRight + (down*distance), Color.red);
+		Debug.DrawLine(botLeft, botLeft + (down * distance), Color.red);
+
 	}
 
 	void OnCollisionEnter(Collision other) {
@@ -114,18 +147,18 @@ public class Mario : MonoBehaviour {
 		botLeft.y -= this.collider.bounds.size.y / 2 - distance/2;
 		botLeft.x -= this.collider.bounds.size.x / 2 - distance/2;
 		
-		RaycastHit edgeInfo1 = new RaycastHit();
-		RaycastHit edgeInfo2 = new RaycastHit();
-		RaycastHit centerInfo = new RaycastHit();
+		RaycastHit edgeInfo1;
+		RaycastHit edgeInfo2;
+		RaycastHit centerInfo;
 
+		//top
 		bool hitTop = Physics.Raycast (topRight, up, out edgeInfo1, distance);
 		hitTop = hitTop || Physics.Raycast (topLeft, up, out edgeInfo2, distance);
 		hitTop = hitTop || Physics.Raycast (topCenter, up, out centerInfo, distance);
 
-		//top
 		if (hitTop) {
 			if(other.gameObject.tag == "Brick"){
-				other.gameObject.animation.play();
+				other.gameObject.animation.Play();
 			}
 		}
 		//left
@@ -133,23 +166,83 @@ public class Mario : MonoBehaviour {
 		//Debug.DrawLine(botLeft, botLeft + (lRay.direction * distance), Color.red);
 		
 		//bot
-		//Debug.DrawLine(botRight, botRight + (dRay.direction * distance), Color.red);
-		//Debug.DrawLine(botLeft, botLeft + (dRay.direction * distance), Color.red);
+		bool hitBot = Physics.Raycast (botRight, down, out edgeInfo1, distance);
+		hitBot = hitBot || Physics.Raycast (botLeft, down, out edgeInfo2, distance);
+		Debug.Log ("Hit: Bot hit = " + hitBot);
+
+		if (hitBot) {
+			if(other.gameObject.tag != "Enemy"){
+				grounded = true;
+				jumping = false;
+			}
+		}
+
 		
 		//right
 		//Debug.DrawLine(topRight, topRight + (rRay.direction * distance), Color.red);
 		//Debug.DrawLine(botRight, botRight + (rRay.direction * distance), Color.red);
 		
 
-		grounded = true;
-		jumping = false;
+		//grounded = true;
+		//jumping = false;
 	}
-	void OnCollisionExit(Collision other) {
-		//grounded = false;
-		//Debug.Log ("gameobject exit " + other.gameObject.tag);
-	}
-	void OnCollisionStay(Collision other){
-		grounded = true;
+	void OnCollisionExit(Collision other){
+		Vector3 right = Vector3.Cross(-1*this.transform.forward,this.transform.up);
+		Vector3 down = Vector3.Cross(-1*this.transform.forward,this.transform.right);
+		Vector3 left = Vector3.Cross(-1*this.transform.forward,-1*this.transform.up);
+		Vector3 up = Vector3.Cross(-1*this.transform.forward,-1*this.transform.right);
+		
+		Vector3 center = this.collider.bounds.center;
+		
+		float distance = .1f;
+		
+		
+		Vector3 topRight = center;
+		topRight.y += this.collider.bounds.size.y / 2 - distance/2;
+		topRight.x += this.collider.bounds.size.x / 2 - distance/2;
+		
+		Vector3 topCenter = center;
+		topRight.y += this.collider.bounds.size.y / 2 - distance/2;
+		
+		Vector3 topLeft = center;
+		topLeft.y += this.collider.bounds.size.y / 2 - distance/2;
+		topLeft.x -= this.collider.bounds.size.x / 2 - distance/2;
+		
+		Vector3 botRight = center;
+		botRight.y -= this.collider.bounds.size.y / 2 - distance/2;
+		botRight.x += this.collider.bounds.size.x / 2 - distance/2;
+		
+		Vector3 botLeft = center;
+		botLeft.y -= this.collider.bounds.size.y / 2 - distance/2;
+		botLeft.x -= this.collider.bounds.size.x / 2 - distance/2;
+		
+		RaycastHit edgeInfo1;
+		RaycastHit edgeInfo2;
+		RaycastHit centerInfo;
+		
+		//top
+		bool hitTop = Physics.Raycast (topRight, up, out edgeInfo1, distance);
+		hitTop = hitTop || Physics.Raycast (topLeft, up, out edgeInfo2, distance);
+		hitTop = hitTop || Physics.Raycast (topCenter, up, out centerInfo, distance);
+		
+		/*if (hitTop) {
+			if(other.gameObject.tag == "Brick"){
+				other.gameObject.animation.Play();
+			}
+		}*/
+		//left
+		//Debug.DrawLine(topLeft, topLeft + (lRay.direction * distance), Color.red);
+		//Debug.DrawLine(botLeft, botLeft + (lRay.direction * distance), Color.red);
+		
+		//bot
+		bool hitBot = Physics.Raycast (botRight, down, out edgeInfo1, distance);
+		hitBot = hitBot || Physics.Raycast (botLeft, down, out edgeInfo2, distance);
+		Debug.Log ("Hit: Bot hit = " + hitBot);
+		
+		if (!hitBot) {
+			grounded = false;
+		}
+
 	}
 }
 

@@ -210,7 +210,6 @@ GameObject:
   - 33: {fileID: 19874253}
   - 65: {fileID: 19874252}
   - 95: {fileID: 19874255}
-  - 111: {fileID: 19874254}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -251,21 +250,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1315048575}
   m_GameObject: {fileID: 19874250}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &19874254
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1315048575}
-  m_GameObject: {fileID: 19874250}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &19874255
 Animator:
   serializedVersion: 2
@@ -276,7 +260,7 @@ Animator:
   m_GameObject: {fileID: 19874250}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -417,7 +401,6 @@ GameObject:
   - 33: {fileID: 111788155}
   - 65: {fileID: 111788154}
   - 95: {fileID: 111788157}
-  - 111: {fileID: 111788156}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -458,21 +441,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1132828362}
   m_GameObject: {fileID: 111788152}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &111788156
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1132828362}
-  m_GameObject: {fileID: 111788152}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &111788157
 Animator:
   serializedVersion: 2
@@ -483,7 +451,7 @@ Animator:
   m_GameObject: {fileID: 111788152}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -686,7 +654,6 @@ GameObject:
   - 33: {fileID: 211471092}
   - 65: {fileID: 211471091}
   - 95: {fileID: 211471094}
-  - 111: {fileID: 211471090}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -694,21 +661,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!111 &211471090
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 727331953}
-  m_GameObject: {fileID: 211471089}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!65 &211471091
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -752,7 +704,7 @@ Animator:
   m_GameObject: {fileID: 211471089}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -1026,7 +978,6 @@ GameObject:
   - 33: {fileID: 268366830}
   - 65: {fileID: 268366829}
   - 95: {fileID: 268366833}
-  - 111: {fileID: 268366832}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -1067,21 +1018,6 @@ Transform:
   m_Children:
   - {fileID: 453662413}
   m_Father: {fileID: 0}
---- !u!111 &268366832
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1864690467}
-  m_GameObject: {fileID: 268366828}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &268366833
 Animator:
   serializedVersion: 2
@@ -1092,7 +1028,7 @@ Animator:
   m_GameObject: {fileID: 268366828}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -1256,7 +1192,6 @@ GameObject:
   - 33: {fileID: 317307167}
   - 65: {fileID: 317307166}
   - 95: {fileID: 317307170}
-  - 111: {fileID: 317307169}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -1297,21 +1232,6 @@ Transform:
   m_Children:
   - {fileID: 1789132289}
   m_Father: {fileID: 0}
---- !u!111 &317307169
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1470973067}
-  m_GameObject: {fileID: 317307165}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &317307170
 Animator:
   serializedVersion: 2
@@ -1322,7 +1242,7 @@ Animator:
   m_GameObject: {fileID: 317307165}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -1338,7 +1258,6 @@ GameObject:
   - 33: {fileID: 328596611}
   - 65: {fileID: 328596610}
   - 95: {fileID: 328596613}
-  - 111: {fileID: 328596612}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -1379,21 +1298,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 904249561}
   m_GameObject: {fileID: 328596608}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &328596612
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 904249561}
-  m_GameObject: {fileID: 328596608}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &328596613
 Animator:
   serializedVersion: 2
@@ -1404,7 +1308,7 @@ Animator:
   m_GameObject: {fileID: 328596608}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -1493,7 +1397,6 @@ GameObject:
   - 33: {fileID: 338871511}
   - 65: {fileID: 338871510}
   - 95: {fileID: 338871513}
-  - 111: {fileID: 338871512}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -1534,21 +1437,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 34588557}
   m_GameObject: {fileID: 338871508}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &338871512
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 34588557}
-  m_GameObject: {fileID: 338871508}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &338871513
 Animator:
   serializedVersion: 2
@@ -1559,7 +1447,7 @@ Animator:
   m_GameObject: {fileID: 338871508}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -1648,7 +1536,6 @@ GameObject:
   - 33: {fileID: 360582605}
   - 65: {fileID: 360582604}
   - 95: {fileID: 360582607}
-  - 111: {fileID: 360582606}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -1689,21 +1576,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1031016364}
   m_GameObject: {fileID: 360582602}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &360582606
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1031016364}
-  m_GameObject: {fileID: 360582602}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &360582607
 Animator:
   serializedVersion: 2
@@ -1714,7 +1586,7 @@ Animator:
   m_GameObject: {fileID: 360582602}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -2009,7 +1881,6 @@ GameObject:
   - 33: {fileID: 384941702}
   - 65: {fileID: 384941701}
   - 95: {fileID: 384941705}
-  - 111: {fileID: 384941704}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -2050,21 +1921,6 @@ Transform:
   m_Children:
   - {fileID: 559804875}
   m_Father: {fileID: 0}
---- !u!111 &384941704
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 377700161}
-  m_GameObject: {fileID: 384941700}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &384941705
 Animator:
   serializedVersion: 2
@@ -2075,7 +1931,7 @@ Animator:
   m_GameObject: {fileID: 384941700}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -2164,7 +2020,6 @@ GameObject:
   - 33: {fileID: 389175916}
   - 65: {fileID: 389175915}
   - 95: {fileID: 389175919}
-  - 111: {fileID: 389175918}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -2205,21 +2060,6 @@ Transform:
   m_Children:
   - {fileID: 1891453232}
   m_Father: {fileID: 0}
---- !u!111 &389175918
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1741604925}
-  m_GameObject: {fileID: 389175914}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &389175919
 Animator:
   serializedVersion: 2
@@ -2230,7 +2070,7 @@ Animator:
   m_GameObject: {fileID: 389175914}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -2530,7 +2370,6 @@ GameObject:
   - 33: {fileID: 424740557}
   - 65: {fileID: 424740556}
   - 95: {fileID: 424740559}
-  - 111: {fileID: 424740558}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -2571,21 +2410,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1655012633}
   m_GameObject: {fileID: 424740554}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &424740558
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1655012633}
-  m_GameObject: {fileID: 424740554}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &424740559
 Animator:
   serializedVersion: 2
@@ -2596,7 +2420,7 @@ Animator:
   m_GameObject: {fileID: 424740554}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -2664,7 +2488,6 @@ GameObject:
   - 33: {fileID: 437240052}
   - 65: {fileID: 437240051}
   - 95: {fileID: 437240055}
-  - 111: {fileID: 437240054}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -2705,21 +2528,6 @@ Transform:
   m_Children:
   - {fileID: 615216771}
   m_Father: {fileID: 0}
---- !u!111 &437240054
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1789225248}
-  m_GameObject: {fileID: 437240050}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &437240055
 Animator:
   serializedVersion: 2
@@ -2730,7 +2538,7 @@ Animator:
   m_GameObject: {fileID: 437240050}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -2746,7 +2554,6 @@ GameObject:
   - 33: {fileID: 442189308}
   - 65: {fileID: 442189307}
   - 95: {fileID: 442189310}
-  - 111: {fileID: 442189309}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -2787,21 +2594,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 16157695}
   m_GameObject: {fileID: 442189305}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &442189309
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 16157695}
-  m_GameObject: {fileID: 442189305}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &442189310
 Animator:
   serializedVersion: 2
@@ -2812,7 +2604,7 @@ Animator:
   m_GameObject: {fileID: 442189305}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -3026,7 +2818,6 @@ GameObject:
   - 33: {fileID: 467819812}
   - 65: {fileID: 467819811}
   - 95: {fileID: 467819815}
-  - 111: {fileID: 467819814}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -3067,21 +2858,6 @@ Transform:
   m_Children:
   - {fileID: 1932983535}
   m_Father: {fileID: 0}
---- !u!111 &467819814
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 422263942}
-  m_GameObject: {fileID: 467819810}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &467819815
 Animator:
   serializedVersion: 2
@@ -3092,7 +2868,7 @@ Animator:
   m_GameObject: {fileID: 467819810}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -3160,7 +2936,6 @@ GameObject:
   - 33: {fileID: 493468448}
   - 65: {fileID: 493468447}
   - 95: {fileID: 493468450}
-  - 111: {fileID: 493468449}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -3201,21 +2976,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1414766882}
   m_GameObject: {fileID: 493468445}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &493468449
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1414766882}
-  m_GameObject: {fileID: 493468445}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &493468450
 Animator:
   serializedVersion: 2
@@ -3226,7 +2986,7 @@ Animator:
   m_GameObject: {fileID: 493468445}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -3419,7 +3179,6 @@ GameObject:
   - 33: {fileID: 544353130}
   - 65: {fileID: 544353129}
   - 95: {fileID: 544353132}
-  - 111: {fileID: 544353131}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -3460,21 +3219,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 273134023}
   m_GameObject: {fileID: 544353127}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &544353131
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 273134023}
-  m_GameObject: {fileID: 544353127}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &544353132
 Animator:
   serializedVersion: 2
@@ -3485,7 +3229,7 @@ Animator:
   m_GameObject: {fileID: 544353127}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -3699,7 +3443,6 @@ GameObject:
   - 33: {fileID: 589921649}
   - 65: {fileID: 589921648}
   - 95: {fileID: 589921652}
-  - 111: {fileID: 589921651}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -3740,21 +3483,6 @@ Transform:
   m_Children:
   - {fileID: 727620311}
   m_Father: {fileID: 0}
---- !u!111 &589921651
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 405179589}
-  m_GameObject: {fileID: 589921647}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &589921652
 Animator:
   serializedVersion: 2
@@ -3765,7 +3493,7 @@ Animator:
   m_GameObject: {fileID: 589921647}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -4040,7 +3768,6 @@ GameObject:
   - 33: {fileID: 607295263}
   - 65: {fileID: 607295262}
   - 95: {fileID: 607295266}
-  - 111: {fileID: 607295265}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -4081,21 +3808,6 @@ Transform:
   m_Children:
   - {fileID: 459624992}
   m_Father: {fileID: 0}
---- !u!111 &607295265
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 361118165}
-  m_GameObject: {fileID: 607295261}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &607295266
 Animator:
   serializedVersion: 2
@@ -4106,7 +3818,7 @@ Animator:
   m_GameObject: {fileID: 607295261}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -4913,7 +4625,6 @@ GameObject:
   - 33: {fileID: 803027316}
   - 65: {fileID: 803027315}
   - 95: {fileID: 803027318}
-  - 111: {fileID: 803027317}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -4954,21 +4665,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 651901427}
   m_GameObject: {fileID: 803027313}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &803027317
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 651901427}
-  m_GameObject: {fileID: 803027313}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &803027318
 Animator:
   serializedVersion: 2
@@ -4979,7 +4675,7 @@ Animator:
   m_GameObject: {fileID: 803027313}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -5120,7 +4816,6 @@ GameObject:
   - 33: {fileID: 862524386}
   - 65: {fileID: 862524385}
   - 95: {fileID: 862524388}
-  - 111: {fileID: 862524387}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -5161,21 +4856,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 826676346}
   m_GameObject: {fileID: 862524383}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &862524387
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 826676346}
-  m_GameObject: {fileID: 862524383}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &862524388
 Animator:
   serializedVersion: 2
@@ -5186,7 +4866,7 @@ Animator:
   m_GameObject: {fileID: 862524383}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -5341,7 +5021,7 @@ MonoBehaviour:
   maxSpeed: 6
   acceleration: 1
   baseSpeed: .5
-  jumpSpeed: 17
+  jumpSpeed: 14
   jumpAcc: 47
   grounded: 1
   jumping: 0
@@ -5356,7 +5036,6 @@ GameObject:
   - 33: {fileID: 884221834}
   - 65: {fileID: 884221833}
   - 95: {fileID: 884221836}
-  - 111: {fileID: 884221835}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -5397,21 +5076,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1917825653}
   m_GameObject: {fileID: 884221831}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &884221835
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1917825653}
-  m_GameObject: {fileID: 884221831}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &884221836
 Animator:
   serializedVersion: 2
@@ -5422,7 +5086,7 @@ Animator:
   m_GameObject: {fileID: 884221831}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -5636,7 +5300,6 @@ GameObject:
   - 33: {fileID: 923030971}
   - 65: {fileID: 923030970}
   - 95: {fileID: 923030973}
-  - 111: {fileID: 923030972}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -5677,21 +5340,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1280723157}
   m_GameObject: {fileID: 923030968}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &923030972
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1280723157}
-  m_GameObject: {fileID: 923030968}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &923030973
 Animator:
   serializedVersion: 2
@@ -5702,7 +5350,7 @@ Animator:
   m_GameObject: {fileID: 923030968}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -5718,7 +5366,6 @@ GameObject:
   - 33: {fileID: 929797119}
   - 65: {fileID: 929797118}
   - 95: {fileID: 929797122}
-  - 111: {fileID: 929797121}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -5759,21 +5406,6 @@ Transform:
   m_Children:
   - {fileID: 2050270440}
   m_Father: {fileID: 0}
---- !u!111 &929797121
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1544931780}
-  m_GameObject: {fileID: 929797117}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &929797122
 Animator:
   serializedVersion: 2
@@ -5784,7 +5416,7 @@ Animator:
   m_GameObject: {fileID: 929797117}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -5800,7 +5432,6 @@ GameObject:
   - 33: {fileID: 959299463}
   - 65: {fileID: 959299462}
   - 95: {fileID: 959299466}
-  - 111: {fileID: 959299465}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -5841,21 +5472,6 @@ Transform:
   m_Children:
   - {fileID: 1541633246}
   m_Father: {fileID: 0}
---- !u!111 &959299465
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 2086746105}
-  m_GameObject: {fileID: 959299461}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &959299466
 Animator:
   serializedVersion: 2
@@ -5866,7 +5482,7 @@ Animator:
   m_GameObject: {fileID: 959299461}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -5923,7 +5539,6 @@ GameObject:
   - 33: {fileID: 967838566}
   - 65: {fileID: 967838565}
   - 95: {fileID: 967838569}
-  - 111: {fileID: 967838568}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -5964,21 +5579,6 @@ Transform:
   m_Children:
   - {fileID: 390244338}
   m_Father: {fileID: 0}
---- !u!111 &967838568
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1460575120}
-  m_GameObject: {fileID: 967838564}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &967838569
 Animator:
   serializedVersion: 2
@@ -5989,7 +5589,7 @@ Animator:
   m_GameObject: {fileID: 967838564}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -6485,7 +6085,6 @@ GameObject:
   - 33: {fileID: 1068226866}
   - 65: {fileID: 1068226865}
   - 95: {fileID: 1068226868}
-  - 111: {fileID: 1068226867}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -6526,21 +6125,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 596067844}
   m_GameObject: {fileID: 1068226863}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &1068226867
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 596067844}
-  m_GameObject: {fileID: 1068226863}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1068226868
 Animator:
   serializedVersion: 2
@@ -6551,7 +6135,7 @@ Animator:
   m_GameObject: {fileID: 1068226863}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -6694,7 +6278,6 @@ GameObject:
   - 33: {fileID: 1106480771}
   - 65: {fileID: 1106480770}
   - 95: {fileID: 1106480773}
-  - 111: {fileID: 1106480772}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -6735,21 +6318,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1842556731}
   m_GameObject: {fileID: 1106480768}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &1106480772
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1842556731}
-  m_GameObject: {fileID: 1106480768}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1106480773
 Animator:
   serializedVersion: 2
@@ -6760,7 +6328,7 @@ Animator:
   m_GameObject: {fileID: 1106480768}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -6776,7 +6344,6 @@ GameObject:
   - 33: {fileID: 1131697620}
   - 65: {fileID: 1131697619}
   - 95: {fileID: 1131697623}
-  - 111: {fileID: 1131697622}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -6817,21 +6384,6 @@ Transform:
   m_Children:
   - {fileID: 382523720}
   m_Father: {fileID: 0}
---- !u!111 &1131697622
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 2064157107}
-  m_GameObject: {fileID: 1131697618}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1131697623
 Animator:
   serializedVersion: 2
@@ -6842,7 +6394,7 @@ Animator:
   m_GameObject: {fileID: 1131697618}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -7160,7 +6712,6 @@ GameObject:
   - 33: {fileID: 1193803685}
   - 65: {fileID: 1193803684}
   - 95: {fileID: 1193803687}
-  - 111: {fileID: 1193803683}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -7168,21 +6719,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!111 &1193803683
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1571171782}
-  m_GameObject: {fileID: 1193803682}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!65 &1193803684
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7226,7 +6762,7 @@ Animator:
   m_GameObject: {fileID: 1193803682}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -7633,7 +7169,6 @@ GameObject:
   - 33: {fileID: 1308675280}
   - 65: {fileID: 1308675279}
   - 95: {fileID: 1308675283}
-  - 111: {fileID: 1308675282}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -7674,21 +7209,6 @@ Transform:
   m_Children:
   - {fileID: 1960202056}
   m_Father: {fileID: 0}
---- !u!111 &1308675282
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 2131374549}
-  m_GameObject: {fileID: 1308675278}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1308675283
 Animator:
   serializedVersion: 2
@@ -7699,7 +7219,7 @@ Animator:
   m_GameObject: {fileID: 1308675278}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -8148,7 +7668,6 @@ GameObject:
   - 33: {fileID: 1379554407}
   - 65: {fileID: 1379554406}
   - 95: {fileID: 1379554410}
-  - 111: {fileID: 1379554409}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -8189,21 +7708,6 @@ Transform:
   m_Children:
   - {fileID: 1145494231}
   m_Father: {fileID: 0}
---- !u!111 &1379554409
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 233197084}
-  m_GameObject: {fileID: 1379554405}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1379554410
 Animator:
   serializedVersion: 2
@@ -8214,7 +7718,7 @@ Animator:
   m_GameObject: {fileID: 1379554405}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -8230,7 +7734,6 @@ GameObject:
   - 33: {fileID: 1385221004}
   - 65: {fileID: 1385221003}
   - 95: {fileID: 1385221006}
-  - 111: {fileID: 1385221005}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -8271,21 +7774,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1028126439}
   m_GameObject: {fileID: 1385221001}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &1385221005
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1028126439}
-  m_GameObject: {fileID: 1385221001}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1385221006
 Animator:
   serializedVersion: 2
@@ -8296,7 +7784,7 @@ Animator:
   m_GameObject: {fileID: 1385221001}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -8431,7 +7919,6 @@ GameObject:
   - 33: {fileID: 1405619146}
   - 65: {fileID: 1405619145}
   - 95: {fileID: 1405619149}
-  - 111: {fileID: 1405619148}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -8472,21 +7959,6 @@ Transform:
   m_Children:
   - {fileID: 366894330}
   m_Father: {fileID: 0}
---- !u!111 &1405619148
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 501010104}
-  m_GameObject: {fileID: 1405619144}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1405619149
 Animator:
   serializedVersion: 2
@@ -8497,7 +7969,7 @@ Animator:
   m_GameObject: {fileID: 1405619144}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -8557,7 +8029,6 @@ GameObject:
   - 33: {fileID: 1443138959}
   - 65: {fileID: 1443138958}
   - 95: {fileID: 1443138961}
-  - 111: {fileID: 1443138960}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -8598,21 +8069,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 980613840}
   m_GameObject: {fileID: 1443138956}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &1443138960
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 980613840}
-  m_GameObject: {fileID: 1443138956}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1443138961
 Animator:
   serializedVersion: 2
@@ -8623,7 +8079,7 @@ Animator:
   m_GameObject: {fileID: 1443138956}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -8639,7 +8095,6 @@ GameObject:
   - 33: {fileID: 1448345668}
   - 65: {fileID: 1448345667}
   - 95: {fileID: 1448345670}
-  - 111: {fileID: 1448345669}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -8680,21 +8135,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 2002722133}
   m_GameObject: {fileID: 1448345665}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &1448345669
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 2002722133}
-  m_GameObject: {fileID: 1448345665}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1448345670
 Animator:
   serializedVersion: 2
@@ -8705,7 +8145,7 @@ Animator:
   m_GameObject: {fileID: 1448345665}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -8817,7 +8257,6 @@ GameObject:
   - 33: {fileID: 1477554662}
   - 65: {fileID: 1477554661}
   - 95: {fileID: 1477554664}
-  - 111: {fileID: 1477554663}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -8858,21 +8297,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 747653559}
   m_GameObject: {fileID: 1477554659}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &1477554663
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 747653559}
-  m_GameObject: {fileID: 1477554659}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1477554664
 Animator:
   serializedVersion: 2
@@ -8883,7 +8307,7 @@ Animator:
   m_GameObject: {fileID: 1477554659}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -8899,7 +8323,6 @@ GameObject:
   - 33: {fileID: 1485508452}
   - 65: {fileID: 1485508451}
   - 95: {fileID: 1485508455}
-  - 111: {fileID: 1485508454}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -8940,21 +8363,6 @@ Transform:
   m_Children:
   - {fileID: 1313859581}
   m_Father: {fileID: 0}
---- !u!111 &1485508454
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1538516959}
-  m_GameObject: {fileID: 1485508450}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1485508455
 Animator:
   serializedVersion: 2
@@ -8965,7 +8373,7 @@ Animator:
   m_GameObject: {fileID: 1485508450}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -8981,7 +8389,6 @@ GameObject:
   - 33: {fileID: 1508240534}
   - 65: {fileID: 1508240533}
   - 95: {fileID: 1508240537}
-  - 111: {fileID: 1508240536}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -9022,21 +8429,6 @@ Transform:
   m_Children:
   - {fileID: 902029826}
   m_Father: {fileID: 0}
---- !u!111 &1508240536
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1222588676}
-  m_GameObject: {fileID: 1508240532}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1508240537
 Animator:
   serializedVersion: 2
@@ -9047,7 +8439,7 @@ Animator:
   m_GameObject: {fileID: 1508240532}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -9709,7 +9101,6 @@ GameObject:
   - 33: {fileID: 1604255840}
   - 65: {fileID: 1604255839}
   - 95: {fileID: 1604255842}
-  - 111: {fileID: 1604255841}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -9750,21 +9141,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 716112855}
   m_GameObject: {fileID: 1604255837}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &1604255841
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 716112855}
-  m_GameObject: {fileID: 1604255837}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1604255842
 Animator:
   serializedVersion: 2
@@ -9775,7 +9151,7 @@ Animator:
   m_GameObject: {fileID: 1604255837}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -9791,7 +9167,6 @@ GameObject:
   - 33: {fileID: 1607857215}
   - 65: {fileID: 1607857214}
   - 95: {fileID: 1607857218}
-  - 111: {fileID: 1607857217}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -9832,21 +9207,6 @@ Transform:
   m_Children:
   - {fileID: 645034219}
   m_Father: {fileID: 0}
---- !u!111 &1607857217
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1602009774}
-  m_GameObject: {fileID: 1607857213}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1607857218
 Animator:
   serializedVersion: 2
@@ -9857,7 +9217,7 @@ Animator:
   m_GameObject: {fileID: 1607857213}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -10223,7 +9583,6 @@ GameObject:
   - 33: {fileID: 1709787491}
   - 65: {fileID: 1709787490}
   - 95: {fileID: 1709787493}
-  - 111: {fileID: 1709787492}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -10264,21 +9623,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1795331019}
   m_GameObject: {fileID: 1709787488}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &1709787492
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1795331019}
-  m_GameObject: {fileID: 1709787488}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1709787493
 Animator:
   serializedVersion: 2
@@ -10289,7 +9633,7 @@ Animator:
   m_GameObject: {fileID: 1709787488}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -10346,7 +9690,6 @@ GameObject:
   - 33: {fileID: 1718070960}
   - 65: {fileID: 1718070959}
   - 95: {fileID: 1718070963}
-  - 111: {fileID: 1718070962}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -10387,21 +9730,6 @@ Transform:
   m_Children:
   - {fileID: 1784738602}
   m_Father: {fileID: 0}
---- !u!111 &1718070962
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1752487379}
-  m_GameObject: {fileID: 1718070958}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1718070963
 Animator:
   serializedVersion: 2
@@ -10412,7 +9740,7 @@ Animator:
   m_GameObject: {fileID: 1718070958}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -10476,7 +9804,6 @@ GameObject:
   - 33: {fileID: 1733545409}
   - 65: {fileID: 1733545408}
   - 95: {fileID: 1733545412}
-  - 111: {fileID: 1733545411}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -10517,21 +9844,6 @@ Transform:
   m_Children:
   - {fileID: 592155986}
   m_Father: {fileID: 0}
---- !u!111 &1733545411
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1188192291}
-  m_GameObject: {fileID: 1733545407}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1733545412
 Animator:
   serializedVersion: 2
@@ -10542,7 +9854,7 @@ Animator:
   m_GameObject: {fileID: 1733545407}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -10879,7 +10191,7 @@ Prefab:
     - target: {fileID: 9500000, guid: 81f06256bdfeb624f94c046001c356ec, type: 2}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 81f06256bdfeb624f94c046001c356ec, type: 2}
   m_RootGameObject: {fileID: 437240050}
@@ -10896,7 +10208,6 @@ GameObject:
   - 33: {fileID: 1791834006}
   - 65: {fileID: 1791834005}
   - 95: {fileID: 1791834008}
-  - 111: {fileID: 1791834007}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -10937,21 +10248,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 474991864}
   m_GameObject: {fileID: 1791834003}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &1791834007
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 474991864}
-  m_GameObject: {fileID: 1791834003}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1791834008
 Animator:
   serializedVersion: 2
@@ -10962,7 +10258,7 @@ Animator:
   m_GameObject: {fileID: 1791834003}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -11155,7 +10451,6 @@ GameObject:
   - 33: {fileID: 1874245883}
   - 65: {fileID: 1874245882}
   - 95: {fileID: 1874245885}
-  - 111: {fileID: 1874245884}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -11196,21 +10491,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1729984711}
   m_GameObject: {fileID: 1874245880}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &1874245884
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1729984711}
-  m_GameObject: {fileID: 1874245880}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &1874245885
 Animator:
   serializedVersion: 2
@@ -11221,7 +10501,7 @@ Animator:
   m_GameObject: {fileID: 1874245880}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -11799,7 +11079,6 @@ GameObject:
   - 33: {fileID: 1989779122}
   - 65: {fileID: 1989779121}
   - 95: {fileID: 1989779124}
-  - 111: {fileID: 1989779120}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -11807,21 +11086,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!111 &1989779120
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1664482235}
-  m_GameObject: {fileID: 1989779119}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!65 &1989779121
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11865,7 +11129,7 @@ Animator:
   m_GameObject: {fileID: 1989779119}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -11881,7 +11145,6 @@ GameObject:
   - 33: {fileID: 2001667107}
   - 65: {fileID: 2001667106}
   - 95: {fileID: 2001667109}
-  - 111: {fileID: 2001667108}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -11922,21 +11185,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 432193151}
   m_GameObject: {fileID: 2001667104}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &2001667108
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 432193151}
-  m_GameObject: {fileID: 2001667104}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &2001667109
 Animator:
   serializedVersion: 2
@@ -11947,7 +11195,7 @@ Animator:
   m_GameObject: {fileID: 2001667104}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -12347,7 +11595,6 @@ GameObject:
   - 33: {fileID: 2122481394}
   - 65: {fileID: 2122481393}
   - 95: {fileID: 2122481396}
-  - 111: {fileID: 2122481395}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -12388,21 +11635,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1768084701}
   m_GameObject: {fileID: 2122481391}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &2122481395
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1768084701}
-  m_GameObject: {fileID: 2122481391}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &2122481396
 Animator:
   serializedVersion: 2
@@ -12413,7 +11645,7 @@ Animator:
   m_GameObject: {fileID: 2122481391}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -12483,7 +11715,6 @@ GameObject:
   - 33: {fileID: 2142115742}
   - 65: {fileID: 2142115741}
   - 95: {fileID: 2142115744}
-  - 111: {fileID: 2142115743}
   m_Layer: 8
   m_Name: Brick
   m_TagString: Brick
@@ -12524,21 +11755,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1094421417}
   m_GameObject: {fileID: 2142115739}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!111 &2142115743
-Animation:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11100000, guid: 81f06256bdfeb624f94c046001c356ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 1094421417}
-  m_GameObject: {fileID: 2142115739}
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 95fc90b1255f65d49ac6197c66cc027f, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &2142115744
 Animator:
   serializedVersion: 2
@@ -12549,7 +11765,7 @@ Animator:
   m_GameObject: {fileID: 2142115739}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 40cdc288e401c1646b55b640a7412c0a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
