@@ -119,8 +119,8 @@ public class Mario : MonoBehaviour {
 
 		//top
 		if (hitTop) {
-			if(centerInfo.collider.gameObject.tag == "brick"){
-				Debug.Log("topHitBrick");
+			if(other.gameObject.tag == "Brick"){
+				other.gameObject.animation.play();
 			}
 		}
 		//left
