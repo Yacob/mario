@@ -14,6 +14,7 @@ public class Mario : MonoBehaviour {
 
 	private float		curSpeed = 0;
 	public static bool	inCave = false;
+	public static int	lives = 3;
 
 	void Start(){
 		UnityEngine.Time.fixedDeltaTime = 0.005f; 
@@ -74,6 +75,8 @@ public class Mario : MonoBehaviour {
 			curSpeed = h*maxSpeed;
 		}
 		vel.x = curSpeed;
+
+		//Pipes
 		if ((Input.GetKeyDown (KeyCode.DownArrow) ||
 				Input.GetKeyDown (KeyCode.S)) && PipeIn.canUseWarpPipeIn) {
 				//teleport mario into cave
@@ -87,9 +90,17 @@ public class Mario : MonoBehaviour {
 			inCave = false;
 			Vector3 temp = new Vector3(155.0f,2.5f,0);
 			transform.position = temp;
-
-			
 		}
+		//Respawns
+		if (FallenToDeath.respawn) {
+			Vector3 temp = new Vector3 (-5.0f, 5.0f, 0);
+			transform.position += temp;
+			FallenToDeath.respawn = false;
+		}
+		if (FallenToDeath.dead) {
+			//destroy mario
+		}
+
 		rigidbody.velocity = vel;
 
 
