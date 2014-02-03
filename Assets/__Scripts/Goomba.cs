@@ -73,13 +73,7 @@ public class Goomba : MonoBehaviour {
 		
 		
 	}
-
-	/*Vector3 getNormal(Vector3 a, Vector3 b){
-		Vector3 c = Vector3.Cross (a, b);
-		Vector3 side1 = b - a;
-		Vector3 side2 = c - a;
-		return Vector3.Cross(side1, side2).normalized;
-	}*/
+	
 	void OnCollisionEnter(Collision other){
 		Vector3 right = Vector3.Cross(-1*this.transform.forward,this.transform.up);
 		Vector3 down = Vector3.Cross(-1*this.transform.forward,this.transform.right);
@@ -121,13 +115,11 @@ public class Goomba : MonoBehaviour {
 		bool hitTop = Physics.Raycast (topRight, up, out edgeInfo1, distance);
 		hitTop = hitTop || Physics.Raycast (topLeft, up, out edgeInfo2, distance);
 		hitTop = hitTop || Physics.Raycast (topCenter, up, out centerInfo, distance);
-		
+
 		if (hitTop) {
-			if(other.gameObject.tag == "Player"){
-				Debug.Log("Goomba Killed");
-				Destroy(this.gameObject);
-			}
+
 		}
+
 		//left
 		bool hitLeft = Physics.Raycast (topLeft, left, out edgeInfo1, distance);
 		hitLeft = hitLeft || Physics.Raycast (botLeft, left, out edgeInfo2, distance);
@@ -147,30 +139,6 @@ public class Goomba : MonoBehaviour {
 			}
 		}
 
-
-
-		//Vector3 dir = 
-		/*Vector3 hitTrigger = other.bounds.center - this.transform.position;
-		Debug.Log (hitTrigger.x + " " + hitTrigger.y);
-		Vector3 col = other.transform.position - this.transform.position;
-		if (moveDir == 1) { //this needs work
-			if (col.x > 0) {
-					moveDir = -1;
-			}
-		} else {
-			if(col.x < 0){
-				moveDir = 1;
-			}
-		}
-		if (col.y > 0) {
-			Debug.Log(other.tag);
-
-			//hit from above
-			if (other.tag == "Player"){
-				Debug.Log("die");
-				Destroy(this.gameObject);
-			}
-		}*/
 	}
 }
 

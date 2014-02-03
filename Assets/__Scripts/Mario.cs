@@ -172,18 +172,21 @@ public class Mario : MonoBehaviour {
 			}
 		}
 		//left
-		//Debug.DrawLine(topLeft, topLeft + (lRay.direction * distance), Color.red);
-		//Debug.DrawLine(botLeft, botLeft + (lRay.direction * distance), Color.red);
-		
+
 		//bot
 		bool hitBot = Physics.Raycast (botRight, down, out edgeInfo1, distance);
 		hitBot = hitBot || Physics.Raycast (botLeft, down, out edgeInfo2, distance);
-		Debug.Log ("Hit: Bot hit = " + hitBot);
+
+		//Debug.Log("hit the fucking goomba");
 
 		if (hitBot) {
 			if(other.gameObject.tag != "Enemy"){
+				Debug.Log("gameObject = " + other.gameObject.tag);
 				grounded = true;
 				jumping = false;
+			}
+			else{
+				Destroy(other.gameObject);
 			}
 		}
 
@@ -247,8 +250,7 @@ public class Mario : MonoBehaviour {
 		//bot
 		bool hitBot = Physics.Raycast (botRight, down, out edgeInfo1, distance);
 		hitBot = hitBot || Physics.Raycast (botLeft, down, out edgeInfo2, distance);
-		Debug.Log ("Hit: Bot hit = " + hitBot);
-		
+
 		if (!hitBot) {
 			grounded = false;
 		}
