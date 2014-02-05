@@ -7,8 +7,24 @@ public class CameraFollow : MonoBehaviour {
 	public Vector3		offset = new Vector3(0,0,-5);
 	public bool			lockCamera = false;
 	
+
+	void reCenter(){
+		Debug.Log ("reCenter");
+		Vector3 curr = poi.position + offset;
+		transform.position = curr;
+		FallenToDeath.respawn = false;
+	}
+
+
 	// Update is called once per frame
 	void Update () {
+		if (FallenToDeath.respawn) {
+			reCenter ();
+		}
+		if (Mario.inCave) {
+			Vector3 cave = new Vector3 (0.0f, -8.75f, -5.0f);
+			transform.position = cave;
+		}
 		Vector3 poiV3 = poi.position + offset;
 		Vector3 currPos = transform.position;
 		currPos.y = 5.5f;
@@ -18,13 +34,6 @@ public class CameraFollow : MonoBehaviour {
 			pos.y = currPos.y;
 			transform.position = pos;
 		}
-		if (FallenToDeath.respawn) {
-			transform.position = poiV3;
-		}
-		if (Mario.inCave) {
-			Vector3 cave = new Vector3 (0.0f, -8.75f, -5.0f);
-			transform.position = cave;
-		}
-
 	}
+
 }

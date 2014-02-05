@@ -6,8 +6,8 @@ public class Mario : MonoBehaviour {
 	public float		acceleration = 2;
 	public float		baseSpeed = 1;
 
-	public float		jumpSpeed = 14;
-	public float		jumpAcc = 12;
+	public float		jumpSpeed = 19;
+	public float		jumpAcc = 50;
 
 	public bool			grounded = true;
 	public bool			jumping = false;
@@ -100,13 +100,11 @@ public class Mario : MonoBehaviour {
 					vel.x = 0;;
 					Vector3 temp = new Vector3 (-4.0f, 0.0f, 0);
 					transform.position = temp;
-					FallenToDeath.respawn = false;
 					break;
 				case "secondRespawn":
 					vel.x = 0;
 					Vector3 temp2 = new Vector3(75.0f, 0.0f, 0);
 					transform.position = temp2;
-					FallenToDeath.respawn = false;
 					break;
 				default:
 					//huh
@@ -208,7 +206,7 @@ public class Mario : MonoBehaviour {
 
 		if (hitBot) {
 			if(other.gameObject.tag != "Enemy"){
-				Debug.Log("gameObject = " + other.gameObject.tag);
+				//Debug.Log("gameObject = " + other.gameObject.tag);
 				grounded = true;
 				jumping = false;
 			}
