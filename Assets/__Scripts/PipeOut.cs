@@ -7,6 +7,7 @@ public class PipeOut : MonoBehaviour {
 	
 	// Update is called once per frame
 	void OnTriggerEnter(){
+		Debug.Log("pipe on");
 		canUseWarpPipeOut = true;
 	}
 	void OnTriggerExit(){

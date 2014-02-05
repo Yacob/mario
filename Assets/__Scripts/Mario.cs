@@ -76,21 +76,7 @@ public class Mario : MonoBehaviour {
 		}
 		vel.x = curSpeed;
 
-		//Pipes
-		if ((Input.GetKeyDown (KeyCode.DownArrow) ||
-				Input.GetKeyDown (KeyCode.S)) && PipeIn.canUseWarpPipeIn) {
-				//teleport mario into cave
-			inCave = true;
-			Vector3 temp = new Vector3(-55.5f,-9.0f,0);
-			transform.position += temp;
-		}
-		if ((Input.GetKeyDown (KeyCode.RightArrow) ||
-		     Input.GetKeyDown (KeyCode.D)) && PipeOut.canUseWarpPipeOut) {
-			//teleport mario out of cave
-			inCave = false;
-			Vector3 temp = new Vector3(155.0f,2.5f,0);
-			transform.position = temp;
-		}
+
 
 		//Respawns
 		if (FallenToDeath.respawn) {
@@ -187,31 +173,39 @@ public class Mario : MonoBehaviour {
 		RaycastHit centerInfo;
 
 		//top
-		bool hitTop = Physics.Raycast (topRight, up, out edgeInfo1, distance);
-		hitTop = hitTop || Physics.Raycast (topLeft, up, out edgeInfo2, distance);
-		hitTop = hitTop || Physics.Raycast (topCenter, up, out centerInfo, distance);
+		bool hitTopRight = Physics.Raycast (topRight, up, out edgeInfo1, distance);
+		bool hitTopLeft = Physics.Raycast (topLeft, up, out edgeInfo2, distance);
+		bool hitTopCenter = Physics.Raycast (topCenter, up, out centerInfo, distance);
+
+		bool hitTop = hitTopLeft || hitTopRight || hitTopCenter;
 
 		if (hitTop) {
-			if(other.gameObject.tag == "Brick"){
+			if(hitTopCenter && edgeInfo2.collider.tag == "Brick"){
 				other.gameObject.animation.Play();
 			}
 		}
 		//left
 
 		//bot
-		bool hitBot = Physics.Raycast (botRight, down, out edgeInfo1, distance);
-		hitBot = hitBot || Physics.Raycast (botLeft, down, out edgeInfo2, distance);
-
-		//Debug.Log("hit the fucking goomba");
+		bool hitBotRight = Physics.Raycast (botRight, down, out edgeInfo1, distance);
+		bool hitBotLeft = Physics.Raycast (botLeft, down, out edgeInfo2, distance);
+		bool hitBot = hitBotRight || hitBotLeft; 
 
 		if (hitBot) {
-			if(other.gameObject.tag != "Enemy"){
-				//Debug.Log("gameObject = " + other.gameObject.tag);
+			string tag1 = "none"; 
+			string tag2 = "none";
+			if(hitBotLeft)
+				tag1 = edgeInfo2.collider.tag;
+			if(hitBotRight)
+				tag2 = edgeInfo1.collider.tag;
+
+			if(tag1 == "Enemy")
+				Destroy(edgeInfo1.collider.gameObject);
+			else if(tag2 == "Enemy")
+				Destroy(edgeInfo1.collider.gameObject);
+			else{
 				grounded = true;
 				jumping = false;
-			}
-			else{
-				Destroy(other.gameObject);
 			}
 		}
 
@@ -223,6 +217,25 @@ public class Mario : MonoBehaviour {
 
 		//grounded = true;
 		//jumping = false;
+		//Pipes
+		bool DownPressed =  Input.GetKey(KeyCode.DownArrow) ||
+		                    Input.GetKey(KeyCode.S) ||
+		                    Input.GetKeyDown(KeyCode.DownArrow) ||
+		 					Input.GetKeyDown(KeyCode.S);
+
+		 if (DownPressed && PipeIn.canUseWarpPipeIn) {
+			//teleport mario into cave
+			inCave = true;
+			Vector3 temp = new Vector3(-55.5f,-9.0f,0);
+			transform.position += temp;
+		}
+		if ((Input.GetKey (KeyCode.RightArrow) ||
+		     Input.GetKey (KeyCode.D)) && PipeOut.canUseWarpPipeOut) {
+			//teleport mario out of cave
+			inCave = false;
+			Vector3 temp = new Vector3(155.0f,2.5f,0);
+			transform.position = temp;
+		}
 	}
 	void OnCollisionExit(Collision other){
 		Vector3 right = Vector3.Cross(-1*this.transform.forward,this.transform.up);

@@ -18,6 +18,10 @@ public class CameraFollow : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		Vector3 poiV3 = poi.position + offset;
+		Vector3 currPos = transform.position;
+		currPos.y = 5.5f;
+
 		if (FallenToDeath.respawn) {
 			reCenter ();
 		}
@@ -25,11 +29,7 @@ public class CameraFollow : MonoBehaviour {
 			Vector3 cave = new Vector3 (0.0f, -8.75f, -5.0f);
 			transform.position = cave;
 		}
-		Vector3 poiV3 = poi.position + offset;
-		Vector3 currPos = transform.position;
-		currPos.y = 5.5f;
-
-		if (currPos.x <= poiV3.x) {
+		else if (currPos.x <= poiV3.x) {
 			Vector3 pos = (1 - u) * currPos + u * poiV3;
 			pos.y = currPos.y;
 			transform.position = pos;
