@@ -29,6 +29,11 @@ public class CameraFollow : MonoBehaviour {
 		Vector3 poiV3 = poi.position + offset;
 		Vector3 currPos = transform.position;
 		currPos.y = 5.5f;
+		Debug.Log (transform.position.x);
+		if (currPos.x < 0) {
+			Vector3 temp = new Vector3 (4.0f, 0, 0);
+			transform.position += temp;
+		}
 		if (currPos.x <= poiV3.x) {
 			Vector3 pos = (1 - u) * currPos + u * poiV3;
 			pos.y = currPos.y;
