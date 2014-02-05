@@ -81,9 +81,10 @@ public class Mario : MonoBehaviour {
 		//Respawns
 		if (FallenToDeath.respawn) {
 			string caseSwitch = SetSpawn.respawnLoc;
+			Debug.Log(caseSwitch);
 			switch(caseSwitch){
 				case "firstRespawn":
-					vel.x = 0;;
+					vel.x = 0;
 					Vector3 temp = new Vector3 (-4.0f, 0.0f, 0);
 					transform.position = temp;
 					break;
@@ -93,9 +94,9 @@ public class Mario : MonoBehaviour {
 					transform.position = temp2;
 					break;
 				default:
-					//huh
 					break;
 			}
+			lives--;
 		}
 		if (FallenToDeath.dead) {
 			//destroy mario

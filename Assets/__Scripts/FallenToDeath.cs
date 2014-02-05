@@ -12,8 +12,8 @@ public class FallenToDeath : MonoBehaviour {
 			respawn = false;
 		}
 		else {
+			Debug.Log("dead?");
 			respawn = true;
-			Mario.lives -= 1;
 		}
 	}
 	
