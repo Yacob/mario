@@ -91,11 +91,27 @@ public class Mario : MonoBehaviour {
 			Vector3 temp = new Vector3(155.0f,2.5f,0);
 			transform.position = temp;
 		}
+
 		//Respawns
 		if (FallenToDeath.respawn) {
-			Vector3 temp = new Vector3 (-5.0f, 5.0f, 0);
-			transform.position += temp;
-			FallenToDeath.respawn = false;
+			string caseSwitch = SetSpawn.respawnLoc;
+			switch(caseSwitch){
+				case "firstRespawn":
+					vel.x = 0;;
+					Vector3 temp = new Vector3 (-4.0f, 0.0f, 0);
+					transform.position = temp;
+					FallenToDeath.respawn = false;
+					break;
+				case "secondRespawn":
+					vel.x = 0;
+					Vector3 temp2 = new Vector3(75.0f, 0.0f, 0);
+					transform.position = temp2;
+					FallenToDeath.respawn = false;
+					break;
+				default:
+					//huh
+					break;
+			}
 		}
 		if (FallenToDeath.dead) {
 			//destroy mario

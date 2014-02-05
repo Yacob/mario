@@ -18,6 +18,9 @@ public class CameraFollow : MonoBehaviour {
 			pos.y = currPos.y;
 			transform.position = pos;
 		}
+		if (FallenToDeath.respawn) {
+			transform.position = poiV3;
+		}
 		if (Mario.inCave) {
 			Vector3 cave = new Vector3 (0.0f, -8.75f, -5.0f);
 			transform.position = cave;
