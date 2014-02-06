@@ -11,13 +11,13 @@ public class CameraFollow : MonoBehaviour {
 	void reCenter(){
 		Vector3 curr = poi.position + offset;
 		transform.position = curr;
-		FallenToDeath.respawn = false;
+		Mario.respawn = false;
 	}
 
 
 	// Update is called once per frame
 	void Update () {
-		if (FallenToDeath.respawn) {
+		if (Mario.respawn) {
 			reCenter ();
 		}
 		if (Mario.inCave) {

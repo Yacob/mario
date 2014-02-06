@@ -11,11 +11,15 @@ public class Mario : MonoBehaviour {
 
 	public bool			grounded = true;
 	public bool			jumping = false;
-
 	private float		curSpeed = 0;
+
+
 	public static bool	inCave = false;
 	public static int	lives = 3;
 	public static int	coins = 0;
+	public static bool 	dead = false;
+	public static bool	respawn = false;
+
 
 	void Start(){
 		UnityEngine.Time.fixedDeltaTime = 0.005f; 
@@ -76,34 +80,15 @@ public class Mario : MonoBehaviour {
 			curSpeed = h*maxSpeed;
 		}
 		vel.x = curSpeed;
-
-
-
-		//Respawns
-		if (FallenToDeath.respawn) {
-			string caseSwitch = SetSpawn.respawnLoc;
-			Debug.Log(caseSwitch);
-			switch(caseSwitch){
-				case "firstRespawn":
-					vel.x = 0;
-					Vector3 temp = new Vector3 (-4.0f, 0.0f, 0);
-					transform.position = temp;
-					break;
-				case "secondRespawn":
-					vel.x = 0;
-					Vector3 temp2 = new Vector3(75.0f, 0.0f, 0);
-					transform.position = temp2;
-					break;
-				default:
-					break;
-			}
-			lives--;
-		}
-		if (FallenToDeath.dead) {
-			//destroy mario
-		}
-
 		rigidbody.velocity = vel;
+
+		//respawn
+		if (respawn) {
+			this.Respawn ();
+		} 
+		else if (dead) {
+			this.Dead ();
+		}
 
 
 		Vector3 right = Vector3.Cross(-1*this.transform.forward,this.transform.up);
@@ -160,6 +145,31 @@ public class Mario : MonoBehaviour {
 			transform.position = temp;
 		}
 
+	}
+
+	public void Respawn(){
+		string caseSwitch = SetSpawn.respawnLoc;
+		Vector3 vel = rigidbody.velocity;
+		Debug.Log (caseSwitch);
+		switch (caseSwitch) {
+			case "firstRespawn":
+				vel.x = 0;
+				Vector3 temp = new Vector3 (-4.0f, 0.0f, 0);
+				transform.position = temp;
+				break;
+			case "secondRespawn":
+				vel.x = 0;
+				Vector3 temp2 = new Vector3 (75.0f, 0.0f, 0);
+				transform.position = temp2;
+				break;
+			default:
+				break;
+		}
+		lives--;
+	}
+
+	public void Dead(){
+		Destroy (this.gameObject);
 	}
 
 	void OnCollisionEnter(Collision other) {
