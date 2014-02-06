@@ -7,7 +7,9 @@ public class Coin : MonoBehaviour {
 
 	void OnTriggerEnter(){
 		if (!coinUsed) {
-			Mario.coins++;
+			//Mario.coins++;
+			Mario.score += 100;
+			GUI.Label(new Rect(this.transform.position.x + 10, this.transform.position.y - 10, 20, 30), "100");
 		}
 		Destroy (this.gameObject);
 	}
