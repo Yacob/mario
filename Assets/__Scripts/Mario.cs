@@ -6,7 +6,7 @@ public class Mario : MonoBehaviour {
 	public float		acceleration = 2;
 	public float		baseSpeed = 1;
 
-	public float		jumpSpeed = 19;
+	public float		jumpSpeed = 18.5f;
 	public float		jumpAcc = 50;
 
 	public bool			grounded = true;
@@ -17,6 +17,7 @@ public class Mario : MonoBehaviour {
 	public static int	lives = 3;
 	public static int	score = 0;
 	public static float	time = 400f;
+	public static int	coins = 0;
 
 	void Start(){
 		UnityEngine.Time.fixedDeltaTime = 0.005f; 
