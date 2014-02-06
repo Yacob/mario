@@ -136,6 +136,28 @@ public class Mario : MonoBehaviour {
 
 		Debug.DrawLine(botRight, botRight + (down*distance), Color.red);
 		Debug.DrawLine(botLeft, botLeft + (down * distance), Color.red);
+		//Pipes
+		bool DownPressed =  Input.GetKey(KeyCode.DownArrow) ||
+			Input.GetKey(KeyCode.S) ||
+				Input.GetKeyDown(KeyCode.DownArrow) ||
+				Input.GetKeyDown(KeyCode.S);
+		
+		if (DownPressed && PipeIn.canUseWarpPipeIn) {
+			//teleport mario into cave
+			inCave = true;
+			Vector3 temp = new Vector3(-55.5f,-9.0f,0);
+			transform.position += temp;
+		}
+		bool RightPressed =  Input.GetKey(KeyCode.DownArrow) ||
+			Input.GetKey(KeyCode.S) ||
+				Input.GetKeyDown(KeyCode.DownArrow) ||
+				Input.GetKeyDown(KeyCode.S);
+		if (RightPressed && PipeOut.canUseWarpPipeOut) {
+			//teleport mario out of cave
+			inCave = false;
+			Vector3 temp = new Vector3(155.0f,2.5f,0);
+			transform.position = temp;
+		}
 
 	}
 
@@ -218,25 +240,7 @@ public class Mario : MonoBehaviour {
 
 		//grounded = true;
 		//jumping = false;
-		//Pipes
-		bool DownPressed =  Input.GetKey(KeyCode.DownArrow) ||
-		                    Input.GetKey(KeyCode.S) ||
-		                    Input.GetKeyDown(KeyCode.DownArrow) ||
-		 					Input.GetKeyDown(KeyCode.S);
 
-		 if (DownPressed && PipeIn.canUseWarpPipeIn) {
-			//teleport mario into cave
-			inCave = true;
-			Vector3 temp = new Vector3(-55.5f,-9.0f,0);
-			transform.position += temp;
-		}
-		if ((Input.GetKey (KeyCode.RightArrow) ||
-		     Input.GetKey (KeyCode.D)) && PipeOut.canUseWarpPipeOut) {
-			//teleport mario out of cave
-			inCave = false;
-			Vector3 temp = new Vector3(155.0f,2.5f,0);
-			transform.position = temp;
-		}
 	}
 	void OnCollisionExit(Collision other){
 		Vector3 right = Vector3.Cross(-1*this.transform.forward,this.transform.up);
