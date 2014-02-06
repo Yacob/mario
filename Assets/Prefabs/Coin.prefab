@@ -50,7 +50,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21, y: 1, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
@@ -78,7 +78,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dca52d296b1e1754cb88b45d44b63e31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinUsed: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
