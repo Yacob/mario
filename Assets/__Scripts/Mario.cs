@@ -16,6 +16,8 @@ public class Mario : MonoBehaviour {
 
 	public static bool	inCave = false;
 	public static int	lives = 3;
+	public static int	score = 0;
+	public static float	time = 400f;
 	public static int	coins = 0;
 	public static bool 	dead = false;
 	public static bool	respawn = false;
@@ -25,10 +27,19 @@ public class Mario : MonoBehaviour {
 		UnityEngine.Time.fixedDeltaTime = 0.005f; 
 		rigidbody.inertiaTensor = rigidbody.inertiaTensor + new Vector3 (0, 0, rigidbody.inertiaTensor.z * 100);
 	}
+	void OnGUI(){
+		GUI.Label (new Rect (285, 90, 100, 30), score.ToString());
+		GUI.Label (new Rect (385, 90, 100, 30), "x  " + lives.ToString());
+		GUI.Label (new Rect (800, 90, 100, 30), ((int)time).ToString());
+
+	}
 
 	void Update () { // Every Frame
 		//float h = Input.GetAxis ("Horizontal");
 		//float v = Input.GetAxis ("Vertical");
+		//update time
+		time = time - 1 * Time.deltaTime*3;
+
 		Vector3 vel = rigidbody.velocity;
 		curSpeed = vel.x;
 
@@ -134,10 +145,10 @@ public class Mario : MonoBehaviour {
 			Vector3 temp = new Vector3(-55.5f,-9.0f,0);
 			transform.position += temp;
 		}
-		bool RightPressed =  Input.GetKey(KeyCode.DownArrow) ||
-			Input.GetKey(KeyCode.S) ||
-				Input.GetKeyDown(KeyCode.DownArrow) ||
-				Input.GetKeyDown(KeyCode.S);
+		bool RightPressed =  Input.GetKey(KeyCode.RightArrow) ||
+			Input.GetKey(KeyCode.D) ||
+				Input.GetKeyDown(KeyCode.RightArrow) ||
+				Input.GetKeyDown(KeyCode.D);
 		if (RightPressed && PipeOut.canUseWarpPipeOut) {
 			//teleport mario out of cave
 			inCave = false;
