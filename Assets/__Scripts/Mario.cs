@@ -18,7 +18,7 @@ public class Mario : MonoBehaviour {
 	public static int	lives = 3;
 	public static int	score = 0;
 	public static float	time = 400f;
-	//public static int	coins = 0;
+	public static bool	isBig = false;
 	public static bool 	dead = false;
 	public static bool	respawn = false;
 
@@ -144,6 +144,7 @@ public class Mario : MonoBehaviour {
 			inCave = true;
 			Vector3 temp = new Vector3(-55.5f,-9.0f,0);
 			transform.position += temp;
+			SetSpawn.respawnLoc = "secondRespawn";
 		}
 		bool RightPressed =  Input.GetKey(KeyCode.RightArrow) ||
 			Input.GetKey(KeyCode.D) ||
@@ -174,6 +175,9 @@ public class Mario : MonoBehaviour {
 				transform.position = temp2;
 				break;
 			default:
+				vel.x = 0;
+				Vector3 temp3 = new Vector3 (-4.0f, 0.0f, 0);
+				transform.position = temp3;
 				break;
 		}
 		lives--;

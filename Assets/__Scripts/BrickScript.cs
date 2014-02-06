@@ -10,13 +10,10 @@ public class BrickScript : MonoBehaviour {
 	public bool			hasMushroom;
 	public bool			isHidden;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	void OnTriggerEnter(){
+				//check if trigger on bottom of brick otherwise do nothing
+				//then check to see if anything is colliding with trigger on top of brick and if its an enemy kill it.
+				//If it is a shroom pop it up
+				//then check to see if (Mario.isBig == true).  If so destroy brick or cover with blue or something
 	}
 }
