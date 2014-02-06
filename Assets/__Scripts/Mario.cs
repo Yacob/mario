@@ -22,6 +22,8 @@ public class Mario : MonoBehaviour {
 	public static bool 	dead = false;
 	public static bool	respawn = false;
 
+	public Vector3		velo;
+
 
 	void Start(){
 		UnityEngine.Time.fixedDeltaTime = 0.005f; 
@@ -92,6 +94,7 @@ public class Mario : MonoBehaviour {
 		}
 		vel.x = curSpeed;
 		rigidbody.velocity = vel;
+		velo = vel;
 
 		//respawn
 		if (respawn) {
@@ -133,9 +136,11 @@ public class Mario : MonoBehaviour {
 
 		Debug.DrawLine(botRight, botRight + (down*distance), Color.red);
 		Debug.DrawLine(botLeft, botLeft + (down * distance), Color.red);
-		//Pipes
+
+
+		//   ---------- Pipes ----------
 		bool DownPressed =  Input.GetKey(KeyCode.DownArrow) ||
-			Input.GetKey(KeyCode.S) ||
+				Input.GetKey(KeyCode.S) ||
 				Input.GetKeyDown(KeyCode.DownArrow) ||
 				Input.GetKeyDown(KeyCode.S);
 		
@@ -147,7 +152,7 @@ public class Mario : MonoBehaviour {
 			SetSpawn.respawnLoc = "secondRespawn";
 		}
 		bool RightPressed =  Input.GetKey(KeyCode.RightArrow) ||
-			Input.GetKey(KeyCode.D) ||
+				Input.GetKey(KeyCode.D) ||
 				Input.GetKeyDown(KeyCode.RightArrow) ||
 				Input.GetKeyDown(KeyCode.D);
 		if (RightPressed && PipeOut.canUseWarpPipeOut) {
