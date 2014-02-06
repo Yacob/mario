@@ -9,6 +9,7 @@ TagManager:
   - Flag
   - Enemy
   - SetSecondRespawn
+  - GUI
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   User Layer 9: CoinBox
   User Layer 10: Flag
   User Layer 11: Enemy
-  User Layer 12: 
+  User Layer 12: GUI
   User Layer 13: 
   User Layer 14: 
   User Layer 15: 

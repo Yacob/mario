@@ -716,7 +716,7 @@ GameObject:
   - 132: {fileID: 116099006}
   m_Layer: 0
   m_Name: GUI Text
-  m_TagString: Untagged
+  m_TagString: GUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -876,6 +876,18 @@ Prefab:
       propertyPath: m_Text
       value: 000000
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
+      propertyPath: m_TagString
+      value: GUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
+      propertyPath: m_Name
+      value: Score
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
   m_RootGameObject: {fileID: 157839315}
@@ -1012,8 +1024,8 @@ GameObject:
   - 4: {fileID: 157839317}
   - 132: {fileID: 157839316}
   m_Layer: 0
-  m_Name: GUI Text
-  m_TagString: Untagged
+  m_Name: Score
+  m_TagString: GUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2199,6 +2211,10 @@ Prefab:
       propertyPath: m_PixelOffset.y
       value: -5
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
+      propertyPath: m_TagString
+      value: GUI
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
   m_RootGameObject: {fileID: 1717052293}
@@ -3293,7 +3309,7 @@ GameObject:
   - 132: {fileID: 411704300}
   m_Layer: 0
   m_Name: GUI Text
-  m_TagString: Untagged
+  m_TagString: GUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4318,7 +4334,7 @@ GameObject:
   - 132: {fileID: 492097164}
   m_Layer: 0
   m_Name: GUI Text
-  m_TagString: Untagged
+  m_TagString: GUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4751,7 +4767,7 @@ GameObject:
   - 132: {fileID: 562081625}
   m_Layer: 0
   m_Name: GUI Text
-  m_TagString: Untagged
+  m_TagString: GUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4906,6 +4922,10 @@ Prefab:
     - target: {fileID: 13200000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
       propertyPath: m_Text
       value: TIME
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
+      propertyPath: m_TagString
+      value: GUI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
@@ -5945,6 +5965,10 @@ Prefab:
     - target: {fileID: 13200000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
       propertyPath: m_PixelOffset.x
       value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
+      propertyPath: m_TagString
+      value: GUI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
@@ -9035,7 +9059,7 @@ GameObject:
   - 132: {fileID: 1107733114}
   m_Layer: 0
   m_Name: GUI Text
-  m_TagString: Untagged
+  m_TagString: GUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9768,6 +9792,10 @@ Prefab:
     - target: {fileID: 400000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
+      propertyPath: m_TagString
+      value: GUI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
@@ -10811,6 +10839,10 @@ Prefab:
     - target: {fileID: 13200000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
       propertyPath: m_Text
       value: WORLD
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
+      propertyPath: m_TagString
+      value: GUI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
@@ -11958,6 +11990,10 @@ Prefab:
     - target: {fileID: 13200000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
       propertyPath: m_Text
       value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
+      propertyPath: m_TagString
+      value: GUI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 40019c4b9ada7594985a1f9c83965519, type: 2}
@@ -13633,7 +13669,7 @@ GameObject:
   - 132: {fileID: 1717052294}
   m_Layer: 0
   m_Name: GUI Text
-  m_TagString: Untagged
+  m_TagString: GUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
