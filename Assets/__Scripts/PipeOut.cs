@@ -11,6 +11,7 @@ public class PipeOut : MonoBehaviour {
 		canUseWarpPipeOut = true;
 	}
 	void OnTriggerExit(){
+		Debug.Log ("pipe on off");
 		canUseWarpPipeOut = false;
 	}
 }
