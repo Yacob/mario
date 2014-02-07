@@ -2,8 +2,7 @@ fileFormatVersion: 2
 guid: 561a540a3372386418b12a55798f3942
 MonoImporter:
   serializedVersion: 2
-  defaultReferences:
-  - goomba: {fileID: 400000, guid: a33b5b1baa7170a44b5737dd59611225, type: 2}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

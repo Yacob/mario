@@ -18,7 +18,7 @@ public class SpawnEnemy : MonoBehaviour {
 			canSpawn = false;
 			Debug.Log ("spawning");
 			Object baddie = Instantiate(enemy, new Vector3(x,y,0f), Quaternion.identity);
-			((Goomba)baddie).moveRight = false;
+			//((Goomba)baddie).moveRight = false;
 		}
 	}
 }

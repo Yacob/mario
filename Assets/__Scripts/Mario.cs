@@ -18,9 +18,11 @@ public class Mario : MonoBehaviour {
 	public static int	lives = 3;
 	public static int	score = 0;
 	public static float	time = 400f;
-	//public static int	coins = 0;
+	public static bool	isBig = false;
 	public static bool 	dead = false;
 	public static bool	respawn = false;
+
+	public Vector3		velo;
 
 
 	void Start(){
@@ -92,6 +94,7 @@ public class Mario : MonoBehaviour {
 		}
 		vel.x = curSpeed;
 		rigidbody.velocity = vel;
+		velo = vel;
 
 		//respawn
 		if (respawn) {
@@ -133,9 +136,11 @@ public class Mario : MonoBehaviour {
 
 		Debug.DrawLine(botRight, botRight + (down*distance), Color.red);
 		Debug.DrawLine(botLeft, botLeft + (down * distance), Color.red);
-		//Pipes
+
+
+		//   ---------- Pipes ----------
 		bool DownPressed =  Input.GetKey(KeyCode.DownArrow) ||
-			Input.GetKey(KeyCode.S) ||
+				Input.GetKey(KeyCode.S) ||
 				Input.GetKeyDown(KeyCode.DownArrow) ||
 				Input.GetKeyDown(KeyCode.S);
 		
@@ -144,9 +149,10 @@ public class Mario : MonoBehaviour {
 			inCave = true;
 			Vector3 temp = new Vector3(-55.5f,-9.0f,0);
 			transform.position += temp;
+			SetSpawn.respawnLoc = "secondRespawn";
 		}
 		bool RightPressed =  Input.GetKey(KeyCode.RightArrow) ||
-			Input.GetKey(KeyCode.D) ||
+				Input.GetKey(KeyCode.D) ||
 				Input.GetKeyDown(KeyCode.RightArrow) ||
 				Input.GetKeyDown(KeyCode.D);
 		if (RightPressed && PipeOut.canUseWarpPipeOut) {
@@ -174,6 +180,9 @@ public class Mario : MonoBehaviour {
 				transform.position = temp2;
 				break;
 			default:
+				vel.x = 0;
+				Vector3 temp3 = new Vector3 (-4.0f, 0.0f, 0);
+				transform.position = temp3;
 				break;
 		}
 		lives--;
@@ -199,7 +208,7 @@ public class Mario : MonoBehaviour {
 		topRight.x += this.collider.bounds.size.x / 2 - distance/2;
 
 		Vector3 topCenter = center;
-		topRight.y += this.collider.bounds.size.y / 2 - distance/2;
+		topCenter.y += this.collider.bounds.size.y / 2 - distance/2;
 
 		Vector3 topLeft = center;
 		topLeft.y += this.collider.bounds.size.y / 2 - distance/2;
@@ -225,8 +234,9 @@ public class Mario : MonoBehaviour {
 		bool hitTop = hitTopLeft || hitTopRight || hitTopCenter;
 
 		if (hitTop) {
-			if(hitTopCenter && edgeInfo2.collider.tag == "Brick"){
-				other.gameObject.animation.Play();
+			if(hitTopCenter && centerInfo.collider.gameObject.tag == "Brick"){
+				BrickScript brick = centerInfo.collider.gameObject.GetComponent<BrickScript>();
+				brick.marioHit();
 			}
 		}
 		//left
@@ -239,15 +249,16 @@ public class Mario : MonoBehaviour {
 		if (hitBot) {
 			string tag1 = "none"; 
 			string tag2 = "none";
+
 			if(hitBotLeft)
-				tag1 = edgeInfo2.collider.tag;
+				tag2 = edgeInfo2.collider.tag;
 			if(hitBotRight)
-				tag2 = edgeInfo1.collider.tag;
+				tag1 = edgeInfo1.collider.tag;
 
 			if(tag1 == "Enemy")
 				Destroy(edgeInfo1.collider.gameObject);
 			else if(tag2 == "Enemy")
-				Destroy(edgeInfo1.collider.gameObject);
+				Destroy(edgeInfo2.collider.gameObject);
 			else{
 				grounded = true;
 				jumping = false;

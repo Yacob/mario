@@ -10,13 +10,28 @@ public class BrickScript : MonoBehaviour {
 	public bool			hasMushroom;
 	public bool			isHidden;
 
-	// Use this for initialization
-	void Start () {
-	
+	private Animator animator;
+
+	void Start(){
+		animator = gameObject.GetComponent<Animator>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	void Update(){
+		AnimatorStateInfo info = animator.GetNextAnimatorStateInfo(0);
+		if(info.nameHash == Animator.StringToHash("Base Layer.upBox")){
+			animator.SetBool("doBump",false);
+		}
+	}
+	public void marioHit(){
+		AnimatorStateInfo info = animator.GetNextAnimatorStateInfo(0);
+		Debug.Log (gameObject.tag);
+		Debug.Log ("hi");
+		if (hasCoins) {
+		} else if (has1Up) {
+		} else if (hasStar) {
+		} else if (hasMushroom) {
+		}
+		Debug.Log (animator);
+		animator.SetBool("doBump", true);
+
 	}
 }
