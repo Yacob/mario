@@ -23,14 +23,12 @@ public class BrickScript : MonoBehaviour {
 	}
 	public void marioHit(){
 		AnimatorStateInfo info = animator.GetNextAnimatorStateInfo(0);
-		Debug.Log (gameObject.tag);
-		Debug.Log ("hi");
+		Debug.Log ("this is A " + gameObject.tag + " at " + this.transform.position);
 		if (hasCoins) {
 		} else if (has1Up) {
 		} else if (hasStar) {
 		} else if (hasMushroom) {
 		}
-		Debug.Log (animator);
 		animator.SetBool("doBump", true);
 
 

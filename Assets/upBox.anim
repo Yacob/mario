@@ -25,7 +25,7 @@ AnimationClip:
         value: {x: 12, y: 3.32297516, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 1965978213
+        tangentMode: 148176932
       - time: .5
         value: {x: 12, y: 3, z: 0}
         inSlope: {x: 0, y: -1.29190063, z: 0}
