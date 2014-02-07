@@ -33,5 +33,6 @@ public class BrickScript : MonoBehaviour {
 		Debug.Log (animator);
 		animator.SetBool("doBump", true);
 
+
 	}
 }
