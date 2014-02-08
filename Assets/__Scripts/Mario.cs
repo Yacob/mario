@@ -22,12 +22,13 @@ public class Mario : MonoBehaviour {
 	public static bool 	dead = false;
 	public static bool	respawn = false;
 
-	public Vector3		velo;
+	Animator marioAnim;
 
 
 	void Start(){
 		UnityEngine.Time.fixedDeltaTime = 0.005f; 
 		rigidbody.inertiaTensor = rigidbody.inertiaTensor + new Vector3 (0, 0, rigidbody.inertiaTensor.z * 100);
+		marioAnim = GetComponent<Animator>();
 	}
 	void OnGUI(){
 		GUI.Label (new Rect (285, 90, 100, 30), score.ToString());
@@ -40,6 +41,7 @@ public class Mario : MonoBehaviour {
 		//float h = Input.GetAxis ("Horizontal");
 		//float v = Input.GetAxis ("Vertical");
 		//update time
+
 		time = time - 1 * Time.deltaTime*3;
 
 		Vector3 vel = rigidbody.velocity;
@@ -49,9 +51,11 @@ public class Mario : MonoBehaviour {
 
 		if(Input.GetKey(KeyCode.LeftArrow)){
 			h = -1;
+
 		}
 		else if (Input.GetKey(KeyCode.RightArrow)){
 			h = 1;
+
 		}
 
 		//set sideways motion
@@ -66,15 +70,16 @@ public class Mario : MonoBehaviour {
 			curSpeed = curSpeed + h*acceleration;
 		}
 		else if( h != 0){
-			curSpeed = curSpeed + h*acceleration;			
+			curSpeed = curSpeed + h*acceleration;
 		}
+
 
 		if (Input.GetKeyDown (KeyCode.Space) ||
 			Input.GetKeyDown (KeyCode.UpArrow) ||
 			Input.GetKeyDown (KeyCode.W)) {
 			if (grounded) {
 					vel.y = jumpSpeed;
-					jumping = true;
+										jumping = true;
 					grounded = false;
 			}
 		}
@@ -94,7 +99,29 @@ public class Mario : MonoBehaviour {
 		}
 		vel.x = curSpeed;
 		rigidbody.velocity = vel;
-		velo = vel;
+
+		// ---------- Anim ----------
+		if (curSpeed > 0) {
+			marioAnim.SetBool ("RightDown", true);
+			marioAnim.SetBool ("LeftDown", false);
+		}
+		else if (curSpeed < 0) {
+			marioAnim.SetBool ("LeftDown", true);
+			marioAnim.SetBool ("RightDown", false);
+		}
+		marioAnim.SetFloat("Speed", Mathf.Abs(curSpeed));
+		if (curSpeed == 0) {
+			marioAnim.SetBool ("Idle", true);
+		} 
+		else {
+			marioAnim.SetBool ("Idle", false);
+		}
+		if (grounded) {
+			marioAnim.SetBool ("Jumping", false);
+		} 
+		else {
+			marioAnim.SetBool ("Jumping", true);
+		}
 
 		//respawn
 		if (respawn) {
