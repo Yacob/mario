@@ -1,0 +1,6295 @@
+fileFormatVersion: 2
+guid: 5636ee7fbcaceea4291707a1fb9e3cfe
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: marioSprites 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_12
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_13
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_17
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_18
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_20
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_21
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_22
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 512
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_34
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_36
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_40
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_42
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_44
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_45
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_46
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 496
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_49
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_50
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_52
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_54
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_56
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_57
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_58
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_59
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_60
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_61
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_62
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_63
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_64
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_65
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 480
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_67
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_68
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_75
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_77
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_78
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_79
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_81
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_82
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_83
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_84
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_85
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_86
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_87
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 464
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_91
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_93
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_95
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_97
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_98
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_99
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_101
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_102
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_103
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_104
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_105
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_106
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_107
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 448
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_108
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_109
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_110
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_111
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_112
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_113
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_114
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_115
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_116
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_117
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_118
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_119
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_120
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_121
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_122
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_123
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_124
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_125
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_126
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 432
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_128
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_129
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_130
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_131
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_132
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_133
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_134
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_135
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_136
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_137
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_138
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_139
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_140
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_141
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_142
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_143
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_144
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_145
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_146
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_147
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_148
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_149
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 416
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_151
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_152
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_153
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_154
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_155
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_156
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_157
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_158
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_159
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_160
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_161
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_163
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_164
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_165
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_166
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_167
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_168
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_169
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_170
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_171
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_172
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_173
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 400
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_174
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_175
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_176
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_177
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_178
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_179
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_180
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_181
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_182
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_183
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_184
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_185
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_186
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_187
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_188
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_189
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_190
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_191
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_192
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 384
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_193
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_194
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_195
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_196
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_197
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_198
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_199
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_200
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_201
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_202
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_203
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_204
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_205
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_206
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_207
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_208
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_209
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_210
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_211
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_212
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_213
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_214
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 368
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_215
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_216
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_217
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_218
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_219
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_220
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_221
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_222
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_223
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_224
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_225
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_226
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_227
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_228
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_229
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_230
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_231
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_232
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_233
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_234
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_235
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_236
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_237
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_238
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 352
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_239
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_240
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_241
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_242
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_243
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_244
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_245
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_246
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_247
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_248
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_249
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_250
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_251
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_252
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_253
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_254
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_255
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_256
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_257
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_258
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_259
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_260
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_261
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 336
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_262
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_263
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_264
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_265
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_266
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_267
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_268
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_269
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_270
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_271
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_272
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_273
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_274
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_275
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_276
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_277
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_278
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_279
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_280
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_281
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_282
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_283
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_284
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_285
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 320
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_286
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_287
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_288
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_289
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_290
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_291
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_292
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_293
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_294
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_295
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_296
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_297
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_298
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_299
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_300
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_301
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_302
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_303
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_304
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_305
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 304
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_306
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_307
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_308
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_309
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_310
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_311
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_312
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_313
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_314
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_315
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_316
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_317
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_318
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_319
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_320
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_321
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_322
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_323
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_324
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 288
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_325
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_326
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_327
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_328
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_329
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_330
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_331
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_332
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_333
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_334
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_335
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_336
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_337
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_338
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_339
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_340
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_341
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_342
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_343
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 272
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_344
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_345
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_346
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_347
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_348
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_349
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_350
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_351
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_352
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_353
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_354
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_355
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_356
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_357
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_358
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_359
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_360
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_361
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_362
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_363
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 256
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_364
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_365
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_366
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_367
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_368
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_369
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_370
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_371
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_372
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_373
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_374
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_375
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_376
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_377
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_378
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_379
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_380
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_381
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_382
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 240
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_383
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_384
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_385
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_386
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_387
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_388
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_389
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_390
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_391
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_392
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_393
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_394
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_395
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_396
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_397
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_398
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_399
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_400
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_401
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_402
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_403
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_404
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_405
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_406
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 224
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_407
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_408
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_409
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_410
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_411
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_412
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_413
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_414
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_415
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_416
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_417
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_418
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_419
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_420
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_421
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_422
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_423
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_424
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_425
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_426
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 208
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_427
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_428
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_429
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_430
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_431
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_432
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_433
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_434
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_435
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_436
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_437
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_438
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_439
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_440
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_441
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_442
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_443
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_444
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_445
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 192
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_446
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_447
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_448
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_449
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_450
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_451
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_452
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_453
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_454
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_455
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_456
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_457
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_458
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_459
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_460
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_461
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_462
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_463
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_464
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 176
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_465
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_466
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_467
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_468
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_469
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_470
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_471
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_472
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_473
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_474
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_475
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_476
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_477
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_478
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_479
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_480
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_481
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_482
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_483
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_484
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 160
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_485
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_486
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_487
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_488
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_489
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_490
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_491
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_492
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_493
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_494
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_495
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_496
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_497
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_498
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_499
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_500
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_501
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_502
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_503
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 144
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_504
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_505
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_506
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_507
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_508
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_509
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_510
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_511
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_512
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_513
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_514
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_515
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_516
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_517
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_518
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_519
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_520
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_521
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_522
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_523
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_524
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_525
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 128
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_526
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_527
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_528
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_529
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_530
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_531
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_532
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_533
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_534
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_535
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_536
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_537
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_538
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_539
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_540
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_541
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_542
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_543
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_544
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_545
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 112
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_546
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_547
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_548
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_549
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_550
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_551
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_552
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_553
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_554
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_555
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_556
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_557
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_558
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_559
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_560
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_561
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_562
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_563
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_564
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 96
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_565
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_566
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_567
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_568
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_569
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_570
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_571
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_572
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_573
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_574
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_575
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_576
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_577
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_578
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_579
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_580
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_581
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_582
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_583
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_584
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_585
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_586
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_587
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_588
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 80
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_589
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_590
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_591
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_592
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_593
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_594
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_595
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_596
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_597
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_598
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_599
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_600
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_601
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_602
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_603
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_604
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_605
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_606
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_607
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_608
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_609
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_610
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_611
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_612
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 64
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_613
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_614
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_615
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_616
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_617
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_618
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_619
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_620
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_621
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_622
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_623
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_624
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_625
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_626
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_627
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_628
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_629
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_630
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_631
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_632
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_633
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_634
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_635
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 48
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_636
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_637
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_638
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_639
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_640
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_641
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_642
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_643
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_644
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_645
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_646
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_647
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_648
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_649
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_650
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_651
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_652
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_653
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_654
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 32
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_655
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_656
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_657
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_658
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_659
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_660
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_661
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_662
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_663
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_664
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_665
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_666
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_667
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_668
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_669
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_670
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_671
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_672
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_673
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_674
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 16
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_675
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_676
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_677
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_678
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_679
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_680
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_681
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_682
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_683
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_684
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_685
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_686
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_687
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_688
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_689
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_690
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_691
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_692
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+    - name: marioSprites 1_693
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 16
+        height: 16
+      alignment: 3
+      pivot: {x: 0, y: 0}
+  spritePackingTag: 
+  userData: 
