@@ -12298,7 +12298,7 @@ GameObject:
   - 54: {fileID: 871282106}
   - 135: {fileID: 871282109}
   - 135: {fileID: 871282110}
-  m_Layer: 0
+  m_Layer: 16
   m_Name: MarioSprites_0
   m_TagString: Player
   m_Icon: {fileID: 0}
