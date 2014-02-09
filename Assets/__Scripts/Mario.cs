@@ -2,9 +2,10 @@ using UnityEngine;
 using System.Collections;
 
 public class Mario : MonoBehaviour {
-	public float 		maxSpeed = 6;
-	public float		acceleration = 2;
+	public float 		maxSpeed = 5.5f;
+	public float		acceleration = 0.45f;
 	public float		baseSpeed = 1;
+	public float		sprintFactor = 1.4f;
 
 	public float		jumpSpeed = 18.5f;
 	public float		jumpAcc = 50;
@@ -12,7 +13,9 @@ public class Mario : MonoBehaviour {
 	public bool			grounded = true;
 	public bool			jumping = false;
 	private float		curSpeed = 0;
-
+	private bool		bPressed = false;
+	private bool		aPressed = false;
+	private bool		aDown = false;
 
 	public static bool	inCave = false;
 	public static int	lives = 3;
@@ -38,23 +41,29 @@ public class Mario : MonoBehaviour {
 	}
 
 	void Update () { // Every Frame
-		//float h = Input.GetAxis ("Horizontal");
-		//float v = Input.GetAxis ("Vertical");
-		//update time
+
+		bPressed = (Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.J));
+		aDown = (Input.GetKeyDown (KeyCode.X) || Input.GetKeyDown (KeyCode.K));
+		aPressed = (Input.GetKey (KeyCode.X) || Input.GetKey (KeyCode.K));
 
 		time = time - 1 * Time.deltaTime*3;
 
 		Vector3 vel = rigidbody.velocity;
 		curSpeed = vel.x;
 
-		int h = 0;
+		float h = 0.0f;
 
 		if(Input.GetKey(KeyCode.LeftArrow)){
 			h = -1;
-
+			if(bPressed){
+				h *= sprintFactor;
+			}
 		}
 		else if (Input.GetKey(KeyCode.RightArrow)){
 			h = 1;
+			if(bPressed){
+				h *= sprintFactor;
+			}
 
 		}
 
@@ -63,7 +72,6 @@ public class Mario : MonoBehaviour {
 			curSpeed = 0;
 		}
 		else if (h != 0 && curSpeed == 0) {
-
 			curSpeed = h*baseSpeed;
 		}
 		else if (grounded) {
@@ -73,30 +81,28 @@ public class Mario : MonoBehaviour {
 			curSpeed = curSpeed + h*acceleration;
 		}
 
-
-		if (Input.GetKeyDown (KeyCode.Space) ||
-			Input.GetKeyDown (KeyCode.UpArrow) ||
-			Input.GetKeyDown (KeyCode.W)) {
+		// ---------- Jumping ----------
+		if (aDown) {
 			if (grounded) {
 					vel.y = jumpSpeed;
-										jumping = true;
+					jumping = true;
 					grounded = false;
 			}
 		}
 		if (jumping && !grounded) {
-			if (Input.GetKey (KeyCode.Space) ||
-				Input.GetKey (KeyCode.UpArrow) ||
-				Input.GetKey (KeyCode.W)) {
-
+			if (aPressed) {
 				vel.y += jumpAcc * Time.deltaTime;
 			}
 			else{
 				jumping = false;
 			}
 		}
+
+		// Max speed
 		if(curSpeed > maxSpeed || curSpeed < -1*maxSpeed){
 			curSpeed = h*maxSpeed;
 		}
+		//Debug.Log("H is " + h + " and curSpeed is " + curSpeed);
 		vel.x = curSpeed;
 		rigidbody.velocity = vel;
 
@@ -109,6 +115,7 @@ public class Mario : MonoBehaviour {
 			marioAnim.SetBool ("LeftDown", true);
 			marioAnim.SetBool ("RightDown", false);
 		}
+
 		marioAnim.SetFloat("Speed", Mathf.Abs(curSpeed));
 		if (curSpeed == 0) {
 			marioAnim.SetBool ("Idle", true);
@@ -116,6 +123,7 @@ public class Mario : MonoBehaviour {
 		else {
 			marioAnim.SetBool ("Idle", false);
 		}
+
 		if (grounded) {
 			marioAnim.SetBool ("Jumping", false);
 		} 
@@ -123,7 +131,7 @@ public class Mario : MonoBehaviour {
 			marioAnim.SetBool ("Jumping", true);
 		}
 
-		//respawn
+		// ---------- respawn ----------
 		if (respawn) {
 			this.Respawn ();
 		} 
