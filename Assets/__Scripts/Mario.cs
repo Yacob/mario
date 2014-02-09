@@ -202,7 +202,7 @@ public class Mario : MonoBehaviour {
 	public void Respawn(){
 		string caseSwitch = SetSpawn.respawnLoc;
 		Vector3 vel = rigidbody.velocity;
-		Debug.Log (caseSwitch);
+		//Debug.Log (caseSwitch);
 		switch (caseSwitch) {
 			case "firstRespawn":
 				vel.x = 0;
