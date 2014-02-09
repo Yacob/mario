@@ -4,7 +4,7 @@ using System.Collections;
 public class Goomba : MonoBehaviour {
 
 	public bool		moveRight;
-	public int		moveSpd = 4;
+	public int		moveSpd = 2;
 	private int		moveDir;
 	
 	//Start is called at beginning
