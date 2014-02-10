@@ -19106,6 +19106,8 @@ GameObject:
   - 4: {fileID: 1345750568}
   - 33: {fileID: 1345750567}
   - 65: {fileID: 1345750566}
+  - 114: {fileID: 1345750570}
+  - 111: {fileID: 1345750569}
   m_Layer: 0
   m_Name: Flag
   m_TagString: Untagged
@@ -19139,11 +19141,37 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1345750565}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 191, y: 4, z: 5.39550781}
+  m_LocalPosition: {x: 191, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 239093316}
   m_Father: {fileID: 0}
+--- !u!111 &1345750569
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1345750565}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 525e6c739d50ed6408f22ffd6e462e42, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &1345750570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1345750565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d7e861d1aacb884a94baa67be53a2ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1355392973
 GameObject:
   m_ObjectHideFlags: 0

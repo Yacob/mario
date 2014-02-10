@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Idle
+  m_Name: littleJump
   serializedVersion: 4
   m_AnimationType: 2
   m_Compressed: 0
@@ -18,7 +18,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300012, guid: 9c1e52e891cd04e2f8011873ac9989b9, type: 3}
+      value: {fileID: 21300104, guid: 5636ee7fbcaceea4291707a1fb9e3cfe, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212

@@ -8,7 +8,7 @@ public class Mario : MonoBehaviour {
 	public float		sprintFactor = 1.4f;
 
 	public float		jumpSpeed = 18.5f;
-	public float		jumpAcc = 50;
+	public float		jumpAcc = 57.5f;
 
 	public bool			grounded = true;
 	public bool			jumping = false;
@@ -17,11 +17,12 @@ public class Mario : MonoBehaviour {
 	private bool		aPressed = false;
 	private bool		aDown = false;
 
+	public static bool	finished = false;
 	public static bool	inCave = false;
 	public static int	lives = 3;
 	public static int	score = 0;
 	public static float	time = 400f;
-	public static bool	isBig = false;
+	public static bool	isBig = true;
 	public static bool 	dead = false;
 	public static bool	respawn = false;
 
@@ -41,6 +42,10 @@ public class Mario : MonoBehaviour {
 	}
 
 	void Update () { // Every Frame
+
+		if (finished) {
+			this.GameEnd ();
+		}
 
 		bPressed = (Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.J));
 		aDown = (Input.GetKeyDown (KeyCode.X) || Input.GetKeyDown (KeyCode.K));
@@ -107,6 +112,15 @@ public class Mario : MonoBehaviour {
 		rigidbody.velocity = vel;
 
 		// ---------- Anim ----------
+		/*
+		if (isBig) {
+			marioAnim.SetBool ("Big", true);
+		} 
+		else {
+			marioAnim.SetBool ("Big", false);
+		}
+		marioAnim.SetBool ("ChangeSize", false);
+		*/
 		if (curSpeed > 0) {
 			marioAnim.SetBool ("RightDown", true);
 			marioAnim.SetBool ("LeftDown", false);
@@ -224,8 +238,24 @@ public class Mario : MonoBehaviour {
 	}
 
 	public void Dead(){
-		Destroy (this.gameObject);
+		//Destroy (this.gameObject);
 	}
+
+	public void GameEnd(){
+		renderer.enabled = false;
+		//this.animation.Play ();
+		Debug.Log ("game won");
+		/*
+		if (transform.position.y >= 4) {
+			Vector3 temp = new Vector3(0,-9.0f,0);
+			this.transform.position.y -= temp;
+		} 
+		else {
+			this.transform.position.x += 4;
+		}
+		*/
+	}
+
 
 	void OnCollisionEnter(Collision other) {
 		Vector3 right = Vector3.Cross(-1*this.transform.forward,this.transform.up);
