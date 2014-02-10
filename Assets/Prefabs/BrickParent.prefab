@@ -116,7 +116,7 @@ Transform:
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: .5, y: .5, z: .5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
 --- !u!23 &2300000
@@ -259,12 +259,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

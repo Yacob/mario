@@ -45,6 +45,9 @@ public class BrickScript : MonoBehaviour {
 				Destroy (this.gameObject);
 			}
 		} 
+		else if(Mario.isBig){
+			Destroy(this.gameObject);
+		}
 		if (onTop != null) {
 			Destroy(onTop.gameObject);
 		}
@@ -56,11 +59,15 @@ public class BrickScript : MonoBehaviour {
 		if(other.gameObject.tag == "Enemy")
 			onTop = other.gameObject;
 	}
-	void OnCollisionExit(){
-		onTop = null;
+	void OnCollisionExit(Collision other){
+		if(other.gameObject.tag == "Enemy")
+			onTop = null;
 	}
 
 	void OnDestroy(){
+		if (onTop != null) {
+			Destroy(onTop.gameObject);
+		}
 		if (!isEmpty) {
 			//do destruction animation
 		}
