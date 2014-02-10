@@ -1634,10 +1634,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
 --- !u!1 &116099005
 GameObject:
   m_ObjectHideFlags: 0
@@ -2599,18 +2595,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1874643664}
-  - {fileID: 1710798452}
-  - {fileID: 112300005}
-  - {fileID: 1847168414}
+  - {fileID: 961911371}
   - {fileID: 986507306}
+  - {fileID: 1847168414}
+  - {fileID: 112300005}
+  - {fileID: 1309432734}
+  - {fileID: 2078590811}
+  - {fileID: 372282456}
+  - {fileID: 1710798452}
   - {fileID: 1059146887}
   - {fileID: 1703600982}
-  - {fileID: 865743943}
-  - {fileID: 372282456}
   - {fileID: 2010624257}
-  - {fileID: 2078590811}
-  - {fileID: 961911371}
-  - {fileID: 1309432734}
+  - {fileID: 865743943}
   m_Father: {fileID: 0}
 --- !u!1001 &163536167
 Prefab:
@@ -5867,10 +5863,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
 --- !u!1001 &377700161
 Prefab:
   m_ObjectHideFlags: 0
@@ -13204,10 +13196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
 --- !u!1 &866095822
 GameObject:
   m_ObjectHideFlags: 0
@@ -13306,7 +13294,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_SortingLayerID: 367506527
-  m_Sprite: {fileID: 21300000, guid: 9c1e52e891cd04e2f8011873ac9989b9, type: 3}
+  m_Sprite: {fileID: 21300108, guid: 5636ee7fbcaceea4291707a1fb9e3cfe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &871282105
 Transform:
@@ -13365,7 +13353,6 @@ MonoBehaviour:
   jumpAcc: 50
   grounded: 1
   jumping: 0
-  personalGravity: 95.1500015
 --- !u!135 &871282109
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -14375,10 +14362,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
 --- !u!1 &969362210
 GameObject:
   m_ObjectHideFlags: 0
@@ -14847,10 +14830,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
 --- !u!1 &995631991
 GameObject:
   m_ObjectHideFlags: 0
@@ -15895,10 +15874,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
 --- !u!1001 &1063231744
 Prefab:
   m_ObjectHideFlags: 0
@@ -20097,10 +20072,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
 --- !u!1 &1313859580
 GameObject:
   m_ObjectHideFlags: 0
@@ -24989,10 +24960,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
 --- !u!1 &1710798450
 GameObject:
   m_ObjectHideFlags: 0
@@ -25061,10 +25028,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
 --- !u!1 &1714246683
 GameObject:
   m_ObjectHideFlags: 0
@@ -26293,10 +26256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
 --- !u!1 &1847795541
 GameObject:
   m_ObjectHideFlags: 0
@@ -26760,10 +26719,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
 --- !u!1001 &1874785961
 Prefab:
   m_ObjectHideFlags: 0
@@ -29119,10 +29074,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
 --- !u!1 &2012263675
 GameObject:
   m_ObjectHideFlags: 0
@@ -30379,10 +30330,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
 --- !u!1001 &2084520846
 Prefab:
   m_ObjectHideFlags: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5636ee7fbcaceea4291707a1fb9e3cfe
+guid: a0993345423013f4d9db30da9064a9a2
 TextureImporter:
   serializedVersion: 2
   mipmaps:
@@ -20,10 +20,10 @@ TextureImporter:
   grayScaleToAlpha: 0
   generateCubemap: 0
   seamlessCubemap: 0
-  textureFormat: -3
+  textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: 0
+    filterMode: -1
     aniso: 1
     mipBias: -1
     wrapMode: 1
@@ -45,7 +45,7 @@ TextureImporter:
     compressionQuality: 50
   spriteSheet:
     sprites:
-    - name: marioSprites 1_0
+    - name: marioSpritesReversed_0
       rect:
         serializedVersion: 2
         x: 0
@@ -54,7 +54,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_1
+    - name: marioSpritesReversed_1
       rect:
         serializedVersion: 2
         x: 16
@@ -63,7 +63,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_2
+    - name: marioSpritesReversed_2
       rect:
         serializedVersion: 2
         x: 32
@@ -72,7 +72,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_3
+    - name: marioSpritesReversed_3
       rect:
         serializedVersion: 2
         x: 48
@@ -81,7 +81,16 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_4
+    - name: marioSpritesReversed_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_5
       rect:
         serializedVersion: 2
         x: 80
@@ -90,7 +99,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_5
+    - name: marioSpritesReversed_6
       rect:
         serializedVersion: 2
         x: 96
@@ -99,7 +108,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_6
+    - name: marioSpritesReversed_7
       rect:
         serializedVersion: 2
         x: 112
@@ -108,7 +117,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_7
+    - name: marioSpritesReversed_8
       rect:
         serializedVersion: 2
         x: 128
@@ -117,7 +126,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_8
+    - name: marioSpritesReversed_9
       rect:
         serializedVersion: 2
         x: 144
@@ -126,7 +135,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_9
+    - name: marioSpritesReversed_10
       rect:
         serializedVersion: 2
         x: 160
@@ -135,7 +144,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_10
+    - name: marioSpritesReversed_11
       rect:
         serializedVersion: 2
         x: 176
@@ -144,7 +153,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_11
+    - name: marioSpritesReversed_12
       rect:
         serializedVersion: 2
         x: 192
@@ -153,7 +162,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_12
+    - name: marioSpritesReversed_13
       rect:
         serializedVersion: 2
         x: 208
@@ -162,7 +171,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_13
+    - name: marioSpritesReversed_14
       rect:
         serializedVersion: 2
         x: 224
@@ -171,7 +180,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_14
+    - name: marioSpritesReversed_15
       rect:
         serializedVersion: 2
         x: 240
@@ -180,7 +189,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_15
+    - name: marioSpritesReversed_16
       rect:
         serializedVersion: 2
         x: 256
@@ -189,7 +198,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_16
+    - name: marioSpritesReversed_17
       rect:
         serializedVersion: 2
         x: 272
@@ -198,7 +207,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_17
+    - name: marioSpritesReversed_18
       rect:
         serializedVersion: 2
         x: 288
@@ -207,16 +216,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_18
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 512
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_19
+    - name: marioSpritesReversed_19
       rect:
         serializedVersion: 2
         x: 320
@@ -225,7 +225,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_20
+    - name: marioSpritesReversed_20
       rect:
         serializedVersion: 2
         x: 336
@@ -234,7 +234,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_21
+    - name: marioSpritesReversed_21
       rect:
         serializedVersion: 2
         x: 352
@@ -243,7 +243,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_22
+    - name: marioSpritesReversed_22
       rect:
         serializedVersion: 2
         x: 368
@@ -252,7 +252,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_23
+    - name: marioSpritesReversed_23
       rect:
         serializedVersion: 2
         x: 0
@@ -261,7 +261,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_24
+    - name: marioSpritesReversed_24
       rect:
         serializedVersion: 2
         x: 16
@@ -270,7 +270,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_25
+    - name: marioSpritesReversed_25
       rect:
         serializedVersion: 2
         x: 32
@@ -279,7 +279,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_26
+    - name: marioSpritesReversed_26
       rect:
         serializedVersion: 2
         x: 48
@@ -288,7 +288,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_27
+    - name: marioSpritesReversed_27
       rect:
         serializedVersion: 2
         x: 64
@@ -297,7 +297,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_28
+    - name: marioSpritesReversed_28
       rect:
         serializedVersion: 2
         x: 80
@@ -306,7 +306,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_29
+    - name: marioSpritesReversed_29
       rect:
         serializedVersion: 2
         x: 96
@@ -315,7 +315,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_30
+    - name: marioSpritesReversed_30
       rect:
         serializedVersion: 2
         x: 112
@@ -324,7 +324,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_31
+    - name: marioSpritesReversed_31
       rect:
         serializedVersion: 2
         x: 128
@@ -333,7 +333,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_32
+    - name: marioSpritesReversed_32
       rect:
         serializedVersion: 2
         x: 144
@@ -342,7 +342,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_33
+    - name: marioSpritesReversed_33
       rect:
         serializedVersion: 2
         x: 160
@@ -351,7 +351,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_34
+    - name: marioSpritesReversed_34
       rect:
         serializedVersion: 2
         x: 176
@@ -360,7 +360,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_35
+    - name: marioSpritesReversed_35
       rect:
         serializedVersion: 2
         x: 192
@@ -369,7 +369,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_36
+    - name: marioSpritesReversed_36
       rect:
         serializedVersion: 2
         x: 208
@@ -378,7 +378,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_37
+    - name: marioSpritesReversed_37
       rect:
         serializedVersion: 2
         x: 224
@@ -387,7 +387,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_38
+    - name: marioSpritesReversed_38
       rect:
         serializedVersion: 2
         x: 240
@@ -396,7 +396,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_39
+    - name: marioSpritesReversed_39
       rect:
         serializedVersion: 2
         x: 256
@@ -405,7 +405,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_40
+    - name: marioSpritesReversed_40
       rect:
         serializedVersion: 2
         x: 272
@@ -414,7 +414,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_41
+    - name: marioSpritesReversed_41
       rect:
         serializedVersion: 2
         x: 288
@@ -423,16 +423,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_42
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 496
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_43
+    - name: marioSpritesReversed_42
       rect:
         serializedVersion: 2
         x: 320
@@ -441,7 +432,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_44
+    - name: marioSpritesReversed_43
       rect:
         serializedVersion: 2
         x: 336
@@ -450,7 +441,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_45
+    - name: marioSpritesReversed_44
       rect:
         serializedVersion: 2
         x: 352
@@ -459,7 +450,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_46
+    - name: marioSpritesReversed_45
       rect:
         serializedVersion: 2
         x: 368
@@ -468,16 +459,43 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_47
+    - name: marioSpritesReversed_46
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 480
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_48
+    - name: marioSpritesReversed_47
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 480
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_49
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_50
       rect:
         serializedVersion: 2
         x: 80
@@ -486,7 +504,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_49
+    - name: marioSpritesReversed_51
       rect:
         serializedVersion: 2
         x: 96
@@ -495,7 +513,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_50
+    - name: marioSpritesReversed_52
       rect:
         serializedVersion: 2
         x: 112
@@ -504,7 +522,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_51
+    - name: marioSpritesReversed_53
       rect:
         serializedVersion: 2
         x: 128
@@ -513,7 +531,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_52
+    - name: marioSpritesReversed_54
       rect:
         serializedVersion: 2
         x: 144
@@ -522,7 +540,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_53
+    - name: marioSpritesReversed_55
       rect:
         serializedVersion: 2
         x: 160
@@ -531,7 +549,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_54
+    - name: marioSpritesReversed_56
       rect:
         serializedVersion: 2
         x: 176
@@ -540,7 +558,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_55
+    - name: marioSpritesReversed_57
       rect:
         serializedVersion: 2
         x: 192
@@ -549,7 +567,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_56
+    - name: marioSpritesReversed_58
       rect:
         serializedVersion: 2
         x: 208
@@ -558,7 +576,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_57
+    - name: marioSpritesReversed_59
       rect:
         serializedVersion: 2
         x: 224
@@ -567,7 +585,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_58
+    - name: marioSpritesReversed_60
       rect:
         serializedVersion: 2
         x: 240
@@ -576,7 +594,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_59
+    - name: marioSpritesReversed_61
       rect:
         serializedVersion: 2
         x: 256
@@ -585,7 +603,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_60
+    - name: marioSpritesReversed_62
       rect:
         serializedVersion: 2
         x: 272
@@ -594,7 +612,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_61
+    - name: marioSpritesReversed_63
       rect:
         serializedVersion: 2
         x: 288
@@ -603,43 +621,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_62
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 480
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_63
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 480
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_64
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 480
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_65
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 480
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_66
+    - name: marioSpritesReversed_64
       rect:
         serializedVersion: 2
         x: 0
@@ -648,7 +630,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_67
+    - name: marioSpritesReversed_65
       rect:
         serializedVersion: 2
         x: 16
@@ -657,7 +639,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_68
+    - name: marioSpritesReversed_66
       rect:
         serializedVersion: 2
         x: 32
@@ -666,7 +648,25 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_69
+    - name: marioSpritesReversed_67
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 464
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 464
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_69
       rect:
         serializedVersion: 2
         x: 80
@@ -675,7 +675,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_70
+    - name: marioSpritesReversed_70
       rect:
         serializedVersion: 2
         x: 96
@@ -684,7 +684,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_71
+    - name: marioSpritesReversed_71
       rect:
         serializedVersion: 2
         x: 112
@@ -693,7 +693,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_72
+    - name: marioSpritesReversed_72
       rect:
         serializedVersion: 2
         x: 128
@@ -702,7 +702,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_73
+    - name: marioSpritesReversed_73
       rect:
         serializedVersion: 2
         x: 144
@@ -711,7 +711,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_74
+    - name: marioSpritesReversed_74
       rect:
         serializedVersion: 2
         x: 160
@@ -720,7 +720,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_75
+    - name: marioSpritesReversed_75
       rect:
         serializedVersion: 2
         x: 176
@@ -729,7 +729,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_76
+    - name: marioSpritesReversed_76
       rect:
         serializedVersion: 2
         x: 192
@@ -738,7 +738,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_77
+    - name: marioSpritesReversed_77
       rect:
         serializedVersion: 2
         x: 208
@@ -747,7 +747,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_78
+    - name: marioSpritesReversed_78
       rect:
         serializedVersion: 2
         x: 224
@@ -756,7 +756,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_79
+    - name: marioSpritesReversed_79
       rect:
         serializedVersion: 2
         x: 240
@@ -765,7 +765,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_80
+    - name: marioSpritesReversed_80
       rect:
         serializedVersion: 2
         x: 256
@@ -774,7 +774,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_81
+    - name: marioSpritesReversed_81
       rect:
         serializedVersion: 2
         x: 272
@@ -783,7 +783,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_82
+    - name: marioSpritesReversed_82
       rect:
         serializedVersion: 2
         x: 288
@@ -792,25 +792,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_83
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 464
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_84
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 464
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_85
+    - name: marioSpritesReversed_83
       rect:
         serializedVersion: 2
         x: 336
@@ -819,7 +801,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_86
+    - name: marioSpritesReversed_84
       rect:
         serializedVersion: 2
         x: 352
@@ -828,7 +810,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_87
+    - name: marioSpritesReversed_85
       rect:
         serializedVersion: 2
         x: 368
@@ -837,7 +819,43 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_88
+    - name: marioSpritesReversed_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_87
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 448
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_88
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_89
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 448
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_90
       rect:
         serializedVersion: 2
         x: 64
@@ -846,7 +864,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_89
+    - name: marioSpritesReversed_91
       rect:
         serializedVersion: 2
         x: 80
@@ -855,7 +873,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_90
+    - name: marioSpritesReversed_92
       rect:
         serializedVersion: 2
         x: 96
@@ -864,7 +882,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_91
+    - name: marioSpritesReversed_93
       rect:
         serializedVersion: 2
         x: 112
@@ -873,7 +891,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_92
+    - name: marioSpritesReversed_94
       rect:
         serializedVersion: 2
         x: 128
@@ -882,7 +900,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_93
+    - name: marioSpritesReversed_95
       rect:
         serializedVersion: 2
         x: 144
@@ -891,7 +909,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_94
+    - name: marioSpritesReversed_96
       rect:
         serializedVersion: 2
         x: 160
@@ -900,7 +918,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_95
+    - name: marioSpritesReversed_97
       rect:
         serializedVersion: 2
         x: 176
@@ -909,7 +927,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_96
+    - name: marioSpritesReversed_98
       rect:
         serializedVersion: 2
         x: 192
@@ -918,7 +936,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_97
+    - name: marioSpritesReversed_99
       rect:
         serializedVersion: 2
         x: 208
@@ -927,7 +945,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_98
+    - name: marioSpritesReversed_100
       rect:
         serializedVersion: 2
         x: 224
@@ -936,7 +954,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_99
+    - name: marioSpritesReversed_101
       rect:
         serializedVersion: 2
         x: 240
@@ -945,7 +963,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_100
+    - name: marioSpritesReversed_102
       rect:
         serializedVersion: 2
         x: 256
@@ -954,7 +972,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_101
+    - name: marioSpritesReversed_103
       rect:
         serializedVersion: 2
         x: 272
@@ -963,7 +981,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_102
+    - name: marioSpritesReversed_104
       rect:
         serializedVersion: 2
         x: 288
@@ -972,61 +990,43 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_103
+    - name: marioSpritesReversed_105
       rect:
         serializedVersion: 2
-        x: 304
-        y: 448
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_104
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 448
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_105
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 448
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_106
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 448
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_107
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 448
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_108
-      rect:
-        serializedVersion: 2
-        x: 64
+        x: 0
         y: 432
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_109
+    - name: marioSpritesReversed_106
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 432
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_107
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 432
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_108
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_109
       rect:
         serializedVersion: 2
         x: 80
@@ -1035,7 +1035,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_110
+    - name: marioSpritesReversed_110
       rect:
         serializedVersion: 2
         x: 96
@@ -1044,7 +1044,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_111
+    - name: marioSpritesReversed_111
       rect:
         serializedVersion: 2
         x: 112
@@ -1053,7 +1053,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_112
+    - name: marioSpritesReversed_112
       rect:
         serializedVersion: 2
         x: 128
@@ -1062,7 +1062,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_113
+    - name: marioSpritesReversed_113
       rect:
         serializedVersion: 2
         x: 144
@@ -1071,7 +1071,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_114
+    - name: marioSpritesReversed_114
       rect:
         serializedVersion: 2
         x: 160
@@ -1080,7 +1080,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_115
+    - name: marioSpritesReversed_115
       rect:
         serializedVersion: 2
         x: 176
@@ -1089,7 +1089,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_116
+    - name: marioSpritesReversed_116
       rect:
         serializedVersion: 2
         x: 192
@@ -1098,7 +1098,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_117
+    - name: marioSpritesReversed_117
       rect:
         serializedVersion: 2
         x: 208
@@ -1107,7 +1107,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_118
+    - name: marioSpritesReversed_118
       rect:
         serializedVersion: 2
         x: 224
@@ -1116,7 +1116,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_119
+    - name: marioSpritesReversed_119
       rect:
         serializedVersion: 2
         x: 240
@@ -1125,7 +1125,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_120
+    - name: marioSpritesReversed_120
       rect:
         serializedVersion: 2
         x: 256
@@ -1134,7 +1134,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_121
+    - name: marioSpritesReversed_121
       rect:
         serializedVersion: 2
         x: 272
@@ -1143,7 +1143,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_122
+    - name: marioSpritesReversed_122
       rect:
         serializedVersion: 2
         x: 288
@@ -1152,43 +1152,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_123
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 432
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_124
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 432
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_125
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 432
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_126
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 432
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_127
+    - name: marioSpritesReversed_123
       rect:
         serializedVersion: 2
         x: 0
@@ -1197,7 +1161,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_128
+    - name: marioSpritesReversed_124
       rect:
         serializedVersion: 2
         x: 16
@@ -1206,7 +1170,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_129
+    - name: marioSpritesReversed_125
       rect:
         serializedVersion: 2
         x: 32
@@ -1215,7 +1179,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_130
+    - name: marioSpritesReversed_126
       rect:
         serializedVersion: 2
         x: 48
@@ -1224,7 +1188,16 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_131
+    - name: marioSpritesReversed_127
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_128
       rect:
         serializedVersion: 2
         x: 80
@@ -1233,7 +1206,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_132
+    - name: marioSpritesReversed_129
       rect:
         serializedVersion: 2
         x: 96
@@ -1242,7 +1215,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_133
+    - name: marioSpritesReversed_130
       rect:
         serializedVersion: 2
         x: 112
@@ -1251,7 +1224,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_134
+    - name: marioSpritesReversed_131
       rect:
         serializedVersion: 2
         x: 128
@@ -1260,7 +1233,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_135
+    - name: marioSpritesReversed_132
       rect:
         serializedVersion: 2
         x: 144
@@ -1269,7 +1242,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_136
+    - name: marioSpritesReversed_133
       rect:
         serializedVersion: 2
         x: 160
@@ -1278,7 +1251,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_137
+    - name: marioSpritesReversed_134
       rect:
         serializedVersion: 2
         x: 176
@@ -1287,7 +1260,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_138
+    - name: marioSpritesReversed_135
       rect:
         serializedVersion: 2
         x: 192
@@ -1296,7 +1269,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_139
+    - name: marioSpritesReversed_136
       rect:
         serializedVersion: 2
         x: 208
@@ -1305,7 +1278,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_140
+    - name: marioSpritesReversed_137
       rect:
         serializedVersion: 2
         x: 224
@@ -1314,7 +1287,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_141
+    - name: marioSpritesReversed_138
       rect:
         serializedVersion: 2
         x: 240
@@ -1323,7 +1296,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_142
+    - name: marioSpritesReversed_139
       rect:
         serializedVersion: 2
         x: 256
@@ -1332,7 +1305,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_143
+    - name: marioSpritesReversed_140
       rect:
         serializedVersion: 2
         x: 272
@@ -1341,7 +1314,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_144
+    - name: marioSpritesReversed_141
       rect:
         serializedVersion: 2
         x: 288
@@ -1350,16 +1323,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_145
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 416
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_146
+    - name: marioSpritesReversed_142
       rect:
         serializedVersion: 2
         x: 320
@@ -1368,7 +1332,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_147
+    - name: marioSpritesReversed_143
       rect:
         serializedVersion: 2
         x: 336
@@ -1377,7 +1341,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_148
+    - name: marioSpritesReversed_144
       rect:
         serializedVersion: 2
         x: 352
@@ -1386,7 +1350,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_149
+    - name: marioSpritesReversed_145
       rect:
         serializedVersion: 2
         x: 368
@@ -1395,7 +1359,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_150
+    - name: marioSpritesReversed_146
       rect:
         serializedVersion: 2
         x: 0
@@ -1404,7 +1368,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_151
+    - name: marioSpritesReversed_147
       rect:
         serializedVersion: 2
         x: 16
@@ -1413,7 +1377,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_152
+    - name: marioSpritesReversed_148
       rect:
         serializedVersion: 2
         x: 32
@@ -1422,7 +1386,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_153
+    - name: marioSpritesReversed_149
       rect:
         serializedVersion: 2
         x: 48
@@ -1431,7 +1395,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_154
+    - name: marioSpritesReversed_150
       rect:
         serializedVersion: 2
         x: 64
@@ -1440,7 +1404,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_155
+    - name: marioSpritesReversed_151
       rect:
         serializedVersion: 2
         x: 80
@@ -1449,7 +1413,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_156
+    - name: marioSpritesReversed_152
       rect:
         serializedVersion: 2
         x: 96
@@ -1458,7 +1422,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_157
+    - name: marioSpritesReversed_153
       rect:
         serializedVersion: 2
         x: 112
@@ -1467,7 +1431,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_158
+    - name: marioSpritesReversed_154
       rect:
         serializedVersion: 2
         x: 128
@@ -1476,7 +1440,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_159
+    - name: marioSpritesReversed_155
       rect:
         serializedVersion: 2
         x: 144
@@ -1485,7 +1449,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_160
+    - name: marioSpritesReversed_156
       rect:
         serializedVersion: 2
         x: 160
@@ -1494,7 +1458,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_161
+    - name: marioSpritesReversed_157
       rect:
         serializedVersion: 2
         x: 176
@@ -1503,7 +1467,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_162
+    - name: marioSpritesReversed_158
       rect:
         serializedVersion: 2
         x: 192
@@ -1512,7 +1476,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_163
+    - name: marioSpritesReversed_159
       rect:
         serializedVersion: 2
         x: 208
@@ -1521,7 +1485,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_164
+    - name: marioSpritesReversed_160
       rect:
         serializedVersion: 2
         x: 224
@@ -1530,7 +1494,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_165
+    - name: marioSpritesReversed_161
       rect:
         serializedVersion: 2
         x: 240
@@ -1539,7 +1503,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_166
+    - name: marioSpritesReversed_162
       rect:
         serializedVersion: 2
         x: 256
@@ -1548,7 +1512,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_167
+    - name: marioSpritesReversed_163
       rect:
         serializedVersion: 2
         x: 272
@@ -1557,7 +1521,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_168
+    - name: marioSpritesReversed_164
       rect:
         serializedVersion: 2
         x: 288
@@ -1566,16 +1530,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_169
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 400
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_170
+    - name: marioSpritesReversed_165
       rect:
         serializedVersion: 2
         x: 320
@@ -1584,7 +1539,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_171
+    - name: marioSpritesReversed_166
       rect:
         serializedVersion: 2
         x: 336
@@ -1593,7 +1548,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_172
+    - name: marioSpritesReversed_167
       rect:
         serializedVersion: 2
         x: 352
@@ -1602,7 +1557,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_173
+    - name: marioSpritesReversed_168
       rect:
         serializedVersion: 2
         x: 368
@@ -1611,205 +1566,214 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_174
+    - name: marioSpritesReversed_169
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_170
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_171
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_172
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_173
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_174
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_175
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_176
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_177
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_178
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_179
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_180
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_181
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_182
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_183
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_184
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_185
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_186
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_187
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_188
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_189
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 368
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_190
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 368
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_191
       rect:
         serializedVersion: 2
         x: 64
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_175
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_176
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_177
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_178
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_179
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_180
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_181
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_182
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_183
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_184
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_185
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_186
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_187
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_188
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_189
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_190
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_191
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_192
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 384
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_193
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 368
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_194
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 368
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_195
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 368
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_196
+    - name: marioSpritesReversed_192
       rect:
         serializedVersion: 2
         x: 80
@@ -1818,7 +1782,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_197
+    - name: marioSpritesReversed_193
       rect:
         serializedVersion: 2
         x: 96
@@ -1827,7 +1791,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_198
+    - name: marioSpritesReversed_194
       rect:
         serializedVersion: 2
         x: 112
@@ -1836,7 +1800,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_199
+    - name: marioSpritesReversed_195
       rect:
         serializedVersion: 2
         x: 128
@@ -1845,7 +1809,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_200
+    - name: marioSpritesReversed_196
       rect:
         serializedVersion: 2
         x: 144
@@ -1854,7 +1818,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_201
+    - name: marioSpritesReversed_197
       rect:
         serializedVersion: 2
         x: 160
@@ -1863,7 +1827,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_202
+    - name: marioSpritesReversed_198
       rect:
         serializedVersion: 2
         x: 176
@@ -1872,7 +1836,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_203
+    - name: marioSpritesReversed_199
       rect:
         serializedVersion: 2
         x: 192
@@ -1881,7 +1845,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_204
+    - name: marioSpritesReversed_200
       rect:
         serializedVersion: 2
         x: 208
@@ -1890,7 +1854,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_205
+    - name: marioSpritesReversed_201
       rect:
         serializedVersion: 2
         x: 224
@@ -1899,7 +1863,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_206
+    - name: marioSpritesReversed_202
       rect:
         serializedVersion: 2
         x: 240
@@ -1908,7 +1872,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_207
+    - name: marioSpritesReversed_203
       rect:
         serializedVersion: 2
         x: 256
@@ -1917,7 +1881,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_208
+    - name: marioSpritesReversed_204
       rect:
         serializedVersion: 2
         x: 272
@@ -1926,7 +1890,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_209
+    - name: marioSpritesReversed_205
       rect:
         serializedVersion: 2
         x: 288
@@ -1935,16 +1899,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_210
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 368
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_211
+    - name: marioSpritesReversed_206
       rect:
         serializedVersion: 2
         x: 320
@@ -1953,7 +1908,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_212
+    - name: marioSpritesReversed_207
       rect:
         serializedVersion: 2
         x: 336
@@ -1962,7 +1917,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_213
+    - name: marioSpritesReversed_208
       rect:
         serializedVersion: 2
         x: 352
@@ -1971,7 +1926,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_214
+    - name: marioSpritesReversed_209
       rect:
         serializedVersion: 2
         x: 368
@@ -1980,7 +1935,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_215
+    - name: marioSpritesReversed_210
       rect:
         serializedVersion: 2
         x: 0
@@ -1989,7 +1944,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_216
+    - name: marioSpritesReversed_211
       rect:
         serializedVersion: 2
         x: 16
@@ -1998,7 +1953,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_217
+    - name: marioSpritesReversed_212
       rect:
         serializedVersion: 2
         x: 32
@@ -2007,7 +1962,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_218
+    - name: marioSpritesReversed_213
       rect:
         serializedVersion: 2
         x: 48
@@ -2016,7 +1971,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_219
+    - name: marioSpritesReversed_214
       rect:
         serializedVersion: 2
         x: 64
@@ -2025,7 +1980,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_220
+    - name: marioSpritesReversed_215
       rect:
         serializedVersion: 2
         x: 80
@@ -2034,7 +1989,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_221
+    - name: marioSpritesReversed_216
       rect:
         serializedVersion: 2
         x: 96
@@ -2043,7 +1998,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_222
+    - name: marioSpritesReversed_217
       rect:
         serializedVersion: 2
         x: 112
@@ -2052,7 +2007,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_223
+    - name: marioSpritesReversed_218
       rect:
         serializedVersion: 2
         x: 128
@@ -2061,7 +2016,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_224
+    - name: marioSpritesReversed_219
       rect:
         serializedVersion: 2
         x: 144
@@ -2070,7 +2025,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_225
+    - name: marioSpritesReversed_220
       rect:
         serializedVersion: 2
         x: 160
@@ -2079,7 +2034,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_226
+    - name: marioSpritesReversed_221
       rect:
         serializedVersion: 2
         x: 176
@@ -2088,7 +2043,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_227
+    - name: marioSpritesReversed_222
       rect:
         serializedVersion: 2
         x: 192
@@ -2097,7 +2052,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_228
+    - name: marioSpritesReversed_223
       rect:
         serializedVersion: 2
         x: 208
@@ -2106,7 +2061,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_229
+    - name: marioSpritesReversed_224
       rect:
         serializedVersion: 2
         x: 224
@@ -2115,7 +2070,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_230
+    - name: marioSpritesReversed_225
       rect:
         serializedVersion: 2
         x: 240
@@ -2124,7 +2079,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_231
+    - name: marioSpritesReversed_226
       rect:
         serializedVersion: 2
         x: 256
@@ -2133,7 +2088,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_232
+    - name: marioSpritesReversed_227
       rect:
         serializedVersion: 2
         x: 272
@@ -2142,7 +2097,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_233
+    - name: marioSpritesReversed_228
       rect:
         serializedVersion: 2
         x: 288
@@ -2151,16 +2106,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_234
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 352
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_235
+    - name: marioSpritesReversed_229
       rect:
         serializedVersion: 2
         x: 320
@@ -2169,7 +2115,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_236
+    - name: marioSpritesReversed_230
       rect:
         serializedVersion: 2
         x: 336
@@ -2178,7 +2124,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_237
+    - name: marioSpritesReversed_231
       rect:
         serializedVersion: 2
         x: 352
@@ -2187,7 +2133,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_238
+    - name: marioSpritesReversed_232
       rect:
         serializedVersion: 2
         x: 368
@@ -2196,7 +2142,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_239
+    - name: marioSpritesReversed_233
       rect:
         serializedVersion: 2
         x: 0
@@ -2205,7 +2151,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_240
+    - name: marioSpritesReversed_234
       rect:
         serializedVersion: 2
         x: 16
@@ -2214,7 +2160,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_241
+    - name: marioSpritesReversed_235
       rect:
         serializedVersion: 2
         x: 32
@@ -2223,7 +2169,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_242
+    - name: marioSpritesReversed_236
       rect:
         serializedVersion: 2
         x: 48
@@ -2232,16 +2178,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_243
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 336
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_244
+    - name: marioSpritesReversed_237
       rect:
         serializedVersion: 2
         x: 80
@@ -2250,7 +2187,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_245
+    - name: marioSpritesReversed_238
       rect:
         serializedVersion: 2
         x: 96
@@ -2259,7 +2196,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_246
+    - name: marioSpritesReversed_239
       rect:
         serializedVersion: 2
         x: 112
@@ -2268,7 +2205,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_247
+    - name: marioSpritesReversed_240
       rect:
         serializedVersion: 2
         x: 128
@@ -2277,7 +2214,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_248
+    - name: marioSpritesReversed_241
       rect:
         serializedVersion: 2
         x: 144
@@ -2286,7 +2223,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_249
+    - name: marioSpritesReversed_242
       rect:
         serializedVersion: 2
         x: 160
@@ -2295,7 +2232,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_250
+    - name: marioSpritesReversed_243
       rect:
         serializedVersion: 2
         x: 176
@@ -2304,7 +2241,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_251
+    - name: marioSpritesReversed_244
       rect:
         serializedVersion: 2
         x: 192
@@ -2313,7 +2250,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_252
+    - name: marioSpritesReversed_245
       rect:
         serializedVersion: 2
         x: 208
@@ -2322,7 +2259,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_253
+    - name: marioSpritesReversed_246
       rect:
         serializedVersion: 2
         x: 224
@@ -2331,7 +2268,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_254
+    - name: marioSpritesReversed_247
       rect:
         serializedVersion: 2
         x: 240
@@ -2340,7 +2277,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_255
+    - name: marioSpritesReversed_248
       rect:
         serializedVersion: 2
         x: 256
@@ -2349,7 +2286,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_256
+    - name: marioSpritesReversed_249
       rect:
         serializedVersion: 2
         x: 272
@@ -2358,7 +2295,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_257
+    - name: marioSpritesReversed_250
       rect:
         serializedVersion: 2
         x: 288
@@ -2367,7 +2304,16 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_258
+    - name: marioSpritesReversed_251
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 336
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_252
       rect:
         serializedVersion: 2
         x: 320
@@ -2376,7 +2322,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_259
+    - name: marioSpritesReversed_253
       rect:
         serializedVersion: 2
         x: 336
@@ -2385,7 +2331,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_260
+    - name: marioSpritesReversed_254
       rect:
         serializedVersion: 2
         x: 352
@@ -2394,7 +2340,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_261
+    - name: marioSpritesReversed_255
       rect:
         serializedVersion: 2
         x: 368
@@ -2403,7 +2349,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_262
+    - name: marioSpritesReversed_256
       rect:
         serializedVersion: 2
         x: 0
@@ -2412,7 +2358,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_263
+    - name: marioSpritesReversed_257
       rect:
         serializedVersion: 2
         x: 16
@@ -2421,7 +2367,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_264
+    - name: marioSpritesReversed_258
       rect:
         serializedVersion: 2
         x: 32
@@ -2430,7 +2376,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_265
+    - name: marioSpritesReversed_259
       rect:
         serializedVersion: 2
         x: 48
@@ -2439,7 +2385,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_266
+    - name: marioSpritesReversed_260
       rect:
         serializedVersion: 2
         x: 64
@@ -2448,7 +2394,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_267
+    - name: marioSpritesReversed_261
       rect:
         serializedVersion: 2
         x: 80
@@ -2457,7 +2403,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_268
+    - name: marioSpritesReversed_262
       rect:
         serializedVersion: 2
         x: 96
@@ -2466,7 +2412,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_269
+    - name: marioSpritesReversed_263
       rect:
         serializedVersion: 2
         x: 112
@@ -2475,7 +2421,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_270
+    - name: marioSpritesReversed_264
       rect:
         serializedVersion: 2
         x: 128
@@ -2484,7 +2430,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_271
+    - name: marioSpritesReversed_265
       rect:
         serializedVersion: 2
         x: 144
@@ -2493,7 +2439,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_272
+    - name: marioSpritesReversed_266
       rect:
         serializedVersion: 2
         x: 160
@@ -2502,7 +2448,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_273
+    - name: marioSpritesReversed_267
       rect:
         serializedVersion: 2
         x: 176
@@ -2511,7 +2457,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_274
+    - name: marioSpritesReversed_268
       rect:
         serializedVersion: 2
         x: 192
@@ -2520,7 +2466,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_275
+    - name: marioSpritesReversed_269
       rect:
         serializedVersion: 2
         x: 208
@@ -2529,7 +2475,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_276
+    - name: marioSpritesReversed_270
       rect:
         serializedVersion: 2
         x: 224
@@ -2538,7 +2484,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_277
+    - name: marioSpritesReversed_271
       rect:
         serializedVersion: 2
         x: 240
@@ -2547,7 +2493,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_278
+    - name: marioSpritesReversed_272
       rect:
         serializedVersion: 2
         x: 256
@@ -2556,7 +2502,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_279
+    - name: marioSpritesReversed_273
       rect:
         serializedVersion: 2
         x: 272
@@ -2565,7 +2511,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_280
+    - name: marioSpritesReversed_274
       rect:
         serializedVersion: 2
         x: 288
@@ -2574,7 +2520,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_281
+    - name: marioSpritesReversed_275
       rect:
         serializedVersion: 2
         x: 304
@@ -2583,7 +2529,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_282
+    - name: marioSpritesReversed_276
       rect:
         serializedVersion: 2
         x: 320
@@ -2592,7 +2538,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_283
+    - name: marioSpritesReversed_277
       rect:
         serializedVersion: 2
         x: 336
@@ -2601,7 +2547,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_284
+    - name: marioSpritesReversed_278
       rect:
         serializedVersion: 2
         x: 352
@@ -2610,7 +2556,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_285
+    - name: marioSpritesReversed_279
       rect:
         serializedVersion: 2
         x: 368
@@ -2619,7 +2565,43 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_286
+    - name: marioSpritesReversed_280
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_281
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 304
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_282
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 304
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_283
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 304
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_284
       rect:
         serializedVersion: 2
         x: 64
@@ -2628,7 +2610,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_287
+    - name: marioSpritesReversed_285
       rect:
         serializedVersion: 2
         x: 80
@@ -2637,7 +2619,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_288
+    - name: marioSpritesReversed_286
       rect:
         serializedVersion: 2
         x: 96
@@ -2646,7 +2628,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_289
+    - name: marioSpritesReversed_287
       rect:
         serializedVersion: 2
         x: 112
@@ -2655,7 +2637,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_290
+    - name: marioSpritesReversed_288
       rect:
         serializedVersion: 2
         x: 128
@@ -2664,7 +2646,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_291
+    - name: marioSpritesReversed_289
       rect:
         serializedVersion: 2
         x: 144
@@ -2673,7 +2655,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_292
+    - name: marioSpritesReversed_290
       rect:
         serializedVersion: 2
         x: 160
@@ -2682,7 +2664,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_293
+    - name: marioSpritesReversed_291
       rect:
         serializedVersion: 2
         x: 176
@@ -2691,7 +2673,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_294
+    - name: marioSpritesReversed_292
       rect:
         serializedVersion: 2
         x: 192
@@ -2700,7 +2682,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_295
+    - name: marioSpritesReversed_293
       rect:
         serializedVersion: 2
         x: 208
@@ -2709,7 +2691,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_296
+    - name: marioSpritesReversed_294
       rect:
         serializedVersion: 2
         x: 224
@@ -2718,7 +2700,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_297
+    - name: marioSpritesReversed_295
       rect:
         serializedVersion: 2
         x: 240
@@ -2727,7 +2709,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_298
+    - name: marioSpritesReversed_296
       rect:
         serializedVersion: 2
         x: 256
@@ -2736,7 +2718,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_299
+    - name: marioSpritesReversed_297
       rect:
         serializedVersion: 2
         x: 272
@@ -2745,7 +2727,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_300
+    - name: marioSpritesReversed_298
       rect:
         serializedVersion: 2
         x: 288
@@ -2754,223 +2736,214 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_301
+    - name: marioSpritesReversed_299
       rect:
         serializedVersion: 2
-        x: 304
-        y: 304
+        x: 0
+        y: 288
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_302
+    - name: marioSpritesReversed_300
       rect:
         serializedVersion: 2
-        x: 320
-        y: 304
+        x: 16
+        y: 288
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_303
+    - name: marioSpritesReversed_301
       rect:
         serializedVersion: 2
-        x: 336
-        y: 304
+        x: 32
+        y: 288
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_304
+    - name: marioSpritesReversed_302
       rect:
         serializedVersion: 2
-        x: 352
-        y: 304
+        x: 48
+        y: 288
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_305
+    - name: marioSpritesReversed_303
       rect:
         serializedVersion: 2
-        x: 368
-        y: 304
+        x: 80
+        y: 288
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_306
+    - name: marioSpritesReversed_304
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_305
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_306
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_307
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_308
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_309
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 288
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_310
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_311
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 288
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_312
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_313
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_314
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_315
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 288
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_316
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_317
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_318
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_319
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 272
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_320
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 272
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_321
       rect:
         serializedVersion: 2
         x: 64
-        y: 288
+        y: 272
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_307
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_308
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_309
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_310
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_311
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_312
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_313
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_314
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_315
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_316
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_317
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_318
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_319
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_320
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_321
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_322
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_323
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_324
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 288
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_325
+    - name: marioSpritesReversed_322
       rect:
         serializedVersion: 2
         x: 80
@@ -2979,7 +2952,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_326
+    - name: marioSpritesReversed_323
       rect:
         serializedVersion: 2
         x: 96
@@ -2988,7 +2961,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_327
+    - name: marioSpritesReversed_324
       rect:
         serializedVersion: 2
         x: 112
@@ -2997,7 +2970,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_328
+    - name: marioSpritesReversed_325
       rect:
         serializedVersion: 2
         x: 128
@@ -3006,7 +2979,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_329
+    - name: marioSpritesReversed_326
       rect:
         serializedVersion: 2
         x: 144
@@ -3015,7 +2988,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_330
+    - name: marioSpritesReversed_327
       rect:
         serializedVersion: 2
         x: 160
@@ -3024,7 +2997,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_331
+    - name: marioSpritesReversed_328
       rect:
         serializedVersion: 2
         x: 176
@@ -3033,7 +3006,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_332
+    - name: marioSpritesReversed_329
       rect:
         serializedVersion: 2
         x: 192
@@ -3042,7 +3015,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_333
+    - name: marioSpritesReversed_330
       rect:
         serializedVersion: 2
         x: 208
@@ -3051,7 +3024,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_334
+    - name: marioSpritesReversed_331
       rect:
         serializedVersion: 2
         x: 224
@@ -3060,7 +3033,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_335
+    - name: marioSpritesReversed_332
       rect:
         serializedVersion: 2
         x: 240
@@ -3069,7 +3042,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_336
+    - name: marioSpritesReversed_333
       rect:
         serializedVersion: 2
         x: 256
@@ -3078,7 +3051,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_337
+    - name: marioSpritesReversed_334
       rect:
         serializedVersion: 2
         x: 272
@@ -3087,7 +3060,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_338
+    - name: marioSpritesReversed_335
       rect:
         serializedVersion: 2
         x: 288
@@ -3096,52 +3069,43 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_339
+    - name: marioSpritesReversed_336
       rect:
         serializedVersion: 2
-        x: 304
-        y: 272
+        x: 0
+        y: 256
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_340
+    - name: marioSpritesReversed_337
       rect:
         serializedVersion: 2
-        x: 320
-        y: 272
+        x: 16
+        y: 256
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_341
+    - name: marioSpritesReversed_338
       rect:
         serializedVersion: 2
-        x: 336
-        y: 272
+        x: 32
+        y: 256
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_342
+    - name: marioSpritesReversed_339
       rect:
         serializedVersion: 2
-        x: 352
-        y: 272
+        x: 48
+        y: 256
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_343
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 272
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_344
+    - name: marioSpritesReversed_340
       rect:
         serializedVersion: 2
         x: 64
@@ -3150,7 +3114,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_345
+    - name: marioSpritesReversed_341
       rect:
         serializedVersion: 2
         x: 80
@@ -3159,7 +3123,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_346
+    - name: marioSpritesReversed_342
       rect:
         serializedVersion: 2
         x: 96
@@ -3168,7 +3132,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_347
+    - name: marioSpritesReversed_343
       rect:
         serializedVersion: 2
         x: 112
@@ -3177,7 +3141,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_348
+    - name: marioSpritesReversed_344
       rect:
         serializedVersion: 2
         x: 128
@@ -3186,7 +3150,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_349
+    - name: marioSpritesReversed_345
       rect:
         serializedVersion: 2
         x: 144
@@ -3195,7 +3159,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_350
+    - name: marioSpritesReversed_346
       rect:
         serializedVersion: 2
         x: 160
@@ -3204,7 +3168,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_351
+    - name: marioSpritesReversed_347
       rect:
         serializedVersion: 2
         x: 176
@@ -3213,7 +3177,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_352
+    - name: marioSpritesReversed_348
       rect:
         serializedVersion: 2
         x: 192
@@ -3222,7 +3186,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_353
+    - name: marioSpritesReversed_349
       rect:
         serializedVersion: 2
         x: 208
@@ -3231,7 +3195,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_354
+    - name: marioSpritesReversed_350
       rect:
         serializedVersion: 2
         x: 224
@@ -3240,7 +3204,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_355
+    - name: marioSpritesReversed_351
       rect:
         serializedVersion: 2
         x: 240
@@ -3249,7 +3213,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_356
+    - name: marioSpritesReversed_352
       rect:
         serializedVersion: 2
         x: 256
@@ -3258,7 +3222,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_357
+    - name: marioSpritesReversed_353
       rect:
         serializedVersion: 2
         x: 272
@@ -3267,7 +3231,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_358
+    - name: marioSpritesReversed_354
       rect:
         serializedVersion: 2
         x: 288
@@ -3276,61 +3240,43 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_359
+    - name: marioSpritesReversed_355
       rect:
         serializedVersion: 2
-        x: 304
-        y: 256
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_360
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 256
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_361
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 256
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_362
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 256
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_363
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 256
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_364
-      rect:
-        serializedVersion: 2
-        x: 64
+        x: 0
         y: 240
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_365
+    - name: marioSpritesReversed_356
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_357
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_358
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_359
       rect:
         serializedVersion: 2
         x: 80
@@ -3339,7 +3285,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_366
+    - name: marioSpritesReversed_360
       rect:
         serializedVersion: 2
         x: 96
@@ -3348,7 +3294,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_367
+    - name: marioSpritesReversed_361
       rect:
         serializedVersion: 2
         x: 112
@@ -3357,7 +3303,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_368
+    - name: marioSpritesReversed_362
       rect:
         serializedVersion: 2
         x: 128
@@ -3366,7 +3312,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_369
+    - name: marioSpritesReversed_363
       rect:
         serializedVersion: 2
         x: 144
@@ -3375,7 +3321,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_370
+    - name: marioSpritesReversed_364
       rect:
         serializedVersion: 2
         x: 160
@@ -3384,7 +3330,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_371
+    - name: marioSpritesReversed_365
       rect:
         serializedVersion: 2
         x: 176
@@ -3393,7 +3339,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_372
+    - name: marioSpritesReversed_366
       rect:
         serializedVersion: 2
         x: 192
@@ -3402,7 +3348,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_373
+    - name: marioSpritesReversed_367
       rect:
         serializedVersion: 2
         x: 208
@@ -3411,7 +3357,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_374
+    - name: marioSpritesReversed_368
       rect:
         serializedVersion: 2
         x: 224
@@ -3420,7 +3366,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_375
+    - name: marioSpritesReversed_369
       rect:
         serializedVersion: 2
         x: 240
@@ -3429,7 +3375,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_376
+    - name: marioSpritesReversed_370
       rect:
         serializedVersion: 2
         x: 256
@@ -3438,7 +3384,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_377
+    - name: marioSpritesReversed_371
       rect:
         serializedVersion: 2
         x: 272
@@ -3447,7 +3393,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_378
+    - name: marioSpritesReversed_372
       rect:
         serializedVersion: 2
         x: 288
@@ -3456,43 +3402,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_379
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 240
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_380
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 240
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_381
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 240
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_382
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 240
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_383
+    - name: marioSpritesReversed_373
       rect:
         serializedVersion: 2
         x: 0
@@ -3501,7 +3411,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_384
+    - name: marioSpritesReversed_374
       rect:
         serializedVersion: 2
         x: 16
@@ -3510,7 +3420,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_385
+    - name: marioSpritesReversed_375
       rect:
         serializedVersion: 2
         x: 32
@@ -3519,7 +3429,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_386
+    - name: marioSpritesReversed_376
       rect:
         serializedVersion: 2
         x: 48
@@ -3528,7 +3438,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_387
+    - name: marioSpritesReversed_377
       rect:
         serializedVersion: 2
         x: 64
@@ -3537,7 +3447,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_388
+    - name: marioSpritesReversed_378
       rect:
         serializedVersion: 2
         x: 80
@@ -3546,7 +3456,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_389
+    - name: marioSpritesReversed_379
       rect:
         serializedVersion: 2
         x: 96
@@ -3555,7 +3465,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_390
+    - name: marioSpritesReversed_380
       rect:
         serializedVersion: 2
         x: 112
@@ -3564,7 +3474,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_391
+    - name: marioSpritesReversed_381
       rect:
         serializedVersion: 2
         x: 128
@@ -3573,7 +3483,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_392
+    - name: marioSpritesReversed_382
       rect:
         serializedVersion: 2
         x: 144
@@ -3582,7 +3492,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_393
+    - name: marioSpritesReversed_383
       rect:
         serializedVersion: 2
         x: 160
@@ -3591,7 +3501,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_394
+    - name: marioSpritesReversed_384
       rect:
         serializedVersion: 2
         x: 176
@@ -3600,7 +3510,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_395
+    - name: marioSpritesReversed_385
       rect:
         serializedVersion: 2
         x: 192
@@ -3609,7 +3519,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_396
+    - name: marioSpritesReversed_386
       rect:
         serializedVersion: 2
         x: 208
@@ -3618,7 +3528,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_397
+    - name: marioSpritesReversed_387
       rect:
         serializedVersion: 2
         x: 224
@@ -3627,7 +3537,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_398
+    - name: marioSpritesReversed_388
       rect:
         serializedVersion: 2
         x: 240
@@ -3636,7 +3546,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_399
+    - name: marioSpritesReversed_389
       rect:
         serializedVersion: 2
         x: 256
@@ -3645,7 +3555,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_400
+    - name: marioSpritesReversed_390
       rect:
         serializedVersion: 2
         x: 272
@@ -3654,7 +3564,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_401
+    - name: marioSpritesReversed_391
       rect:
         serializedVersion: 2
         x: 288
@@ -3663,7 +3573,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_402
+    - name: marioSpritesReversed_392
       rect:
         serializedVersion: 2
         x: 304
@@ -3672,7 +3582,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_403
+    - name: marioSpritesReversed_393
       rect:
         serializedVersion: 2
         x: 320
@@ -3681,7 +3591,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_404
+    - name: marioSpritesReversed_394
       rect:
         serializedVersion: 2
         x: 336
@@ -3690,7 +3600,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_405
+    - name: marioSpritesReversed_395
       rect:
         serializedVersion: 2
         x: 352
@@ -3699,7 +3609,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_406
+    - name: marioSpritesReversed_396
       rect:
         serializedVersion: 2
         x: 368
@@ -3708,7 +3618,43 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_407
+    - name: marioSpritesReversed_397
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_398
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_399
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_400
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_401
       rect:
         serializedVersion: 2
         x: 64
@@ -3717,7 +3663,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_408
+    - name: marioSpritesReversed_402
       rect:
         serializedVersion: 2
         x: 80
@@ -3726,7 +3672,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_409
+    - name: marioSpritesReversed_403
       rect:
         serializedVersion: 2
         x: 96
@@ -3735,7 +3681,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_410
+    - name: marioSpritesReversed_404
       rect:
         serializedVersion: 2
         x: 112
@@ -3744,7 +3690,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_411
+    - name: marioSpritesReversed_405
       rect:
         serializedVersion: 2
         x: 128
@@ -3753,7 +3699,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_412
+    - name: marioSpritesReversed_406
       rect:
         serializedVersion: 2
         x: 144
@@ -3762,7 +3708,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_413
+    - name: marioSpritesReversed_407
       rect:
         serializedVersion: 2
         x: 160
@@ -3771,7 +3717,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_414
+    - name: marioSpritesReversed_408
       rect:
         serializedVersion: 2
         x: 176
@@ -3780,7 +3726,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_415
+    - name: marioSpritesReversed_409
       rect:
         serializedVersion: 2
         x: 192
@@ -3789,7 +3735,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_416
+    - name: marioSpritesReversed_410
       rect:
         serializedVersion: 2
         x: 208
@@ -3798,7 +3744,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_417
+    - name: marioSpritesReversed_411
       rect:
         serializedVersion: 2
         x: 224
@@ -3807,7 +3753,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_418
+    - name: marioSpritesReversed_412
       rect:
         serializedVersion: 2
         x: 240
@@ -3816,7 +3762,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_419
+    - name: marioSpritesReversed_413
       rect:
         serializedVersion: 2
         x: 256
@@ -3825,7 +3771,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_420
+    - name: marioSpritesReversed_414
       rect:
         serializedVersion: 2
         x: 272
@@ -3834,7 +3780,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_421
+    - name: marioSpritesReversed_415
       rect:
         serializedVersion: 2
         x: 288
@@ -3843,223 +3789,214 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_422
+    - name: marioSpritesReversed_416
       rect:
         serializedVersion: 2
-        x: 304
-        y: 208
+        x: 0
+        y: 192
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_423
+    - name: marioSpritesReversed_417
       rect:
         serializedVersion: 2
-        x: 320
-        y: 208
+        x: 16
+        y: 192
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_424
+    - name: marioSpritesReversed_418
       rect:
         serializedVersion: 2
-        x: 336
-        y: 208
+        x: 32
+        y: 192
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_425
+    - name: marioSpritesReversed_419
       rect:
         serializedVersion: 2
-        x: 352
-        y: 208
+        x: 48
+        y: 192
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_426
+    - name: marioSpritesReversed_420
       rect:
         serializedVersion: 2
-        x: 368
-        y: 208
+        x: 80
+        y: 192
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_427
+    - name: marioSpritesReversed_421
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_422
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_423
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_424
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_425
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_426
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_427
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_428
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_429
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_430
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_431
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_432
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_433
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_434
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_435
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_436
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_437
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_438
       rect:
         serializedVersion: 2
         x: 64
-        y: 192
+        y: 176
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_428
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_429
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_430
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_431
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_432
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_433
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_434
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_435
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_436
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_437
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_438
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_439
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_440
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_441
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_442
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_443
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_444
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_445
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 192
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_446
+    - name: marioSpritesReversed_439
       rect:
         serializedVersion: 2
         x: 80
@@ -4068,7 +4005,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_447
+    - name: marioSpritesReversed_440
       rect:
         serializedVersion: 2
         x: 96
@@ -4077,7 +4014,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_448
+    - name: marioSpritesReversed_441
       rect:
         serializedVersion: 2
         x: 112
@@ -4086,7 +4023,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_449
+    - name: marioSpritesReversed_442
       rect:
         serializedVersion: 2
         x: 128
@@ -4095,7 +4032,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_450
+    - name: marioSpritesReversed_443
       rect:
         serializedVersion: 2
         x: 144
@@ -4104,7 +4041,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_451
+    - name: marioSpritesReversed_444
       rect:
         serializedVersion: 2
         x: 160
@@ -4113,7 +4050,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_452
+    - name: marioSpritesReversed_445
       rect:
         serializedVersion: 2
         x: 176
@@ -4122,7 +4059,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_453
+    - name: marioSpritesReversed_446
       rect:
         serializedVersion: 2
         x: 192
@@ -4131,7 +4068,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_454
+    - name: marioSpritesReversed_447
       rect:
         serializedVersion: 2
         x: 208
@@ -4140,7 +4077,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_455
+    - name: marioSpritesReversed_448
       rect:
         serializedVersion: 2
         x: 224
@@ -4149,7 +4086,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_456
+    - name: marioSpritesReversed_449
       rect:
         serializedVersion: 2
         x: 240
@@ -4158,7 +4095,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_457
+    - name: marioSpritesReversed_450
       rect:
         serializedVersion: 2
         x: 256
@@ -4167,7 +4104,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_458
+    - name: marioSpritesReversed_451
       rect:
         serializedVersion: 2
         x: 272
@@ -4176,7 +4113,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_459
+    - name: marioSpritesReversed_452
       rect:
         serializedVersion: 2
         x: 288
@@ -4185,52 +4122,43 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_460
+    - name: marioSpritesReversed_453
       rect:
         serializedVersion: 2
-        x: 304
-        y: 176
+        x: 0
+        y: 160
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_461
+    - name: marioSpritesReversed_454
       rect:
         serializedVersion: 2
-        x: 320
-        y: 176
+        x: 16
+        y: 160
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_462
+    - name: marioSpritesReversed_455
       rect:
         serializedVersion: 2
-        x: 336
-        y: 176
+        x: 32
+        y: 160
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_463
+    - name: marioSpritesReversed_456
       rect:
         serializedVersion: 2
-        x: 352
-        y: 176
+        x: 48
+        y: 160
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_464
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 176
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_465
+    - name: marioSpritesReversed_457
       rect:
         serializedVersion: 2
         x: 64
@@ -4239,7 +4167,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_466
+    - name: marioSpritesReversed_458
       rect:
         serializedVersion: 2
         x: 80
@@ -4248,7 +4176,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_467
+    - name: marioSpritesReversed_459
       rect:
         serializedVersion: 2
         x: 96
@@ -4257,7 +4185,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_468
+    - name: marioSpritesReversed_460
       rect:
         serializedVersion: 2
         x: 112
@@ -4266,7 +4194,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_469
+    - name: marioSpritesReversed_461
       rect:
         serializedVersion: 2
         x: 128
@@ -4275,7 +4203,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_470
+    - name: marioSpritesReversed_462
       rect:
         serializedVersion: 2
         x: 144
@@ -4284,7 +4212,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_471
+    - name: marioSpritesReversed_463
       rect:
         serializedVersion: 2
         x: 160
@@ -4293,7 +4221,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_472
+    - name: marioSpritesReversed_464
       rect:
         serializedVersion: 2
         x: 176
@@ -4302,7 +4230,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_473
+    - name: marioSpritesReversed_465
       rect:
         serializedVersion: 2
         x: 192
@@ -4311,7 +4239,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_474
+    - name: marioSpritesReversed_466
       rect:
         serializedVersion: 2
         x: 208
@@ -4320,7 +4248,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_475
+    - name: marioSpritesReversed_467
       rect:
         serializedVersion: 2
         x: 224
@@ -4329,7 +4257,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_476
+    - name: marioSpritesReversed_468
       rect:
         serializedVersion: 2
         x: 240
@@ -4338,7 +4266,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_477
+    - name: marioSpritesReversed_469
       rect:
         serializedVersion: 2
         x: 256
@@ -4347,7 +4275,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_478
+    - name: marioSpritesReversed_470
       rect:
         serializedVersion: 2
         x: 272
@@ -4356,7 +4284,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_479
+    - name: marioSpritesReversed_471
       rect:
         serializedVersion: 2
         x: 288
@@ -4365,61 +4293,43 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_480
+    - name: marioSpritesReversed_472
       rect:
         serializedVersion: 2
-        x: 304
-        y: 160
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_481
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 160
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_482
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 160
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_483
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 160
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_484
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 160
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_485
-      rect:
-        serializedVersion: 2
-        x: 64
+        x: 0
         y: 144
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_486
+    - name: marioSpritesReversed_473
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_474
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_475
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_476
       rect:
         serializedVersion: 2
         x: 80
@@ -4428,7 +4338,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_487
+    - name: marioSpritesReversed_477
       rect:
         serializedVersion: 2
         x: 96
@@ -4437,7 +4347,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_488
+    - name: marioSpritesReversed_478
       rect:
         serializedVersion: 2
         x: 112
@@ -4446,7 +4356,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_489
+    - name: marioSpritesReversed_479
       rect:
         serializedVersion: 2
         x: 128
@@ -4455,7 +4365,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_490
+    - name: marioSpritesReversed_480
       rect:
         serializedVersion: 2
         x: 144
@@ -4464,7 +4374,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_491
+    - name: marioSpritesReversed_481
       rect:
         serializedVersion: 2
         x: 160
@@ -4473,7 +4383,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_492
+    - name: marioSpritesReversed_482
       rect:
         serializedVersion: 2
         x: 176
@@ -4482,7 +4392,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_493
+    - name: marioSpritesReversed_483
       rect:
         serializedVersion: 2
         x: 192
@@ -4491,7 +4401,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_494
+    - name: marioSpritesReversed_484
       rect:
         serializedVersion: 2
         x: 208
@@ -4500,7 +4410,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_495
+    - name: marioSpritesReversed_485
       rect:
         serializedVersion: 2
         x: 224
@@ -4509,7 +4419,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_496
+    - name: marioSpritesReversed_486
       rect:
         serializedVersion: 2
         x: 240
@@ -4518,7 +4428,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_497
+    - name: marioSpritesReversed_487
       rect:
         serializedVersion: 2
         x: 256
@@ -4527,7 +4437,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_498
+    - name: marioSpritesReversed_488
       rect:
         serializedVersion: 2
         x: 272
@@ -4536,7 +4446,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_499
+    - name: marioSpritesReversed_489
       rect:
         serializedVersion: 2
         x: 288
@@ -4545,43 +4455,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_500
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 144
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_501
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 144
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_502
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 144
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_503
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 144
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_504
+    - name: marioSpritesReversed_490
       rect:
         serializedVersion: 2
         x: 0
@@ -4590,7 +4464,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_505
+    - name: marioSpritesReversed_491
       rect:
         serializedVersion: 2
         x: 16
@@ -4599,7 +4473,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_506
+    - name: marioSpritesReversed_492
       rect:
         serializedVersion: 2
         x: 32
@@ -4608,7 +4482,25 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_507
+    - name: marioSpritesReversed_493
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_494
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_495
       rect:
         serializedVersion: 2
         x: 80
@@ -4617,7 +4509,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_508
+    - name: marioSpritesReversed_496
       rect:
         serializedVersion: 2
         x: 96
@@ -4626,7 +4518,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_509
+    - name: marioSpritesReversed_497
       rect:
         serializedVersion: 2
         x: 112
@@ -4635,7 +4527,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_510
+    - name: marioSpritesReversed_498
       rect:
         serializedVersion: 2
         x: 128
@@ -4644,7 +4536,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_511
+    - name: marioSpritesReversed_499
       rect:
         serializedVersion: 2
         x: 144
@@ -4653,7 +4545,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_512
+    - name: marioSpritesReversed_500
       rect:
         serializedVersion: 2
         x: 160
@@ -4662,7 +4554,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_513
+    - name: marioSpritesReversed_501
       rect:
         serializedVersion: 2
         x: 176
@@ -4671,7 +4563,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_514
+    - name: marioSpritesReversed_502
       rect:
         serializedVersion: 2
         x: 192
@@ -4680,7 +4572,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_515
+    - name: marioSpritesReversed_503
       rect:
         serializedVersion: 2
         x: 208
@@ -4689,7 +4581,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_516
+    - name: marioSpritesReversed_504
       rect:
         serializedVersion: 2
         x: 224
@@ -4698,7 +4590,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_517
+    - name: marioSpritesReversed_505
       rect:
         serializedVersion: 2
         x: 240
@@ -4707,7 +4599,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_518
+    - name: marioSpritesReversed_506
       rect:
         serializedVersion: 2
         x: 256
@@ -4716,7 +4608,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_519
+    - name: marioSpritesReversed_507
       rect:
         serializedVersion: 2
         x: 272
@@ -4725,7 +4617,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_520
+    - name: marioSpritesReversed_508
       rect:
         serializedVersion: 2
         x: 288
@@ -4734,25 +4626,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_521
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 128
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_522
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 128
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_523
+    - name: marioSpritesReversed_509
       rect:
         serializedVersion: 2
         x: 336
@@ -4761,7 +4635,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_524
+    - name: marioSpritesReversed_510
       rect:
         serializedVersion: 2
         x: 352
@@ -4770,7 +4644,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_525
+    - name: marioSpritesReversed_511
       rect:
         serializedVersion: 2
         x: 368
@@ -4779,7 +4653,43 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_526
+    - name: marioSpritesReversed_512
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_513
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_514
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_515
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_516
       rect:
         serializedVersion: 2
         x: 64
@@ -4788,7 +4698,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_527
+    - name: marioSpritesReversed_517
       rect:
         serializedVersion: 2
         x: 80
@@ -4797,7 +4707,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_528
+    - name: marioSpritesReversed_518
       rect:
         serializedVersion: 2
         x: 96
@@ -4806,7 +4716,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_529
+    - name: marioSpritesReversed_519
       rect:
         serializedVersion: 2
         x: 112
@@ -4815,7 +4725,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_530
+    - name: marioSpritesReversed_520
       rect:
         serializedVersion: 2
         x: 128
@@ -4824,7 +4734,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_531
+    - name: marioSpritesReversed_521
       rect:
         serializedVersion: 2
         x: 144
@@ -4833,7 +4743,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_532
+    - name: marioSpritesReversed_522
       rect:
         serializedVersion: 2
         x: 160
@@ -4842,7 +4752,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_533
+    - name: marioSpritesReversed_523
       rect:
         serializedVersion: 2
         x: 176
@@ -4851,7 +4761,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_534
+    - name: marioSpritesReversed_524
       rect:
         serializedVersion: 2
         x: 192
@@ -4860,7 +4770,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_535
+    - name: marioSpritesReversed_525
       rect:
         serializedVersion: 2
         x: 208
@@ -4869,7 +4779,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_536
+    - name: marioSpritesReversed_526
       rect:
         serializedVersion: 2
         x: 224
@@ -4878,7 +4788,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_537
+    - name: marioSpritesReversed_527
       rect:
         serializedVersion: 2
         x: 240
@@ -4887,7 +4797,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_538
+    - name: marioSpritesReversed_528
       rect:
         serializedVersion: 2
         x: 256
@@ -4896,7 +4806,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_539
+    - name: marioSpritesReversed_529
       rect:
         serializedVersion: 2
         x: 272
@@ -4905,7 +4815,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_540
+    - name: marioSpritesReversed_530
       rect:
         serializedVersion: 2
         x: 288
@@ -4914,61 +4824,43 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_541
+    - name: marioSpritesReversed_531
       rect:
         serializedVersion: 2
-        x: 304
-        y: 112
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_542
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 112
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_543
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 112
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_544
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 112
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_545
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 112
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_546
-      rect:
-        serializedVersion: 2
-        x: 64
+        x: 0
         y: 96
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_547
+    - name: marioSpritesReversed_532
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_533
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_534
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_535
       rect:
         serializedVersion: 2
         x: 80
@@ -4977,7 +4869,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_548
+    - name: marioSpritesReversed_536
       rect:
         serializedVersion: 2
         x: 96
@@ -4986,7 +4878,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_549
+    - name: marioSpritesReversed_537
       rect:
         serializedVersion: 2
         x: 112
@@ -4995,7 +4887,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_550
+    - name: marioSpritesReversed_538
       rect:
         serializedVersion: 2
         x: 128
@@ -5004,7 +4896,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_551
+    - name: marioSpritesReversed_539
       rect:
         serializedVersion: 2
         x: 144
@@ -5013,7 +4905,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_552
+    - name: marioSpritesReversed_540
       rect:
         serializedVersion: 2
         x: 160
@@ -5022,7 +4914,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_553
+    - name: marioSpritesReversed_541
       rect:
         serializedVersion: 2
         x: 176
@@ -5031,7 +4923,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_554
+    - name: marioSpritesReversed_542
       rect:
         serializedVersion: 2
         x: 192
@@ -5040,7 +4932,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_555
+    - name: marioSpritesReversed_543
       rect:
         serializedVersion: 2
         x: 208
@@ -5049,7 +4941,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_556
+    - name: marioSpritesReversed_544
       rect:
         serializedVersion: 2
         x: 224
@@ -5058,7 +4950,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_557
+    - name: marioSpritesReversed_545
       rect:
         serializedVersion: 2
         x: 240
@@ -5067,7 +4959,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_558
+    - name: marioSpritesReversed_546
       rect:
         serializedVersion: 2
         x: 256
@@ -5076,7 +4968,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_559
+    - name: marioSpritesReversed_547
       rect:
         serializedVersion: 2
         x: 272
@@ -5085,7 +4977,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_560
+    - name: marioSpritesReversed_548
       rect:
         serializedVersion: 2
         x: 288
@@ -5094,43 +4986,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_561
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 96
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_562
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 96
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_563
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 96
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_564
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 96
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_565
+    - name: marioSpritesReversed_549
       rect:
         serializedVersion: 2
         x: 0
@@ -5139,7 +4995,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_566
+    - name: marioSpritesReversed_550
       rect:
         serializedVersion: 2
         x: 16
@@ -5148,7 +5004,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_567
+    - name: marioSpritesReversed_551
       rect:
         serializedVersion: 2
         x: 32
@@ -5157,7 +5013,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_568
+    - name: marioSpritesReversed_552
       rect:
         serializedVersion: 2
         x: 48
@@ -5166,7 +5022,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_569
+    - name: marioSpritesReversed_553
       rect:
         serializedVersion: 2
         x: 64
@@ -5175,7 +5031,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_570
+    - name: marioSpritesReversed_554
       rect:
         serializedVersion: 2
         x: 80
@@ -5184,7 +5040,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_571
+    - name: marioSpritesReversed_555
       rect:
         serializedVersion: 2
         x: 96
@@ -5193,7 +5049,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_572
+    - name: marioSpritesReversed_556
       rect:
         serializedVersion: 2
         x: 112
@@ -5202,7 +5058,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_573
+    - name: marioSpritesReversed_557
       rect:
         serializedVersion: 2
         x: 128
@@ -5211,7 +5067,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_574
+    - name: marioSpritesReversed_558
       rect:
         serializedVersion: 2
         x: 144
@@ -5220,7 +5076,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_575
+    - name: marioSpritesReversed_559
       rect:
         serializedVersion: 2
         x: 160
@@ -5229,7 +5085,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_576
+    - name: marioSpritesReversed_560
       rect:
         serializedVersion: 2
         x: 176
@@ -5238,7 +5094,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_577
+    - name: marioSpritesReversed_561
       rect:
         serializedVersion: 2
         x: 192
@@ -5247,7 +5103,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_578
+    - name: marioSpritesReversed_562
       rect:
         serializedVersion: 2
         x: 208
@@ -5256,7 +5112,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_579
+    - name: marioSpritesReversed_563
       rect:
         serializedVersion: 2
         x: 224
@@ -5265,7 +5121,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_580
+    - name: marioSpritesReversed_564
       rect:
         serializedVersion: 2
         x: 240
@@ -5274,7 +5130,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_581
+    - name: marioSpritesReversed_565
       rect:
         serializedVersion: 2
         x: 256
@@ -5283,7 +5139,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_582
+    - name: marioSpritesReversed_566
       rect:
         serializedVersion: 2
         x: 272
@@ -5292,7 +5148,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_583
+    - name: marioSpritesReversed_567
       rect:
         serializedVersion: 2
         x: 288
@@ -5301,7 +5157,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_584
+    - name: marioSpritesReversed_568
       rect:
         serializedVersion: 2
         x: 304
@@ -5310,7 +5166,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_585
+    - name: marioSpritesReversed_569
       rect:
         serializedVersion: 2
         x: 320
@@ -5319,7 +5175,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_586
+    - name: marioSpritesReversed_570
       rect:
         serializedVersion: 2
         x: 336
@@ -5328,7 +5184,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_587
+    - name: marioSpritesReversed_571
       rect:
         serializedVersion: 2
         x: 352
@@ -5337,7 +5193,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_588
+    - name: marioSpritesReversed_572
       rect:
         serializedVersion: 2
         x: 368
@@ -5346,7 +5202,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_589
+    - name: marioSpritesReversed_573
       rect:
         serializedVersion: 2
         x: 0
@@ -5355,7 +5211,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_590
+    - name: marioSpritesReversed_574
       rect:
         serializedVersion: 2
         x: 16
@@ -5364,7 +5220,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_591
+    - name: marioSpritesReversed_575
       rect:
         serializedVersion: 2
         x: 32
@@ -5373,7 +5229,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_592
+    - name: marioSpritesReversed_576
       rect:
         serializedVersion: 2
         x: 48
@@ -5382,7 +5238,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_593
+    - name: marioSpritesReversed_577
       rect:
         serializedVersion: 2
         x: 64
@@ -5391,7 +5247,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_594
+    - name: marioSpritesReversed_578
       rect:
         serializedVersion: 2
         x: 80
@@ -5400,7 +5256,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_595
+    - name: marioSpritesReversed_579
       rect:
         serializedVersion: 2
         x: 96
@@ -5409,7 +5265,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_596
+    - name: marioSpritesReversed_580
       rect:
         serializedVersion: 2
         x: 112
@@ -5418,7 +5274,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_597
+    - name: marioSpritesReversed_581
       rect:
         serializedVersion: 2
         x: 128
@@ -5427,7 +5283,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_598
+    - name: marioSpritesReversed_582
       rect:
         serializedVersion: 2
         x: 144
@@ -5436,7 +5292,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_599
+    - name: marioSpritesReversed_583
       rect:
         serializedVersion: 2
         x: 160
@@ -5445,7 +5301,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_600
+    - name: marioSpritesReversed_584
       rect:
         serializedVersion: 2
         x: 176
@@ -5454,7 +5310,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_601
+    - name: marioSpritesReversed_585
       rect:
         serializedVersion: 2
         x: 192
@@ -5463,7 +5319,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_602
+    - name: marioSpritesReversed_586
       rect:
         serializedVersion: 2
         x: 208
@@ -5472,7 +5328,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_603
+    - name: marioSpritesReversed_587
       rect:
         serializedVersion: 2
         x: 224
@@ -5481,7 +5337,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_604
+    - name: marioSpritesReversed_588
       rect:
         serializedVersion: 2
         x: 240
@@ -5490,7 +5346,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_605
+    - name: marioSpritesReversed_589
       rect:
         serializedVersion: 2
         x: 256
@@ -5499,7 +5355,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_606
+    - name: marioSpritesReversed_590
       rect:
         serializedVersion: 2
         x: 272
@@ -5508,7 +5364,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_607
+    - name: marioSpritesReversed_591
       rect:
         serializedVersion: 2
         x: 288
@@ -5517,16 +5373,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_608
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 64
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_609
+    - name: marioSpritesReversed_592
       rect:
         serializedVersion: 2
         x: 320
@@ -5535,7 +5382,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_610
+    - name: marioSpritesReversed_593
       rect:
         serializedVersion: 2
         x: 336
@@ -5544,7 +5391,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_611
+    - name: marioSpritesReversed_594
       rect:
         serializedVersion: 2
         x: 352
@@ -5553,7 +5400,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_612
+    - name: marioSpritesReversed_595
       rect:
         serializedVersion: 2
         x: 368
@@ -5562,7 +5409,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_613
+    - name: marioSpritesReversed_596
       rect:
         serializedVersion: 2
         x: 0
@@ -5571,7 +5418,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_614
+    - name: marioSpritesReversed_597
       rect:
         serializedVersion: 2
         x: 16
@@ -5580,7 +5427,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_615
+    - name: marioSpritesReversed_598
       rect:
         serializedVersion: 2
         x: 32
@@ -5589,7 +5436,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_616
+    - name: marioSpritesReversed_599
       rect:
         serializedVersion: 2
         x: 48
@@ -5598,178 +5445,214 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_617
+    - name: marioSpritesReversed_600
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_601
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_602
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_603
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_604
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_605
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_606
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_607
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_608
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_609
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_610
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_611
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_612
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_613
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_614
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_615
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_616
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_617
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 48
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_618
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_619
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_620
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_621
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_622
       rect:
         serializedVersion: 2
         x: 64
-        y: 48
+        y: 32
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_618
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_619
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_620
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_621
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_622
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_623
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_624
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_625
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_626
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_627
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_628
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_629
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_630
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_631
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_632
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_633
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_634
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_635
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 48
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_636
+    - name: marioSpritesReversed_623
       rect:
         serializedVersion: 2
         x: 80
@@ -5778,7 +5661,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_637
+    - name: marioSpritesReversed_624
       rect:
         serializedVersion: 2
         x: 96
@@ -5787,7 +5670,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_638
+    - name: marioSpritesReversed_625
       rect:
         serializedVersion: 2
         x: 112
@@ -5796,7 +5679,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_639
+    - name: marioSpritesReversed_626
       rect:
         serializedVersion: 2
         x: 128
@@ -5805,7 +5688,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_640
+    - name: marioSpritesReversed_627
       rect:
         serializedVersion: 2
         x: 144
@@ -5814,7 +5697,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_641
+    - name: marioSpritesReversed_628
       rect:
         serializedVersion: 2
         x: 160
@@ -5823,7 +5706,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_642
+    - name: marioSpritesReversed_629
       rect:
         serializedVersion: 2
         x: 176
@@ -5832,7 +5715,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_643
+    - name: marioSpritesReversed_630
       rect:
         serializedVersion: 2
         x: 192
@@ -5841,7 +5724,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_644
+    - name: marioSpritesReversed_631
       rect:
         serializedVersion: 2
         x: 208
@@ -5850,7 +5733,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_645
+    - name: marioSpritesReversed_632
       rect:
         serializedVersion: 2
         x: 224
@@ -5859,7 +5742,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_646
+    - name: marioSpritesReversed_633
       rect:
         serializedVersion: 2
         x: 240
@@ -5868,7 +5751,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_647
+    - name: marioSpritesReversed_634
       rect:
         serializedVersion: 2
         x: 256
@@ -5877,7 +5760,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_648
+    - name: marioSpritesReversed_635
       rect:
         serializedVersion: 2
         x: 272
@@ -5886,7 +5769,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_649
+    - name: marioSpritesReversed_636
       rect:
         serializedVersion: 2
         x: 288
@@ -5895,52 +5778,43 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_650
+    - name: marioSpritesReversed_637
       rect:
         serializedVersion: 2
-        x: 304
-        y: 32
+        x: 0
+        y: 16
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_651
+    - name: marioSpritesReversed_638
       rect:
         serializedVersion: 2
-        x: 320
-        y: 32
+        x: 16
+        y: 16
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_652
+    - name: marioSpritesReversed_639
       rect:
         serializedVersion: 2
-        x: 336
-        y: 32
+        x: 32
+        y: 16
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_653
+    - name: marioSpritesReversed_640
       rect:
         serializedVersion: 2
-        x: 352
-        y: 32
+        x: 48
+        y: 16
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_654
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 32
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_655
+    - name: marioSpritesReversed_641
       rect:
         serializedVersion: 2
         x: 64
@@ -5949,7 +5823,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_656
+    - name: marioSpritesReversed_642
       rect:
         serializedVersion: 2
         x: 80
@@ -5958,7 +5832,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_657
+    - name: marioSpritesReversed_643
       rect:
         serializedVersion: 2
         x: 96
@@ -5967,7 +5841,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_658
+    - name: marioSpritesReversed_644
       rect:
         serializedVersion: 2
         x: 112
@@ -5976,7 +5850,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_659
+    - name: marioSpritesReversed_645
       rect:
         serializedVersion: 2
         x: 128
@@ -5985,7 +5859,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_660
+    - name: marioSpritesReversed_646
       rect:
         serializedVersion: 2
         x: 144
@@ -5994,7 +5868,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_661
+    - name: marioSpritesReversed_647
       rect:
         serializedVersion: 2
         x: 160
@@ -6003,7 +5877,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_662
+    - name: marioSpritesReversed_648
       rect:
         serializedVersion: 2
         x: 176
@@ -6012,7 +5886,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_663
+    - name: marioSpritesReversed_649
       rect:
         serializedVersion: 2
         x: 192
@@ -6021,7 +5895,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_664
+    - name: marioSpritesReversed_650
       rect:
         serializedVersion: 2
         x: 208
@@ -6030,7 +5904,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_665
+    - name: marioSpritesReversed_651
       rect:
         serializedVersion: 2
         x: 224
@@ -6039,7 +5913,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_666
+    - name: marioSpritesReversed_652
       rect:
         serializedVersion: 2
         x: 240
@@ -6048,7 +5922,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_667
+    - name: marioSpritesReversed_653
       rect:
         serializedVersion: 2
         x: 256
@@ -6057,7 +5931,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_668
+    - name: marioSpritesReversed_654
       rect:
         serializedVersion: 2
         x: 272
@@ -6066,7 +5940,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_669
+    - name: marioSpritesReversed_655
       rect:
         serializedVersion: 2
         x: 288
@@ -6075,61 +5949,43 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_670
+    - name: marioSpritesReversed_656
       rect:
         serializedVersion: 2
-        x: 304
-        y: 16
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_671
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 16
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_672
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 16
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_673
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 16
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_674
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 16
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_675
-      rect:
-        serializedVersion: 2
-        x: 64
+        x: 0
         y: 0
         width: 16
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_676
+    - name: marioSpritesReversed_657
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_658
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_659
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0, y: 0}
+    - name: marioSpritesReversed_660
       rect:
         serializedVersion: 2
         x: 80
@@ -6138,7 +5994,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_677
+    - name: marioSpritesReversed_661
       rect:
         serializedVersion: 2
         x: 96
@@ -6147,7 +6003,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_678
+    - name: marioSpritesReversed_662
       rect:
         serializedVersion: 2
         x: 112
@@ -6156,7 +6012,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_679
+    - name: marioSpritesReversed_663
       rect:
         serializedVersion: 2
         x: 128
@@ -6165,7 +6021,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_680
+    - name: marioSpritesReversed_664
       rect:
         serializedVersion: 2
         x: 144
@@ -6174,7 +6030,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_681
+    - name: marioSpritesReversed_665
       rect:
         serializedVersion: 2
         x: 160
@@ -6183,7 +6039,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_682
+    - name: marioSpritesReversed_666
       rect:
         serializedVersion: 2
         x: 176
@@ -6192,7 +6048,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_683
+    - name: marioSpritesReversed_667
       rect:
         serializedVersion: 2
         x: 192
@@ -6201,7 +6057,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_684
+    - name: marioSpritesReversed_668
       rect:
         serializedVersion: 2
         x: 208
@@ -6210,7 +6066,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_685
+    - name: marioSpritesReversed_669
       rect:
         serializedVersion: 2
         x: 224
@@ -6219,7 +6075,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_686
+    - name: marioSpritesReversed_670
       rect:
         serializedVersion: 2
         x: 240
@@ -6228,7 +6084,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_687
+    - name: marioSpritesReversed_671
       rect:
         serializedVersion: 2
         x: 256
@@ -6237,7 +6093,7 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_688
+    - name: marioSpritesReversed_672
       rect:
         serializedVersion: 2
         x: 272
@@ -6246,46 +6102,10 @@ TextureImporter:
         height: 16
       alignment: 7
       pivot: {x: 0, y: 0}
-    - name: marioSprites 1_689
+    - name: marioSpritesReversed_673
       rect:
         serializedVersion: 2
         x: 288
-        y: 0
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_690
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_691
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 0
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_692
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 16
-        height: 16
-      alignment: 7
-      pivot: {x: 0, y: 0}
-    - name: marioSprites 1_693
-      rect:
-        serializedVersion: 2
-        x: 368
         y: 0
         width: 16
         height: 16

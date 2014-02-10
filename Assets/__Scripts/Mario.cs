@@ -16,7 +16,8 @@ public class Mario : MonoBehaviour {
 	private bool		bPressed = false;
 	private bool		aPressed = false;
 	private bool		aDown = false;
-	public float		personalGravity = 95.15f;
+	private bool		downDown = false;
+	private float		personalGravity = 95.15f;
 	private bool		ChangeSize = false;		//keep mario from updating animation repeatitively
 
 	public static bool	finished = false;
@@ -59,6 +60,7 @@ public class Mario : MonoBehaviour {
 		bPressed = (Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.J));
 		aDown = (Input.GetKeyDown (KeyCode.X) || Input.GetKeyDown (KeyCode.K));
 		aPressed = (Input.GetKey (KeyCode.X) || Input.GetKey (KeyCode.K));
+		downDown = (Input.GetKey (KeyCode.DownArrow) || Input.GetKey (KeyCode.S));
 
 		time = time - 1 * Time.deltaTime*3;
 
@@ -82,8 +84,19 @@ public class Mario : MonoBehaviour {
 		}
 
 		//set sideways motion
-		if (h == 0 && grounded) {
-			curSpeed = 0;
+		if ((h == 0 && grounded) || downDown) {
+			if(curSpeed > 0){
+				curSpeed -= acceleration;
+				if(curSpeed < 0){
+					curSpeed = 0;
+				}
+			}
+			else {
+				curSpeed += acceleration;
+				if(curSpeed > 0){
+					curSpeed = 0;
+				}
+			}
 		}
 		else if (h != 0 && curSpeed == 0) {
 			curSpeed = h*baseSpeed;
@@ -98,9 +111,9 @@ public class Mario : MonoBehaviour {
 		// ---------- Jumping ----------
 		if (aDown) {
 			if (grounded) {
-					vel.y = jumpSpeed;
-					jumping = true;
-					grounded = false;
+				vel.y = jumpSpeed;
+				jumping = true;
+				grounded = false;
 			}
 		}
 		if (jumping && !grounded) {
@@ -123,10 +136,27 @@ public class Mario : MonoBehaviour {
 
 		if (isBig) {
 			marioAnim.SetBool ("Big", true);
+			Vector3 temp = new Vector3(0.875f, 2, 0.8f);
+			((BoxCollider)this.GetComponent<BoxCollider>()).size = temp;
+			temp = new Vector3(0, 1, 0);
+			((BoxCollider)this.GetComponent<BoxCollider>()).center = temp;
 		} 
 		else {
 			marioAnim.SetBool ("Big", false);
+			Vector3 temp = new Vector3(0.875f, 1, 0.8f);
+			((BoxCollider)this.GetComponent<BoxCollider>()).size = temp;
+			temp = new Vector3(0, 0.5f, 0);
+			((BoxCollider)this.GetComponent<BoxCollider>()).center = temp;
 		}
+
+		if (downDown) {
+			marioAnim.SetBool ("DownDown", true);
+		}
+		else {
+			marioAnim.SetBool ("DownDown", false);
+		}
+
+
 		if (curSpeed > 0) {
 			marioAnim.SetBool ("RightDown", true);
 			marioAnim.SetBool ("LeftDown", false);
