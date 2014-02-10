@@ -63,9 +63,9 @@ public class Mario : MonoBehaviour {
 	}
 	void OnGUI(){
 		GUI.Label (new Rect (0, 10, 100, 30), "Score: " + score.ToString(), customStyle);
-		GUI.Label (new Rect (100, 10, 100, 30), "Coins: " + coins.ToString(), customStyle);
-		GUI.Label (new Rect (200, 10, 100, 30), "Time " + ((int)time).ToString(), customStyle);
-		GUI.Label (new Rect (320, 10, 100, 30), "Lives " + lives.ToString(), customStyle);
+		GUI.Label (new Rect (120, 10, 100, 30), "Coins: " + coins.ToString(), customStyle);
+		GUI.Label (new Rect (220, 10, 100, 30), "Time " + ((int)time).ToString(), customStyle);
+		GUI.Label (new Rect (340, 10, 100, 30), "Lives " + lives.ToString(), customStyle);
 	}
 
 	void Update () { // Every Frame
@@ -102,7 +102,11 @@ public class Mario : MonoBehaviour {
 		aPressed = (Input.GetKey (KeyCode.X) || Input.GetKey (KeyCode.K));
 		downDown = (Input.GetKey (KeyCode.DownArrow) || Input.GetKey (KeyCode.S));
 
-		time = time - 1 * Time.deltaTime*3;
+		time = time - Time.deltaTime*3;
+
+		if(time <= 0){
+			Respawn();
+		}
 
 		Vector3 vel = rigidbody.velocity;
 		curSpeed = vel.x;
@@ -299,6 +303,7 @@ public class Mario : MonoBehaviour {
 		if (toTheNewWorldAway) {
 			toTheNewWorldAway = false;
 			Vector3 newWorld = new Vector3 (230.0f, 0.0f, 0);
+			respawnLoc = new Vector3 (230.0f, 0.0f, 0);
 			transform.position = newWorld;
 		}
 	}
@@ -312,6 +317,7 @@ public class Mario : MonoBehaviour {
 		}
 		transform.position = respawnLoc;
 		lives--;
+		time = 400;
 	}
 
 	public void Dead(){
