@@ -2,34 +2,35 @@ using UnityEngine;
 using System.Collections;
 
 public class Mario : MonoBehaviour {
-	public float 		maxSpeed = 5.5f;
-	public float		acceleration = 0.45f;
-	public float		baseSpeed = 1;
-	public float		sprintFactor = 2.5f;
+	public float 			maxSpeed = 5.5f;
+	public float			acceleration = 0.45f;
+	public float			baseSpeed = 1;
+	public float			sprintFactor = 2.5f;
 
-	public float		jumpSpeed = 18.5f;
-	public float		jumpAcc = 57.5f;
+	public float			jumpSpeed = 18.5f;
+	public float			jumpAcc = 57.5f;
 
-	public bool			grounded = true;
-	public bool			jumping = false;
-	private float		curSpeed = 0;
-	private bool		bPressed = false;
-	private bool		aPressed = false;
-	private bool		aDown = false;
-	private bool		downDown = false;
-	private float		personalGravity = 95.15f;
-	private bool		ChangeSize = false;		//keep mario from updating animation repeatitively
-	private float		noClip = 0;
+	public bool				grounded = true;
+	public bool				jumping = false;
+	private float			curSpeed = 0;
+	private bool			bPressed = false;
+	private bool			aPressed = false;
+	private bool			aDown = false;
+	private bool			downDown = false;
+	private float			personalGravity = 95.15f;
+	private bool			ChangeSize = false;		//keep mario from updating animation repeatitively
+	private static  float	noClip = 0f;
 
-	public static bool	finished = false;
-	public static bool	inCave = false;
-	public static int	lives = 3;
-	public static int	score = 0;
-	public static float	time = 400f;
-	public static bool	isBig = false;
-	public static bool	isFire = true;
-	public static bool 	dead = false;
-	public static bool	respawn = false;
+	public static bool		finished = false;
+	public static bool		inCave = false;
+	public static int		lives = 3;
+	public static int		coins = 0;
+	public static int		score = 0;
+	public static float		time = 400f;
+	public static bool		isBig = false;
+	public static bool		isFire = true;
+	public static bool 		dead = false;
+	public static bool		respawn = false;
 
 
 	Animator marioAnim;
@@ -41,9 +42,10 @@ public class Mario : MonoBehaviour {
 		marioAnim = GetComponent<Animator>();
 	}
 	void OnGUI(){
-		GUI.Label (new Rect (285, 90, 100, 30), score.ToString());
-		GUI.Label (new Rect (385, 90, 100, 30), "x  " + lives.ToString());
-		GUI.Label (new Rect (800, 90, 100, 30), ((int)time).ToString());
+		GUI.Label (new Rect (285, 90, 100, 30), "Score: " + score.ToString());
+		GUI.Label (new Rect (385, 90, 100, 30), "Coins: " + coins.ToString());
+		GUI.Label (new Rect (800, 90, 100, 30), "Time " + ((int)time).ToString());
+		GUI.Label (new Rect (800, 90, 100, 30), "Lives " + lives.ToString());
 
 	}
 
@@ -458,7 +460,7 @@ public class Mario : MonoBehaviour {
 			killMario();
 		}
 	}
-	void killMario(){
+	static void killMario(){
 	
 	}
 }

@@ -116,7 +116,35 @@ public class Koopa : MonoBehaviour {
 		bool hitTopRight = Physics.Raycast (topRight, up, out edgeInfo1, distance);
 		bool hitTopLeft = Physics.Raycast (topLeft, up, out edgeInfo2, distance);
 		bool hitTopCenter = Physics.Raycast (topCenter, up, out centerInfo, distance);
-		bool hitTop = hitTopRight || hitTopLeft || hitTopCenter;
+		
+		string tag1 = "";
+		string tag2 = "";
+		string tag3 = "";
+		bool playerUp = false;
+		
+		if (hitTopRight) {
+			tag1 = edgeInfo1.collider.tag;
+		}
+		if (hitTopLeft) {
+			tag1 = edgeInfo2.collider.tag;
+		}
+		if (hitTopCenter) {
+			tag1 = centerInfo.collider.tag;
+		}
+		if (tag1 == "Player") {
+			playerUp = true;
+		}
+		else if(tag2 == "Player"){
+			playerUp = true;
+		}
+		else if(tag3 == "Player"){
+			playerUp = true;
+		}
+		
+		if (other.collider.tag == "Player" && !playerUp) {	
+			Mario.takeDamage();
+		}
+
 
 		
 		//left

@@ -104,13 +104,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 100002}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
+  m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
+  isHidden: 0
+  onTop: {fileID: 0}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

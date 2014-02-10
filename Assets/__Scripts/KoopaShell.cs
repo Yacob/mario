@@ -144,6 +144,35 @@ public class KoopaShell : MonoBehaviour {
 			}
 		}
 
+		string tag1 = "";
+		string tag2 = "";
+		string tag3 = "";
+		bool playerUp = false;
+		
+		if (hitTopRight) {
+			tag1 = edgeInfo1.collider.tag;
+		}
+		if (hitTopLeft) {
+			tag1 = edgeInfo2.collider.tag;
+		}
+		if (hitTopCenter) {
+			tag1 = centerInfo.collider.tag;
+		}
+		if (tag1 == "Player") {
+			playerUp = true;
+		}
+		else if(tag2 == "Player"){
+			playerUp = true;
+		}
+		else if(tag3 == "Player"){
+			playerUp = true;
+		}
+		
+		if (other.collider.tag == "Player" && !playerUp) {
+			Mario.takeDamage();
+		}
+
+
 		//left
 		bool hitLeft = Physics.Raycast (topLeft, left, out edgeInfo1, distance);
 		hitLeft = hitLeft || Physics.Raycast (botLeft, left, out edgeInfo2, distance);
