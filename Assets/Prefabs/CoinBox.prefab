@@ -26,6 +26,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 400002}
   - 65: {fileID: 6500000}
+  - 114: {fileID: 11400000}
+  - 65: {fileID: 6500002}
   m_Layer: 9
   m_Name: CoinBox
   m_TagString: CoinBox
@@ -68,6 +70,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &6500002
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: .899999976, z: 1}
+  m_Center: {x: .5, y: -.550000012, z: 0}
 --- !u!95 &9500000
 Animator:
   serializedVersion: 2
@@ -82,6 +96,21 @@ Animator:
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoins: 0
+  has1Up: 0
+  hasStar: 0
+  hasMushroom: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

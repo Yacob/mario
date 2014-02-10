@@ -713,12 +713,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &47403721
 Animator:
   serializedVersion: 2
@@ -838,12 +837,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &54544188
 Animator:
   serializedVersion: 2
@@ -1577,6 +1575,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 112300005}
   - 65: {fileID: 112300006}
+  - 114: {fileID: 112300008}
+  - 65: {fileID: 112300007}
   m_Layer: 9
   m_Name: CoinBox
   m_TagString: CoinBox
@@ -1609,6 +1609,35 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: .5, y: -.5, z: 0}
+--- !u!65 &112300007
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500002, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 540144277}
+  m_GameObject: {fileID: 112300004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: .899999976, z: 1}
+  m_Center: {x: .5, y: -.550000012, z: 0}
+--- !u!114 &112300008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 540144277}
+  m_GameObject: {fileID: 112300004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoins: 0
+  has1Up: 0
+  hasStar: 0
+  hasMushroom: 0
 --- !u!1 &116099005
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,12 +1732,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &118002802
 Animator:
   serializedVersion: 2
@@ -2464,12 +2492,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &158194647
 Animator:
   serializedVersion: 2
@@ -2572,18 +2599,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1874643664}
-  - {fileID: 961911371}
-  - {fileID: 986507306}
-  - {fileID: 1847168414}
-  - {fileID: 112300005}
-  - {fileID: 1309432734}
-  - {fileID: 2078590811}
-  - {fileID: 372282456}
   - {fileID: 1710798452}
+  - {fileID: 112300005}
+  - {fileID: 1847168414}
+  - {fileID: 986507306}
   - {fileID: 1059146887}
   - {fileID: 1703600982}
-  - {fileID: 2010624257}
   - {fileID: 865743943}
+  - {fileID: 372282456}
+  - {fileID: 2010624257}
+  - {fileID: 2078590811}
+  - {fileID: 961911371}
+  - {fileID: 1309432734}
   m_Father: {fileID: 0}
 --- !u!1001 &163536167
 Prefab:
@@ -3572,12 +3599,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &235249911
 Animator:
   serializedVersion: 2
@@ -3825,12 +3851,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &259804436
 Animator:
   serializedVersion: 2
@@ -4467,12 +4492,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &320833042
 Animator:
   serializedVersion: 2
@@ -4643,12 +4667,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &322159425
 Animator:
   serializedVersion: 2
@@ -5735,12 +5758,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &371252480
 Animator:
   serializedVersion: 2
@@ -5786,6 +5808,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 372282456}
   - 65: {fileID: 372282455}
+  - 114: {fileID: 372282458}
+  - 65: {fileID: 372282457}
   m_Layer: 9
   m_Name: CoinBox
   m_TagString: CoinBox
@@ -5818,6 +5842,35 @@ Transform:
   m_Children:
   - {fileID: 1231095741}
   m_Father: {fileID: 162963509}
+--- !u!65 &372282457
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500002, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 979360777}
+  m_GameObject: {fileID: 372282454}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: .899999976, z: 1}
+  m_Center: {x: .5, y: -.550000012, z: 0}
+--- !u!114 &372282458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 979360777}
+  m_GameObject: {fileID: 372282454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoins: 0
+  has1Up: 0
+  hasStar: 0
+  hasMushroom: 0
 --- !u!1001 &377700161
 Prefab:
   m_ObjectHideFlags: 0
@@ -6798,12 +6851,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &417785016
 Animator:
   serializedVersion: 2
@@ -7206,25 +7258,25 @@ Transform:
   m_LocalPosition: {x: 11.6943445, y: 1.74838901, z: 2.0065918}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1143405934}
-  - {fileID: 1365531983}
-  - {fileID: 1080976041}
-  - {fileID: 1135658194}
-  - {fileID: 1474173421}
   - {fileID: 900632757}
-  - {fileID: 1431196974}
-  - {fileID: 1511230588}
+  - {fileID: 1135658194}
   - {fileID: 1159496316}
+  - {fileID: 611116979}
+  - {fileID: 628393668}
+  - {fileID: 1431196974}
   - {fileID: 909744945}
+  - {fileID: 1440166930}
+  - {fileID: 1080976041}
+  - {fileID: 1027369598}
+  - {fileID: 299424755}
+  - {fileID: 21139045}
+  - {fileID: 1474173421}
+  - {fileID: 1365531983}
+  - {fileID: 1143405934}
   - {fileID: 1064682615}
   - {fileID: 1187800826}
   - {fileID: 836851961}
-  - {fileID: 21139045}
-  - {fileID: 1027369598}
-  - {fileID: 299424755}
-  - {fileID: 1440166930}
-  - {fileID: 628393668}
-  - {fileID: 611116979}
+  - {fileID: 1511230588}
   m_Father: {fileID: 0}
 --- !u!1001 &432193151
 Prefab:
@@ -7504,6 +7556,14 @@ Prefab:
       propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6500002, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
+      propertyPath: m_Center.x
+      value: .5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500002, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
+      propertyPath: m_Center.y
+      value: -.550000012
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
   m_RootGameObject: {fileID: 1847168413}
@@ -7552,12 +7612,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &463303665
 Animator:
   serializedVersion: 2
@@ -9269,12 +9328,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &581851588
 Animator:
   serializedVersion: 2
@@ -9354,12 +9412,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &583471766
 Animator:
   serializedVersion: 2
@@ -10502,12 +10559,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &680748490
 Animator:
   serializedVersion: 2
@@ -11079,12 +11135,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &727006351
 Animator:
   serializedVersion: 2
@@ -12935,12 +12990,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &857013632
 Animator:
   serializedVersion: 2
@@ -13091,6 +13145,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 865743943}
   - 65: {fileID: 865743942}
+  - 114: {fileID: 865743945}
+  - 65: {fileID: 865743944}
   m_Layer: 9
   m_Name: CoinBox
   m_TagString: CoinBox
@@ -13123,6 +13179,35 @@ Transform:
   m_Children:
   - {fileID: 1913100654}
   m_Father: {fileID: 162963509}
+--- !u!65 &865743944
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500002, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 1874785961}
+  m_GameObject: {fileID: 865743941}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: .899999976, z: 1}
+  m_Center: {x: .5, y: -.550000012, z: 0}
+--- !u!114 &865743945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 1874785961}
+  m_GameObject: {fileID: 865743941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoins: 0
+  has1Up: 0
+  hasStar: 0
+  hasMushroom: 0
 --- !u!1 &866095822
 GameObject:
   m_ObjectHideFlags: 0
@@ -14231,6 +14316,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 961911371}
   - 65: {fileID: 961911370}
+  - 114: {fileID: 961911373}
+  - 65: {fileID: 961911372}
   m_Layer: 9
   m_Name: CoinBox
   m_TagString: CoinBox
@@ -14263,6 +14350,35 @@ Transform:
   m_Children:
   - {fileID: 1565267640}
   m_Father: {fileID: 162963509}
+--- !u!65 &961911372
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500002, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 290198042}
+  m_GameObject: {fileID: 961911369}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: .899999976, z: 1}
+  m_Center: {x: .5, y: -.550000012, z: 0}
+--- !u!114 &961911373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 290198042}
+  m_GameObject: {fileID: 961911369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoins: 0
+  has1Up: 0
+  hasStar: 0
+  hasMushroom: 0
 --- !u!1 &969362210
 GameObject:
   m_ObjectHideFlags: 0
@@ -14306,12 +14422,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &969362213
 Animator:
   serializedVersion: 2
@@ -14673,6 +14788,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 986507306}
   - 65: {fileID: 986507305}
+  - 114: {fileID: 986507308}
+  - 65: {fileID: 986507307}
   m_Layer: 9
   m_Name: CoinBox
   m_TagString: CoinBox
@@ -14705,6 +14822,35 @@ Transform:
   m_Children:
   - {fileID: 1541515955}
   m_Father: {fileID: 162963509}
+--- !u!65 &986507307
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500002, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 393799987}
+  m_GameObject: {fileID: 986507304}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: .899999976, z: 1}
+  m_Center: {x: .5, y: -.550000012, z: 0}
+--- !u!114 &986507308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 393799987}
+  m_GameObject: {fileID: 986507304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoins: 0
+  has1Up: 0
+  hasStar: 0
+  hasMushroom: 0
 --- !u!1 &995631991
 GameObject:
   m_ObjectHideFlags: 0
@@ -14821,12 +14967,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &999167607
 Animator:
   serializedVersion: 2
@@ -15146,12 +15291,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &1026676176
 Animator:
   serializedVersion: 2
@@ -15692,6 +15836,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1059146887}
   - 65: {fileID: 1059146886}
+  - 114: {fileID: 1059146889}
+  - 65: {fileID: 1059146888}
   m_Layer: 9
   m_Name: CoinBox
   m_TagString: CoinBox
@@ -15724,6 +15870,35 @@ Transform:
   m_Children:
   - {fileID: 599828338}
   m_Father: {fileID: 162963509}
+--- !u!65 &1059146888
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500002, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 1193129904}
+  m_GameObject: {fileID: 1059146885}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: .899999976, z: 1}
+  m_Center: {x: .5, y: -.550000012, z: 0}
+--- !u!114 &1059146889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 1193129904}
+  m_GameObject: {fileID: 1059146885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoins: 0
+  has1Up: 0
+  hasStar: 0
+  hasMushroom: 0
 --- !u!1001 &1063231744
 Prefab:
   m_ObjectHideFlags: 0
@@ -16520,12 +16695,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &1102779682
 Animator:
   serializedVersion: 2
@@ -19628,12 +19802,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &1286926477
 Animator:
   serializedVersion: 2
@@ -19865,6 +20038,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1309432734}
   - 65: {fileID: 1309432733}
+  - 114: {fileID: 1309432736}
+  - 65: {fileID: 1309432735}
   m_Layer: 9
   m_Name: CoinBox
   m_TagString: CoinBox
@@ -19897,6 +20072,35 @@ Transform:
   m_Children:
   - {fileID: 423900997}
   m_Father: {fileID: 162963509}
+--- !u!65 &1309432735
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500002, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 576847208}
+  m_GameObject: {fileID: 1309432732}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: .899999976, z: 1}
+  m_Center: {x: .5, y: -.550000012, z: 0}
+--- !u!114 &1309432736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 576847208}
+  m_GameObject: {fileID: 1309432732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoins: 0
+  has1Up: 0
+  hasStar: 0
+  hasMushroom: 0
 --- !u!1 &1313859580
 GameObject:
   m_ObjectHideFlags: 0
@@ -20243,12 +20447,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &1323731238
 Animator:
   serializedVersion: 2
@@ -21349,12 +21552,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &1428674535
 Animator:
   serializedVersion: 2
@@ -21462,12 +21664,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &1431403902
 Animator:
   serializedVersion: 2
@@ -21956,12 +22157,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &1471705935
 Animator:
   serializedVersion: 2
@@ -23165,12 +23365,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &1565825455
 Animator:
   serializedVersion: 2
@@ -23575,12 +23774,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &1616633096
 Animator:
   serializedVersion: 2
@@ -24732,6 +24930,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1703600982}
   - 65: {fileID: 1703600983}
+  - 114: {fileID: 1703600985}
+  - 65: {fileID: 1703600984}
   m_Layer: 9
   m_Name: CoinBox
   m_TagString: CoinBox
@@ -24764,6 +24964,35 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: .5, y: -.5, z: 0}
+--- !u!65 &1703600984
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500002, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 1271552494}
+  m_GameObject: {fileID: 1703600981}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: .899999976, z: 1}
+  m_Center: {x: .5, y: -.550000012, z: 0}
+--- !u!114 &1703600985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 1271552494}
+  m_GameObject: {fileID: 1703600981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoins: 0
+  has1Up: 0
+  hasStar: 0
+  hasMushroom: 0
 --- !u!1 &1710798450
 GameObject:
   m_ObjectHideFlags: 0
@@ -24773,6 +25002,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1710798452}
   - 65: {fileID: 1710798451}
+  - 114: {fileID: 1710798454}
+  - 65: {fileID: 1710798453}
   m_Layer: 9
   m_Name: CoinBox
   m_TagString: CoinBox
@@ -24805,6 +25036,35 @@ Transform:
   m_Children:
   - {fileID: 710180692}
   m_Father: {fileID: 162963509}
+--- !u!65 &1710798453
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500002, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 1063231744}
+  m_GameObject: {fileID: 1710798450}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: .899999976, z: 1}
+  m_Center: {x: .5, y: -.550000012, z: 0}
+--- !u!114 &1710798454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 1063231744}
+  m_GameObject: {fileID: 1710798450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoins: 0
+  has1Up: 0
+  hasStar: 0
+  hasMushroom: 0
 --- !u!1 &1714246683
 GameObject:
   m_ObjectHideFlags: 0
@@ -24899,12 +25159,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &1717131112
 Animator:
   serializedVersion: 2
@@ -25289,12 +25548,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &1775104805
 Animator:
   serializedVersion: 2
@@ -25976,6 +26234,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1847168414}
   - 65: {fileID: 1847168415}
+  - 114: {fileID: 1847168417}
+  - 65: {fileID: 1847168416}
   m_Layer: 9
   m_Name: CoinBox
   m_TagString: CoinBox
@@ -26008,6 +26268,35 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: .5, y: -.5, z: 0}
+--- !u!65 &1847168416
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500002, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 451958364}
+  m_GameObject: {fileID: 1847168413}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: .899999976, z: 1}
+  m_Center: {x: .5, y: -.550000012, z: 0}
+--- !u!114 &1847168417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 451958364}
+  m_GameObject: {fileID: 1847168413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoins: 0
+  has1Up: 0
+  hasStar: 0
+  hasMushroom: 0
 --- !u!1 &1847795541
 GameObject:
   m_ObjectHideFlags: 0
@@ -26051,12 +26340,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &1847795544
 Animator:
   serializedVersion: 2
@@ -26413,6 +26701,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1874643664}
   - 65: {fileID: 1874643663}
+  - 114: {fileID: 1874643666}
+  - 65: {fileID: 1874643665}
   m_Layer: 9
   m_Name: CoinBox
   m_TagString: CoinBox
@@ -26445,6 +26735,35 @@ Transform:
   m_Children:
   - {fileID: 1527752050}
   m_Father: {fileID: 162963509}
+--- !u!65 &1874643665
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500002, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 274029765}
+  m_GameObject: {fileID: 1874643662}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: .899999976, z: 1}
+  m_Center: {x: .5, y: -.550000012, z: 0}
+--- !u!114 &1874643666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 274029765}
+  m_GameObject: {fileID: 1874643662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoins: 0
+  has1Up: 0
+  hasStar: 0
+  hasMushroom: 0
 --- !u!1001 &1874785961
 Prefab:
   m_ObjectHideFlags: 0
@@ -28741,6 +29060,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 2010624257}
   - 65: {fileID: 2010624256}
+  - 114: {fileID: 2010624259}
+  - 65: {fileID: 2010624258}
   m_Layer: 9
   m_Name: CoinBox
   m_TagString: CoinBox
@@ -28773,6 +29094,35 @@ Transform:
   m_Children:
   - {fileID: 1398680796}
   m_Father: {fileID: 162963509}
+--- !u!65 &2010624258
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500002, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 1398404754}
+  m_GameObject: {fileID: 2010624255}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: .899999976, z: 1}
+  m_Center: {x: .5, y: -.550000012, z: 0}
+--- !u!114 &2010624259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 1398404754}
+  m_GameObject: {fileID: 2010624255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoins: 0
+  has1Up: 0
+  hasStar: 0
+  hasMushroom: 0
 --- !u!1 &2012263675
 GameObject:
   m_ObjectHideFlags: 0
@@ -29302,12 +29652,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &2040877602
 Animator:
   serializedVersion: 2
@@ -29971,6 +30320,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 2078590811}
   - 65: {fileID: 2078590810}
+  - 114: {fileID: 2078590813}
+  - 65: {fileID: 2078590812}
   m_Layer: 9
   m_Name: CoinBox
   m_TagString: CoinBox
@@ -30003,6 +30354,35 @@ Transform:
   m_Children:
   - {fileID: 215376710}
   m_Father: {fileID: 162963509}
+--- !u!65 &2078590812
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6500002, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 725995715}
+  m_GameObject: {fileID: 2078590809}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: .899999976, z: 1}
+  m_Center: {x: .5, y: -.550000012, z: 0}
+--- !u!114 &2078590813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828,
+    type: 2}
+  m_PrefabInternal: {fileID: 725995715}
+  m_GameObject: {fileID: 2078590809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c10dca8fc6df0468aecae323aad650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCoins: 0
+  has1Up: 0
+  hasStar: 0
+  hasMushroom: 0
 --- !u!1001 &2084520846
 Prefab:
   m_ObjectHideFlags: 0
@@ -30280,12 +30660,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &2103997975
 Animator:
   serializedVersion: 2
@@ -30609,12 +30988,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6063e9171379cec4cb0950417307a149, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialCoins: 0
-  hasCoins: 0
-  has1Up: 0
-  hasStar: 0
-  hasMushroom: 0
+  initialCount: 0
+  hasObject: {fileID: 0}
+  emptyBrick: {fileID: 0}
   isHidden: 0
+  onTop: {fileID: 0}
 --- !u!95 &2116262414
 Animator:
   serializedVersion: 2
