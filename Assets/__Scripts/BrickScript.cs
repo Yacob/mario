@@ -45,6 +45,9 @@ public class BrickScript : MonoBehaviour {
 				Destroy (this.gameObject);
 			}
 		} 
+		else if(Mario.isBig){
+			Destroy(this.gameObject);
+		}
 		if (onTop != null) {
 			Destroy(onTop.gameObject);
 		}
@@ -62,6 +65,9 @@ public class BrickScript : MonoBehaviour {
 	}
 
 	void OnDestroy(){
+		if (onTop != null) {
+			Destroy(onTop.gameObject);
+		}
 		if (!isEmpty) {
 			//do destruction animation
 		}
