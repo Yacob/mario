@@ -5,7 +5,7 @@ public class Mario : MonoBehaviour {
 	public float 			maxSpeed = 5.5f;
 	public float			acceleration = 0.45f;
 	public float			baseSpeed = 1;
-	public float			sprintFactor = 2.5f;
+	public float			sprintFactor = 1.75f;
 
 	public float			jumpSpeed = 18.5f;
 	public float			jumpAcc = 57.5f;
@@ -31,7 +31,6 @@ public class Mario : MonoBehaviour {
 	public static bool		isFire = true;
 	public static bool 		dead = false;
 	public static bool		respawn = false;
-
 
 	Animator marioAnim;
 
@@ -112,10 +111,7 @@ public class Mario : MonoBehaviour {
 		else if (h != 0 && curSpeed == 0) {
 			curSpeed = h*baseSpeed;
 		}
-		else if (grounded) {
-			curSpeed = curSpeed + h*acceleration;
-		}
-		else if( h != 0){
+		else if (grounded || h != 0) {
 			curSpeed = curSpeed + h*acceleration;
 		}
 
@@ -137,9 +133,10 @@ public class Mario : MonoBehaviour {
 		}
 
 		// Max speed
-		if(curSpeed > maxSpeed || curSpeed < -1*maxSpeed){
+		if(curSpeed > Mathf.Abs(h) * maxSpeed || curSpeed < Mathf.Abs(h) * -1 * maxSpeed){
 			curSpeed = h*maxSpeed;
 		}
+
 		//Debug.Log("H is " + h + " and curSpeed is " + curSpeed);
 
 
