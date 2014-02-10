@@ -31,6 +31,7 @@ public class Mario : MonoBehaviour {
 	public static bool		isFire = true;
 	public static bool 		dead = false;
 	public static bool		respawn = false;
+	public static bool		hitShroom = false;
 
 	Animator marioAnim;
 
@@ -44,18 +45,10 @@ public class Mario : MonoBehaviour {
 	public GUIStyle customStyle;
 
 	void OnGUI(){
-<<<<<<< HEAD
-		GUI.Label (new Rect (285, 90, 100, 30), "Score: " + score.ToString());
-		GUI.Label (new Rect (385, 90, 100, 30), "Coins: " + coins.ToString());
-		GUI.Label (new Rect (800, 90, 100, 30), "Time " + ((int)time).ToString());
-		GUI.Label (new Rect (800, 90, 100, 30), "Lives " + lives.ToString());
-=======
-
-		GUI.Label (new Rect (285, 90, 100, 30), score.ToString(), customStyle);
-		GUI.Label (new Rect (385, 90, 100, 30), "x  " + lives.ToString(), customStyle);
-		GUI.Label (new Rect (800, 90, 100, 30), ((int)time).ToString(), customStyle);
->>>>>>> GUItext change
-
+		GUI.Label (new Rect (285, 90, 100, 30), "Score: " + score.ToString(), customStyle);
+		GUI.Label (new Rect (385, 90, 100, 30), "Coins: " + coins.ToString(), customStyle);
+		GUI.Label (new Rect (800, 90, 100, 30), "Time " + ((int)time).ToString(), customStyle);
+		GUI.Label (new Rect (800, 90, 100, 30), "Lives " + lives.ToString(), customStyle);
 	}
 
 	void Update () { // Every Frame
@@ -63,6 +56,11 @@ public class Mario : MonoBehaviour {
 		if (ChangeSize) {
 			marioAnim.SetBool ("ChangeSize", false);
 			ChangeSize = false;
+		}
+		if (hitShroom) {
+			hitShroom = false;
+			marioAnim.SetBool ("ChangeSize", true);
+			ChangeSize = true;
 		}
 
 		if (finished) {

@@ -21,7 +21,9 @@ public class Mushroom : MonoBehaviour {
 	void OnCollisionEnter(Collision other){
 
 		if (other.collider.tag == "Player") {
+			Mario.hitShroom = true;
 			Mario.isBig = true;
+
 			Destroy (this.gameObject);
 			return;
 		}

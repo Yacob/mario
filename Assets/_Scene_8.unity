@@ -387,7 +387,7 @@ Transform:
   m_PrefabInternal: {fileID: 491399950}
   m_GameObject: {fileID: 21023351}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 611116979}
@@ -973,7 +973,7 @@ Transform:
   m_PrefabInternal: {fileID: 90064189}
   m_GameObject: {fileID: 59043053}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 900632757}
@@ -1260,6 +1260,18 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1940cb1d78fc79641b242ab300c088a5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 1940cb1d78fc79641b242ab300c088a5, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 1940cb1d78fc79641b242ab300c088a5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1940cb1d78fc79641b242ab300c088a5, type: 2}
   m_RootGameObject: {fileID: 900632756}
@@ -1493,9 +1505,9 @@ GameObject:
   - 65: {fileID: 112300006}
   - 114: {fileID: 112300008}
   - 65: {fileID: 112300007}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: CoinBox
-  m_TagString: CoinBox
+  m_TagString: Brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1956,7 +1968,7 @@ Transform:
   m_PrefabInternal: {fileID: 1365532413}
   m_GameObject: {fileID: 136486451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 21139045}
@@ -2516,18 +2528,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1847168414}
-  - {fileID: 961911371}
-  - {fileID: 112300005}
-  - {fileID: 865743943}
-  - {fileID: 986507306}
-  - {fileID: 372282456}
-  - {fileID: 1703600982}
-  - {fileID: 1309432734}
-  - {fileID: 1059146887}
-  - {fileID: 1710798452}
-  - {fileID: 2010624257}
-  - {fileID: 2078590811}
   - {fileID: 1874643664}
+  - {fileID: 961911371}
+  - {fileID: 986507306}
+  - {fileID: 112300005}
+  - {fileID: 1309432734}
+  - {fileID: 2078590811}
+  - {fileID: 372282456}
+  - {fileID: 1710798452}
+  - {fileID: 1059146887}
+  - {fileID: 1703600982}
+  - {fileID: 2010624257}
+  - {fileID: 865743943}
   m_Father: {fileID: 0}
 --- !u!1001 &163536167
 Prefab:
@@ -3128,7 +3140,7 @@ GameObject:
   - 4: {fileID: 215376710}
   - 212: {fileID: 215376712}
   - 95: {fileID: 215376711}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4103,6 +4115,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 1940cb1d78fc79641b242ab300c088a5, type: 2}
       propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 1940cb1d78fc79641b242ab300c088a5, type: 2}
+      propertyPath: m_LocalPosition.z
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5601,9 +5617,9 @@ GameObject:
   - 65: {fileID: 372282455}
   - 114: {fileID: 372282458}
   - 65: {fileID: 372282457}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: CoinBox
-  m_TagString: CoinBox
+  m_TagString: Brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5740,7 +5756,7 @@ Transform:
   m_PrefabInternal: {fileID: 1281271369}
   m_GameObject: {fileID: 379684052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 299424755}
@@ -6702,7 +6718,7 @@ GameObject:
   - 4: {fileID: 423900997}
   - 212: {fileID: 423900999}
   - 95: {fileID: 423900998}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7155,7 +7171,7 @@ Transform:
   m_PrefabInternal: {fileID: 305720878}
   m_GameObject: {fileID: 437715920}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1135658194}
@@ -7997,7 +8013,7 @@ Transform:
   m_PrefabInternal: {fileID: 317505916}
   m_GameObject: {fileID: 513210340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1159496316}
@@ -8171,7 +8187,7 @@ Transform:
   m_PrefabInternal: {fileID: 2023692652}
   m_GameObject: {fileID: 528311848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 836851961}
@@ -9307,7 +9323,7 @@ GameObject:
   - 4: {fileID: 599828338}
   - 212: {fileID: 599828340}
   - 95: {fileID: 599828339}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9374,7 +9390,7 @@ GameObject:
   - 4: {fileID: 600887448}
   - 212: {fileID: 600887447}
   - 95: {fileID: 600887446}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10401,7 +10417,7 @@ GameObject:
   - 4: {fileID: 710180692}
   - 212: {fileID: 710180694}
   - 95: {fileID: 710180693}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11935,7 +11951,7 @@ Transform:
   m_PrefabInternal: {fileID: 2005792351}
   m_GameObject: {fileID: 833481728}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1064682615}
@@ -12284,7 +12300,7 @@ Transform:
   m_PrefabInternal: {fileID: 617696867}
   m_GameObject: {fileID: 853995881}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1431196974}
@@ -12532,9 +12548,9 @@ GameObject:
   - 65: {fileID: 865743942}
   - 114: {fileID: 865743945}
   - 65: {fileID: 865743944}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: CoinBox
-  m_TagString: CoinBox
+  m_TagString: Brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13762,9 +13778,9 @@ GameObject:
   - 65: {fileID: 961911370}
   - 114: {fileID: 961911373}
   - 65: {fileID: 961911372}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: CoinBox
-  m_TagString: CoinBox
+  m_TagString: Brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14243,9 +14259,9 @@ GameObject:
   - 65: {fileID: 986507305}
   - 114: {fileID: 986507308}
   - 65: {fileID: 986507307}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: CoinBox
-  m_TagString: CoinBox
+  m_TagString: Brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15204,7 +15220,7 @@ Transform:
   m_PrefabInternal: {fileID: 498730015}
   m_GameObject: {fileID: 1054598251}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 628393668}
@@ -15292,9 +15308,9 @@ GameObject:
   - 65: {fileID: 1059146886}
   - 114: {fileID: 1059146889}
   - 65: {fileID: 1059146888}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: CoinBox
-  m_TagString: CoinBox
+  m_TagString: Brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16876,7 +16892,7 @@ Transform:
   m_PrefabInternal: {fileID: 678031424}
   m_GameObject: {fileID: 1165600638}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1440166930}
@@ -17406,7 +17422,7 @@ Transform:
   m_PrefabInternal: {fileID: 2010315722}
   m_GameObject: {fileID: 1198980720}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1187800826}
@@ -17758,7 +17774,7 @@ GameObject:
   - 4: {fileID: 1231095741}
   - 212: {fileID: 1231095743}
   - 95: {fileID: 1231095742}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19442,9 +19458,9 @@ GameObject:
   - 65: {fileID: 1309432733}
   - 114: {fileID: 1309432736}
   - 65: {fileID: 1309432735}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: CoinBox
-  m_TagString: CoinBox
+  m_TagString: Brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20534,7 +20550,7 @@ Transform:
   m_PrefabInternal: {fileID: 1232302620}
   m_GameObject: {fileID: 1367252373}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1027369598}
@@ -20758,7 +20774,7 @@ GameObject:
   - 4: {fileID: 1398680796}
   - 212: {fileID: 1398680798}
   - 95: {fileID: 1398680797}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22175,7 +22191,7 @@ GameObject:
   - 4: {fileID: 1526296327}
   - 212: {fileID: 1526296326}
   - 95: {fileID: 1526296325}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22242,7 +22258,7 @@ GameObject:
   - 4: {fileID: 1527752050}
   - 212: {fileID: 1527752052}
   - 95: {fileID: 1527752051}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22393,7 +22409,7 @@ GameObject:
   - 4: {fileID: 1541515955}
   - 212: {fileID: 1541515957}
   - 95: {fileID: 1541515956}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22684,7 +22700,7 @@ GameObject:
   - 4: {fileID: 1565267640}
   - 212: {fileID: 1565267642}
   - 95: {fileID: 1565267641}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23273,7 +23289,7 @@ Transform:
   m_PrefabInternal: {fileID: 1074366369}
   m_GameObject: {fileID: 1647213001}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1080976041}
@@ -23496,7 +23512,7 @@ Transform:
   m_PrefabInternal: {fileID: 1570567293}
   m_GameObject: {fileID: 1656891506}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1474173421}
@@ -24154,9 +24170,9 @@ GameObject:
   - 65: {fileID: 1703600983}
   - 114: {fileID: 1703600985}
   - 65: {fileID: 1703600984}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: CoinBox
-  m_TagString: CoinBox
+  m_TagString: Brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24227,9 +24243,9 @@ GameObject:
   - 65: {fileID: 1710798451}
   - 114: {fileID: 1710798454}
   - 65: {fileID: 1710798453}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: CoinBox
-  m_TagString: CoinBox
+  m_TagString: Brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25682,7 +25698,7 @@ Transform:
   m_PrefabInternal: {fileID: 2102832340}
   m_GameObject: {fileID: 1859318003}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1511230588}
@@ -25814,9 +25830,9 @@ GameObject:
   - 65: {fileID: 1874643663}
   - 114: {fileID: 1874643666}
   - 65: {fileID: 1874643665}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: CoinBox
-  m_TagString: CoinBox
+  m_TagString: Brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26016,7 +26032,7 @@ Transform:
   m_PrefabInternal: {fileID: 1657949734}
   m_GameObject: {fileID: 1877134359}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1365531983}
@@ -26359,7 +26375,7 @@ GameObject:
   - 4: {fileID: 1913100654}
   - 212: {fileID: 1913100656}
   - 95: {fileID: 1913100655}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: quad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26600,7 +26616,7 @@ Transform:
   m_PrefabInternal: {fileID: 627078627}
   m_GameObject: {fileID: 1923265915}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 909744945}
@@ -27798,12 +27814,15 @@ Transform:
   - {fileID: 2015337166}
   - {fileID: 72012789}
   - {fileID: 1681612290}
+  - {fileID: 1014862902}
   - {fileID: 298595145}
   - {fileID: 1198492275}
+  - {fileID: 405735302}
   - {fileID: 441104804}
   - {fileID: 1449350180}
   - {fileID: 125074949}
   - {fileID: 544814720}
+  - {fileID: 398422593}
   - {fileID: 846207272}
   - {fileID: 1098106790}
   - {fileID: 1582713431}
@@ -27811,9 +27830,6 @@ Transform:
   - {fileID: 1515521949}
   - {fileID: 2033434726}
   - {fileID: 672663962}
-  - {fileID: 1014862902}
-  - {fileID: 405735302}
-  - {fileID: 398422593}
   m_Father: {fileID: 0}
 --- !u!1 &1989779119
 GameObject:
@@ -28179,9 +28195,9 @@ GameObject:
   - 65: {fileID: 2010624256}
   - 114: {fileID: 2010624259}
   - 65: {fileID: 2010624258}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: CoinBox
-  m_TagString: CoinBox
+  m_TagString: Brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29412,9 +29428,9 @@ GameObject:
   - 65: {fileID: 2078590810}
   - 114: {fileID: 2078590813}
   - 65: {fileID: 2078590812}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: CoinBox
-  m_TagString: CoinBox
+  m_TagString: Brick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29988,7 +30004,7 @@ Transform:
   m_PrefabInternal: {fileID: 1900907849}
   m_GameObject: {fileID: 2109932132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 0}
+  m_LocalPosition: {x: -2.5, y: -6.69999981, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1143405934}
