@@ -35,8 +35,11 @@ public class Mario : MonoBehaviour {
 	public static bool		dmg = false;
 	public static Vector3	respawnLoc = new Vector3(-4.0f, 0.0f, 0);
 	public static bool		toTheNewWorldAway = false;
-	private static Mario me;		
 
+	private static Mario me;	
+
+	public GUIStyle customStyle;
+	
 	Animator marioAnim;
 
 	void Awake(){
@@ -58,14 +61,11 @@ public class Mario : MonoBehaviour {
 		marioAnim = GetComponent<Animator>();
 		me = this;
 	}
-
-	public GUIStyle customStyle;
-
 	void OnGUI(){
-		GUI.Label (new Rect (285, 90, 100, 30), "Score: " + score.ToString(), customStyle);
-		GUI.Label (new Rect (385, 90, 100, 30), "Coins: " + coins.ToString(), customStyle);
-		GUI.Label (new Rect (800, 90, 100, 30), "Time " + ((int)time).ToString(), customStyle);
-		GUI.Label (new Rect (800, 90, 100, 30), "Lives " + lives.ToString(), customStyle);
+		GUI.Label (new Rect (0, 10, 100, 30), "Score: " + score.ToString(), customStyle);
+		GUI.Label (new Rect (100, 10, 100, 30), "Coins: " + coins.ToString(), customStyle);
+		GUI.Label (new Rect (200, 10, 100, 30), "Time " + ((int)time).ToString(), customStyle);
+		GUI.Label (new Rect (320, 10, 100, 30), "Lives " + lives.ToString(), customStyle);
 	}
 
 	void Update () { // Every Frame
@@ -166,9 +166,6 @@ public class Mario : MonoBehaviour {
 		if(curSpeed > Mathf.Abs(h) * maxSpeed || curSpeed < Mathf.Abs(h) * -1 * maxSpeed){
 			curSpeed = h*maxSpeed;
 		}
-
-		//Debug.Log("H is " + h + " and curSpeed is " + curSpeed);
-
 
 		// ---------- Anim ----------
 
