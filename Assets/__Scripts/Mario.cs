@@ -7,7 +7,7 @@ public class Mario : MonoBehaviour {
 	public float			baseSpeed = 1;
 	public float			sprintFactor = 1.75f;
 
-	public float			jumpSpeed = 18.5f;
+	public float			jumpSpeed = 17.5f;
 	public float			jumpAcc = 57.5f;
 
 	public bool				grounded = true;
@@ -32,6 +32,7 @@ public class Mario : MonoBehaviour {
 	public static bool 		dead = false;
 	public static bool		respawn = false;
 	public static bool		hitShroom = false;
+	public static bool		toTheNewWorldAway = false;
 
 	Animator marioAnim;
 
@@ -274,6 +275,13 @@ public class Mario : MonoBehaviour {
 			inCave = false;
 			Vector3 temp = new Vector3(155.0f,2.5f,0);
 			transform.position = temp;
+		}
+
+		// ---------- New World ----------
+		if (toTheNewWorldAway) {
+			toTheNewWorldAway = false;
+			Vector3 newWorld = new Vector3 (230.0f, 0.0f, 0);
+			transform.position = newWorld;
 		}
 	}
 
