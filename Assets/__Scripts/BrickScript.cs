@@ -56,8 +56,9 @@ public class BrickScript : MonoBehaviour {
 		if(other.gameObject.tag == "Enemy")
 			onTop = other.gameObject;
 	}
-	void OnCollisionExit(){
-		onTop = null;
+	void OnCollisionExit(Collision other){
+		if(other.gameObject.tag == "Enemy")
+			onTop = null;
 	}
 
 	void OnDestroy(){
