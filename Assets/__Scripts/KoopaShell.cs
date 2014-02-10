@@ -4,7 +4,7 @@ using System.Collections;
 public class KoopaShell : MonoBehaviour {
 
 	public float	timer = 6;
-	public int		moveSpd = 2;
+	public int		moveSpd = 4;
 	private int		moveDir;
 	private bool	moving = false;
 	

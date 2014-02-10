@@ -13348,9 +13348,9 @@ MonoBehaviour:
   maxSpeed: 5.5
   acceleration: .449999988
   baseSpeed: 1
-  sprintFactor: 1.29999995
-  jumpSpeed: 19
-  jumpAcc: 50
+  sprintFactor: 1.75
+  jumpSpeed: 18.5
+  jumpAcc: 57.5
   grounded: 1
   jumping: 0
 --- !u!135 &871282109
