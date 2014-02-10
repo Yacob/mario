@@ -1,11 +1,12 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
-public class Goomba : MonoBehaviour {
-
-	public bool		moveRight;
-	public int		moveSpd = 2;
-	private int		moveDir;
+public class Koopa : MonoBehaviour {
+	
+	public bool			moveRight;
+	public int			moveSpd = 1;
+	private int			moveDir;
+	public Transform 	shell;
 	
 	//Start is called at beginning
 	void Start(){
@@ -15,7 +16,7 @@ public class Goomba : MonoBehaviour {
 			moveDir = -1;
 		}
 	}
-
+	
 	// Update is called once per frame
 	void Update () {
 		Vector3 vel = rigidbody.velocity;
@@ -25,23 +26,23 @@ public class Goomba : MonoBehaviour {
 		Vector3 down = Vector3.Cross(-1*this.transform.forward,this.transform.right);
 		Vector3 left = Vector3.Cross(-1*this.transform.forward,-1*this.transform.up);
 		Vector3 up = Vector3.Cross(-1*this.transform.forward,-1*this.transform.right);
-
-		Vector3 center = this.transform.position;
+		
+		Vector3 center = this.collider.bounds.center;
 		float distance = .1f;
-
+		
 		
 		Vector3 topRight = center;
 		topRight.y += this.collider.bounds.size.y / 2 - distance/2;
 		topRight.x += this.collider.bounds.size.x / 2 - distance/2;
-
+		
 		Vector3 topLeft = center;
 		topLeft.y += this.collider.bounds.size.y / 2 - distance/2;
 		topLeft.x -= this.collider.bounds.size.x / 2 - distance/2;
-
+		
 		Vector3 botRight = center;
 		botRight.y -= this.collider.bounds.size.y / 2 - distance/2;
 		botRight.x += this.collider.bounds.size.x / 2 - distance/2;
-
+		
 		Vector3 botLeft = center;
 		botLeft.y -= this.collider.bounds.size.y / 2 - distance/2;
 		botLeft.x -= this.collider.bounds.size.x / 2 - distance/2;
@@ -52,23 +53,23 @@ public class Goomba : MonoBehaviour {
 		Ray uRay = new Ray (this.transform.position, up);
 		
 		//RaycastHit hitInfo;
-
+		
 		//top
 		Debug.DrawLine(topRight, topRight + (uRay.direction * distance), Color.red);
 		Debug.DrawLine(topLeft, topLeft + (uRay.direction * distance), Color.red);
-
+		
 		//left
-		Debug.DrawLine(topLeft, topLeft + (lRay.direction * distance), Color.red);
-		Debug.DrawLine(botLeft, botLeft + (lRay.direction * distance), Color.red);
-
+		Debug.DrawLine(topLeft, topLeft + (lRay.direction*moveDir*-1 * distance), Color.red);
+		Debug.DrawLine(botLeft, botLeft + (lRay.direction*moveDir*-1 * distance), Color.red);
+		
 		//bot
 		Debug.DrawLine(botRight, botRight + (dRay.direction * distance), Color.red);
 		Debug.DrawLine(botLeft, botLeft + (dRay.direction * distance), Color.red);
-
+		
 		//right
-		Debug.DrawLine(topRight, topRight + (rRay.direction * distance), Color.red);
-		Debug.DrawLine(botRight, botRight + (rRay.direction * distance), Color.red);
-
+		Debug.DrawLine(topRight, topRight + (rRay.direction*moveDir*-1 * distance), Color.red);
+		Debug.DrawLine(botRight, botRight + (rRay.direction*moveDir*-1 * distance), Color.red);
+		
 		
 		
 		
@@ -79,15 +80,15 @@ public class Goomba : MonoBehaviour {
 		Vector3 down = Vector3.Cross(-1*this.transform.forward,this.transform.right);
 		Vector3 left = Vector3.Cross(-1*this.transform.forward,-1*this.transform.up);
 		Vector3 up = Vector3.Cross(-1*this.transform.forward,-1*this.transform.right);
-
+		
 		/*Ray rRay = new Ray (this.transform.position, right);
 		Ray dRay = new Ray (this.transform.position, down);
 		Ray lRay = new Ray (this.transform.position, left);
 		Ray uRay = new Ray (this.transform.position, up);*/
-
+		
 		Vector3 center = this.collider.bounds.center;
-		float distance = .1f;
-
+		float distance = .2f;
+		
 		Vector3 topRight = center;
 		topRight.y += this.collider.bounds.size.y / 2 - distance/2;
 		topRight.x += this.collider.bounds.size.x / 2 - distance/2;
@@ -106,45 +107,44 @@ public class Goomba : MonoBehaviour {
 		Vector3 botLeft = center;
 		botLeft.y -= this.collider.bounds.size.y / 2 - distance/2;
 		botLeft.x -= this.collider.bounds.size.x / 2 - distance/2;
-
+		
 		RaycastHit edgeInfo1 = new RaycastHit();
 		RaycastHit edgeInfo2 = new RaycastHit();
 		RaycastHit centerInfo = new RaycastHit();
-
+		
 		//top
-		bool hitTop = Physics.Raycast (topRight, up, out edgeInfo1, distance);
-		hitTop = hitTop || Physics.Raycast (topLeft, up, out edgeInfo2, distance);
-		hitTop = hitTop || Physics.Raycast (topCenter, up, out centerInfo, distance);
+		bool hitTopRight = Physics.Raycast (topRight, up, out edgeInfo1, distance);
+		bool hitTopLeft = Physics.Raycast (topLeft, up, out edgeInfo2, distance);
+		bool hitTopCenter = Physics.Raycast (topCenter, up, out centerInfo, distance);
+		bool hitTop = hitTopRight || hitTopLeft || hitTopCenter;
 
-		if (hitTop) {
-
-		}
-
+		
 		//left
-		bool hitLeft = Physics.Raycast (topLeft, left, out edgeInfo1, distance);
-		hitLeft = hitLeft || Physics.Raycast (botLeft, left, out edgeInfo2, distance);
-
+		bool hitLeft = Physics.Raycast (topLeft, left*moveDir*-1, out edgeInfo1, distance);
+		hitLeft = hitLeft || Physics.Raycast (botLeft, left*moveDir*-1, out edgeInfo2, distance);
+		
 		if (hitLeft) {
 			if(moveDir == -1){
 				moveDir*=-1;
+				this.transform.RotateAround(this.collider.bounds.center, new Vector3(0,1,0), 180);
 			}
 		}
 		//right
-		bool hitRight = Physics.Raycast (topRight, right, out edgeInfo1, distance);
-		hitRight = hitRight || Physics.Raycast (botRight, right, out edgeInfo2, distance);
+		bool hitRight = Physics.Raycast (topRight, right*moveDir*-1, out edgeInfo1, distance);
+		hitRight = hitRight || Physics.Raycast (botRight, right*moveDir*-1, out edgeInfo2, distance);
 
 		if (hitRight) {
 			if(moveDir == 1){
 				moveDir*=-1;
+				this.transform.RotateAround(this.collider.bounds.center, new Vector3(0,1,0), -180);
 			}
 		}
-
-	}
-	void OnDestroy(){
 		
 	}
+	void OnDestroy(){
+		Object aShell = Instantiate(shell, new Vector3(this.transform.position.x,.5f,0f), Quaternion.identity);
+	}
 }
-
 
 
 
