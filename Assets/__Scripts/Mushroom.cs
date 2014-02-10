@@ -3,16 +3,12 @@ using System.Collections;
 
 public class Mushroom : MonoBehaviour {
 	
-	public bool		moveRight;
+	public bool		moveRight = true;
 	public int		moveSpd = 2;
-	private int		moveDir;
+	private int		moveDir = 1;
 	//Start is called at beginning
 	void Start(){
-		if (moveRight) {
 			moveDir = 1;
-		} else {
-			moveDir = -1;
-		}
 	}
 	
 	// Update is called once per frame
@@ -27,6 +23,7 @@ public class Mushroom : MonoBehaviour {
 		if (other.collider.tag == "Player") {
 			Mario.isBig = true;
 			Destroy (this.gameObject);
+			return;
 		}
 		Vector3 right = Vector3.Cross(-1*this.transform.forward,this.transform.up);
 		Vector3 down = Vector3.Cross(-1*this.transform.forward,this.transform.right);
@@ -87,6 +84,7 @@ public class Mushroom : MonoBehaviour {
 		hitRight = hitRight || Physics.Raycast (botRight, right, out edgeInfo2, distance);
 		
 		if (hitRight) {
+			Debug.Log("hit");
 			if(moveDir == 1){
 				moveDir*=-1;
 			}

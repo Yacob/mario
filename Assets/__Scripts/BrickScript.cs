@@ -33,17 +33,21 @@ public class BrickScript : MonoBehaviour {
 		}
 	}
 	public void marioHit(){
-		AnimatorStateInfo info = animator.GetNextAnimatorStateInfo(0);
+		//AnimatorStateInfo info = animator.GetNextAnimatorStateInfo(0);
 		Debug.Log ("this is A " + gameObject.tag + " at " + this.transform.position);
 		if ( count > 0) {
-			Vector3 spawnLoc = this.transform.position + new Vector3(0f,.5f,0f);
+			Vector3 spawnLoc = this.transform.position + /*new Vector3(11.69434f,1.748389f,2.006592f) +*/ new Vector3(0f,1,0f);
 			Instantiate(hasObject, spawnLoc, Quaternion.identity);
 			count--;
 			if(count == 0){
-				Instantiate (emptyBrick, this.transform.position, Quaternion.identity);
+				Vector3 emptyLoc = this.transform.position;
+				emptyLoc.y -= .5f;
+				emptyLoc.x += .5f;
+				Instantiate (emptyBrick, emptyLoc, Quaternion.identity);
 				isEmpty = true;
 				Destroy (this.gameObject);
 			}
+			//Time.timeScale = 0;
 		} 
 		else if(Mario.isBig){
 			Destroy(this.gameObject);
