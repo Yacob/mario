@@ -40,11 +40,21 @@ public class Mario : MonoBehaviour {
 		rigidbody.inertiaTensor = rigidbody.inertiaTensor + new Vector3 (0, 0, rigidbody.inertiaTensor.z * 100);
 		marioAnim = GetComponent<Animator>();
 	}
+
+	public GUIStyle customStyle;
+
 	void OnGUI(){
+<<<<<<< HEAD
 		GUI.Label (new Rect (285, 90, 100, 30), "Score: " + score.ToString());
 		GUI.Label (new Rect (385, 90, 100, 30), "Coins: " + coins.ToString());
 		GUI.Label (new Rect (800, 90, 100, 30), "Time " + ((int)time).ToString());
 		GUI.Label (new Rect (800, 90, 100, 30), "Lives " + lives.ToString());
+=======
+
+		GUI.Label (new Rect (285, 90, 100, 30), score.ToString(), customStyle);
+		GUI.Label (new Rect (385, 90, 100, 30), "x  " + lives.ToString(), customStyle);
+		GUI.Label (new Rect (800, 90, 100, 30), ((int)time).ToString(), customStyle);
+>>>>>>> GUItext change
 
 	}
 
