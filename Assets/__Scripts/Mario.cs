@@ -5,7 +5,7 @@ public class Mario : MonoBehaviour {
 	public float 		maxSpeed = 5.5f;
 	public float		acceleration = 0.45f;
 	public float		baseSpeed = 1;
-	public float		sprintFactor = 1.4f;
+	public float		sprintFactor = 2.5f;
 
 	public float		jumpSpeed = 18.5f;
 	public float		jumpAcc = 57.5f;
@@ -17,6 +17,7 @@ public class Mario : MonoBehaviour {
 	private bool		aPressed = false;
 	private bool		aDown = false;
 	public float		personalGravity = 95.15f;
+	private bool		ChangeSize = false;		//keep mario from updating animation repeatitively
 
 	public static bool	finished = false;
 	public static bool	inCave = false;
@@ -45,9 +46,15 @@ public class Mario : MonoBehaviour {
 
 	void Update () { // Every Frame
 
+		if (ChangeSize) {
+			marioAnim.SetBool ("ChangeSize", false);
+			ChangeSize = false;
+		}
+
 		if (finished) {
 			this.GameEnd ();
 		}
+
 
 		bPressed = (Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.J));
 		aDown = (Input.GetKeyDown (KeyCode.X) || Input.GetKeyDown (KeyCode.K));
@@ -113,15 +120,13 @@ public class Mario : MonoBehaviour {
 
 
 		// ---------- Anim ----------
-		/*
+
 		if (isBig) {
 			marioAnim.SetBool ("Big", true);
 		} 
 		else {
 			marioAnim.SetBool ("Big", false);
 		}
-		marioAnim.SetBool ("ChangeSize", false);
-		*/
 		if (curSpeed > 0) {
 			marioAnim.SetBool ("RightDown", true);
 			marioAnim.SetBool ("LeftDown", false);
@@ -224,26 +229,21 @@ public class Mario : MonoBehaviour {
 			Vector3 temp = new Vector3(155.0f,2.5f,0);
 			transform.position = temp;
 		}
-
 	}
 
 	public void Respawn(){
 		string caseSwitch = SetSpawn.respawnLoc;
-		Vector3 vel = rigidbody.velocity;
 		//Debug.Log (caseSwitch);
 		switch (caseSwitch) {
 			case "firstRespawn":
-				vel.x = 0;
 				Vector3 temp = new Vector3 (-4.0f, 0.0f, 0);
 				transform.position = temp;
 				break;
 			case "secondRespawn":
-				vel.x = 0;
 				Vector3 temp2 = new Vector3 (75.0f, 0.0f, 0);
 				transform.position = temp2;
 				break;
 			default:
-				vel.x = 0;
 				Vector3 temp3 = new Vector3 (-4.0f, 0.0f, 0);
 				transform.position = temp3;
 				break;
@@ -256,20 +256,8 @@ public class Mario : MonoBehaviour {
 	}
 
 	public void GameEnd(){
-		renderer.enabled = false;
-		//this.animation.Play ();
-		Debug.Log ("game won");
-		/*
-		if (transform.position.y >= 4) {
-			Vector3 temp = new Vector3(0,-9.0f,0);
-			this.transform.position.y -= temp;
-		} 
-		else {
-			this.transform.position.x += 4;
-		}
-		*/
+		this.renderer.enabled = false;
 	}
-
 
 	void OnCollisionEnter(Collision other) {
 		Vector3 right = Vector3.Cross(-1*this.transform.forward,this.transform.up);
