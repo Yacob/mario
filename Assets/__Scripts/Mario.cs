@@ -19,6 +19,7 @@ public class Mario : MonoBehaviour {
 	private bool		downDown = false;
 	private float		personalGravity = 95.15f;
 	private bool		ChangeSize = false;		//keep mario from updating animation repeatitively
+	private float		noClip = 0;
 
 	public static bool	finished = false;
 	public static bool	inCave = false;
@@ -57,6 +58,13 @@ public class Mario : MonoBehaviour {
 			this.GameEnd ();
 		}
 
+		if (noClip > 0) {
+			noClip -= Time.deltaTime;
+			Physics.IgnoreLayerCollision(11,16, true);
+		}
+		else{
+			Physics.IgnoreLayerCollision(11,16, false);
+		}
 
 		bPressed = (Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.J));
 		aDown = (Input.GetKeyDown (KeyCode.X) || Input.GetKeyDown (KeyCode.K));
@@ -439,6 +447,19 @@ public class Mario : MonoBehaviour {
 			grounded = false;
 		}
 
+	}
+
+	public static void takeDamage(){
+		if(isBig){
+			isBig = false;
+			noClip = 4;
+		}
+		else{
+			killMario();
+		}
+	}
+	void killMario(){
+	
 	}
 }
 
