@@ -124,11 +124,12 @@ public class KoopaShell : MonoBehaviour {
 		bool hitTopCenter = Physics.Raycast (topCenter, up, out centerInfo, distance);
 		
 		if (hitTopRight) {
-			Debug.Log("topRight check");
 			if(edgeInfo1.collider.tag == "Player"){
-				Debug.Log("topRight");
 				moveDir = -1;
 				moving = true;
+				Vector3 vel = edgeInfo1.collider.gameObject.rigidbody.velocity;
+				vel.y += .3f;
+				edgeInfo1.collider.gameObject.rigidbody.velocity = vel;
 			}
 		}
 		else if(hitTopLeft){
@@ -136,6 +137,10 @@ public class KoopaShell : MonoBehaviour {
 				Debug.Log("topLeft");
 				moveDir = 1;
 				moving = true;
+				Vector3 vel = edgeInfo1.collider.gameObject.rigidbody.velocity;
+				vel.y += .3f;
+				edgeInfo1.collider.gameObject.rigidbody.velocity = vel;
+
 			}
 		}
 

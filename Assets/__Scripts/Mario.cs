@@ -16,6 +16,7 @@ public class Mario : MonoBehaviour {
 	private bool		bPressed = false;
 	private bool		aPressed = false;
 	private bool		aDown = false;
+	public float		personalGravity = 95.15f;
 
 	public static bool	inCave = false;
 	public static int	lives = 3;
@@ -24,6 +25,7 @@ public class Mario : MonoBehaviour {
 	public static bool	isBig = false;
 	public static bool 	dead = false;
 	public static bool	respawn = false;
+
 
 	Animator marioAnim;
 
@@ -103,8 +105,7 @@ public class Mario : MonoBehaviour {
 			curSpeed = h*maxSpeed;
 		}
 		//Debug.Log("H is " + h + " and curSpeed is " + curSpeed);
-		vel.x = curSpeed;
-		rigidbody.velocity = vel;
+
 
 		// ---------- Anim ----------
 		if (curSpeed > 0) {
@@ -155,7 +156,7 @@ public class Mario : MonoBehaviour {
 		topRight.x += this.collider.bounds.size.x / 2 - distance/2;
 		
 		Vector3 topCenter = center;
-		topRight.y += this.collider.bounds.size.y / 2 - distance/2;
+		topCenter.y += this.collider.bounds.size.y / 2 - distance/2;
 		
 		Vector3 topLeft = center;
 		topLeft.y += this.collider.bounds.size.y / 2 - distance/2;
@@ -172,6 +173,19 @@ public class Mario : MonoBehaviour {
 		Debug.DrawLine(botRight, botRight + (down*distance), Color.red);
 		Debug.DrawLine(botLeft, botLeft + (down * distance), Color.red);
 
+		RaycastHit edgeInfo1;
+		RaycastHit edgeInfo2;
+
+		bool hitBotRight = Physics.Raycast (botRight, down, out edgeInfo1, distance);
+		bool hitBotLeft = Physics.Raycast (botLeft, down, out edgeInfo2, distance);
+		bool hitBot = hitBotRight || hitBotLeft; 
+		
+		if (!hitBot) {
+			vel.y -= personalGravity*Time.deltaTime;
+		}
+
+		vel.x = curSpeed;
+		rigidbody.velocity = vel;
 
 		//   ---------- Pipes ----------
 		bool DownPressed =  Input.GetKey(KeyCode.DownArrow) ||
@@ -282,6 +296,7 @@ public class Mario : MonoBehaviour {
 		bool hitBot = hitBotRight || hitBotLeft; 
 
 		if (hitBot) {
+			Vector3 vel = rigidbody.velocity;
 			string tag1 = "none"; 
 			string tag2 = "none";
 
@@ -290,14 +305,23 @@ public class Mario : MonoBehaviour {
 			if(hitBotRight)
 				tag1 = edgeInfo1.collider.tag;
 
-			if(tag1 == "Enemy")
+			if(tag1 == "Enemy"){
+				vel.y += 5;
 				Destroy(edgeInfo1.collider.gameObject);
-			else if(tag2 == "Enemy")
+
+			}
+			else if(tag2 == "Enemy"){
+				vel.y += 5;
 				Destroy(edgeInfo2.collider.gameObject);
+			}
+			else if(tag1 == "Shell" || tag2 == "Shell"){
+				vel.y += 5;
+			}
 			else{
 				grounded = true;
 				jumping = false;
 			}
+			rigidbody.velocity = vel;
 		}
 
 		

@@ -142,7 +142,7 @@ public class Koopa : MonoBehaviour {
 		
 	}
 	void OnDestroy(){
-		Object aShell = Instantiate(shell, new Vector3(this.transform.position.x,this.transform.position.y,0f), Quaternion.identity);
+		Object aShell = Instantiate(shell, new Vector3(this.transform.position.x,.5f,0f), Quaternion.identity);
 	}
 }
 

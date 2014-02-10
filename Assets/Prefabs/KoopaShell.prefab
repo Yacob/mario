@@ -13,9 +13,9 @@ GameObject:
   - 114: {fileID: 11400000}
   - 54: {fileID: 5400000}
   - 65: {fileID: 6500008}
-  m_Layer: 17
+  m_Layer: 18
   m_Name: KoopaShell
-  m_TagString: Projectile
+  m_TagString: Shell
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,7 +84,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 6
-  moveSpd: 8
+  moveSpd: 9
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
