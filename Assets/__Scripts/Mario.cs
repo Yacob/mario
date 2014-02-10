@@ -25,7 +25,7 @@ public class Mario : MonoBehaviour {
 	public static int	lives = 3;
 	public static int	score = 0;
 	public static float	time = 400f;
-	public static bool	isBig = true;
+	public static bool	isBig = false;
 	public static bool	isFire = true;
 	public static bool 	dead = false;
 	public static bool	respawn = false;
