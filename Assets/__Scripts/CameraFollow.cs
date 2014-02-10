@@ -9,7 +9,7 @@ public class CameraFollow : MonoBehaviour {
 	
 
 	void reCenter(){
-		Vector3 curr = poi.position + offset;
+		Vector3 curr =  Mario.respawnLoc;
 		transform.position = curr;
 		Mario.respawn = false;
 	}

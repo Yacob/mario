@@ -9,6 +9,7 @@ public class BrickScript : MonoBehaviour {
 	public bool			isHidden;
 	public GameObject	onTop = null;
 	private int			count;
+	public Transform	flower;
 
 	private Animator 	animator;
 	private bool		isEmpty;
@@ -24,7 +25,7 @@ public class BrickScript : MonoBehaviour {
 			}
 		}
 		count = initialCount;
-		animator = gameObject.GetComponent<Animator>();
+		animator = this.GetComponentInChildren<Animator>();
 	}
 	void Update(){
 		AnimatorStateInfo info = animator.GetNextAnimatorStateInfo(0);
@@ -34,9 +35,15 @@ public class BrickScript : MonoBehaviour {
 	}
 	public void marioHit(){
 		//AnimatorStateInfo info = animator.GetNextAnimatorStateInfo(0);
-		Debug.Log ("this is A " + gameObject.tag + " at " + this.transform.position);
+		//Debug.Log ("this is A " + gameObject.tag + " at " + this.transform.position + " with a " + hasObject.GetType().ToString());
+		if (onTop != null) {
+			Destroy(onTop.gameObject);
+		}
 		if ( count > 0) {
 			Vector3 spawnLoc = this.transform.position + /*new Vector3(11.69434f,1.748389f,2.006592f) +*/ new Vector3(0f,1,0f);
+			if(hasObject.GetType().ToString() == "Mushroom" && (Mario.isBig || Mario.isFire)){
+				Instantiate(flower, spawnLoc, Quaternion.identity);
+			}
 			Instantiate(hasObject, spawnLoc, Quaternion.identity);
 			count--;
 			if(count == 0){
@@ -45,6 +52,7 @@ public class BrickScript : MonoBehaviour {
 				emptyLoc.x += .5f;
 				Instantiate (emptyBrick, emptyLoc, Quaternion.identity);
 				isEmpty = true;
+				animator.SetBool("doBump", true);
 				Destroy (this.gameObject);
 			}
 			//Time.timeScale = 0;
@@ -52,12 +60,9 @@ public class BrickScript : MonoBehaviour {
 		else if(Mario.isBig){
 			Destroy(this.gameObject);
 		}
-		if (onTop != null) {
-			Destroy(onTop.gameObject);
+		else{
+			animator.SetBool("doBump", true);
 		}
-		animator.SetBool("doBump", true);
-
-
 	}
 	void OnCollisionEnter(Collision other){
 		if(other.gameObject.tag == "Enemy")

@@ -19,8 +19,8 @@ public class Mario : MonoBehaviour {
 	private bool			downDown = false;
 	private float			personalGravity = 95.15f;
 	private bool			ChangeSize = false;		//keep mario from updating animation repeatitively
-	private static  float	noClip = 0f;
 
+	private static float	noClip = 0f;
 	public static bool		finished = false;
 	public static bool		inCave = false;
 	public static int		lives = 3;
@@ -28,18 +28,35 @@ public class Mario : MonoBehaviour {
 	public static int		score = 0;
 	public static float		time = 400f;
 	public static bool		isBig = false;
-	public static bool		isFire = true;
+	public static bool		isFire = false;
 	public static bool 		dead = false;
 	public static bool		respawn = false;
-	public static bool		hitShroom = false;
+	public static bool		hitShroom = false;	
+	public static bool		dmg = false;
+	public static Vector3	respawnLoc = new Vector3(-4.0f, 0.0f, 0);
+
+	private static Mario me;		
 
 	Animator marioAnim;
 
-
+	void Awake(){
+		finished = false;
+		inCave = false;
+		time = 400f;
+		isBig = false;
+		isFire = false;
+		dead = false;
+		respawn = false;
+		hitShroom = false;	
+		dmg = false;
+		noClip = 0f;
+		respawnLoc = new Vector3(-4.0f, 0.0f, 0);
+	}
 	void Start(){
 		UnityEngine.Time.fixedDeltaTime = 0.005f; 
 		rigidbody.inertiaTensor = rigidbody.inertiaTensor + new Vector3 (0, 0, rigidbody.inertiaTensor.z * 100);
 		marioAnim = GetComponent<Animator>();
+		me = this;
 	}
 
 	public GUIStyle customStyle;
@@ -59,6 +76,11 @@ public class Mario : MonoBehaviour {
 		}
 		if (hitShroom) {
 			hitShroom = false;
+			marioAnim.SetBool ("ChangeSize", true);
+			ChangeSize = true;
+		}
+		else if(dmg){
+			dmg = false;
 			marioAnim.SetBool ("ChangeSize", true);
 			ChangeSize = true;
 		}
@@ -263,7 +285,7 @@ public class Mario : MonoBehaviour {
 			inCave = true;
 			Vector3 temp = new Vector3(-55.5f,-9.0f,0);
 			transform.position += temp;
-			SetSpawn.respawnLoc = "secondRespawn";
+			Mario.respawnLoc = new Vector3 (75.0f, 0.0f, 0);
 		}
 		bool RightPressed =  Input.GetKey(KeyCode.RightArrow) ||
 				Input.GetKey(KeyCode.D) ||
@@ -278,27 +300,20 @@ public class Mario : MonoBehaviour {
 	}
 
 	public void Respawn(){
-		string caseSwitch = SetSpawn.respawnLoc;
-		//Debug.Log (caseSwitch);
-		switch (caseSwitch) {
-			case "firstRespawn":
-				Vector3 temp = new Vector3 (-4.0f, 0.0f, 0);
-				transform.position = temp;
-				break;
-			case "secondRespawn":
-				Vector3 temp2 = new Vector3 (75.0f, 0.0f, 0);
-				transform.position = temp2;
-				break;
-			default:
-				Vector3 temp3 = new Vector3 (-4.0f, 0.0f, 0);
-				transform.position = temp3;
-				break;
+		Debug.Log ("respawning");
+		respawn = true;
+		if(lives == 1){
+			Dead ();
+			return;
 		}
+		transform.position = respawnLoc;
 		lives--;
 	}
 
 	public void Dead(){
-		//Destroy (this.gameObject);
+		Debug.Log(Application.loadedLevel);
+		lives = 3;
+		Application.LoadLevel(0);
 	}
 
 	public void GameEnd(){
@@ -457,16 +472,20 @@ public class Mario : MonoBehaviour {
 	}
 
 	public static void takeDamage(){
-		if(isBig){
+		if(isFire){
+			isFire = false;
+			dmg = true;
+			noClip = 4;
+		}
+		else if(isBig){
 			isBig = false;
+			dmg = true;
 			noClip = 4;
 		}
 		else{
-			killMario();
+			Debug.Log("here I am");
+			me.Respawn();
 		}
-	}
-	static void killMario(){
-	
 	}
 }
 
