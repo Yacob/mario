@@ -5,10 +5,10 @@ public class Mario : MonoBehaviour {
 	public float 			maxSpeed = 5.5f;
 	public float			acceleration = 0.45f;
 	public float			baseSpeed = 1;
-	public float			sprintFactor = 1.75f;
+	public float			sprintFactor = 1.55f;
 
-	public float			jumpSpeed = 17.5f;
-	public float			jumpAcc = 57.5f;
+	public float			jumpSpeed = 14f;
+	public float			jumpAcc = 55f;
 
 	public bool				grounded = true;
 	public bool				jumping = false;
