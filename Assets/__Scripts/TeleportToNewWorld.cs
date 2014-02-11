@@ -7,7 +7,7 @@ public class TeleportToNewWorld : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 		if (!triggered) {
 			triggered = true;
-			Mario.toTheNewWorldAway = true;
+			Application.LoadLevel(1);
 		}
 	}
 }
