@@ -203,10 +203,10 @@ public class Mario : MonoBehaviour {
 			((BoxCollider)this.GetComponent<BoxCollider>()).center = temp;
 		}
 		if (isFire) {
-			marioAnim.SetBool ("Fire", true);
+			//marioAnim.SetBool ("Fire", true);
 		} 
 		else {
-			marioAnim.SetBool ("Fire", false);
+			//marioAnim.SetBool ("Fire", false);
 		}
 		if (downDown) {
 			marioAnim.SetBool ("DownDown", true);
