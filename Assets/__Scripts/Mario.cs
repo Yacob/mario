@@ -321,10 +321,15 @@ public class Mario : MonoBehaviour {
 			respawnLoc = new Vector3 (230.0f, 0.0f, 0);
 			transform.position = newWorld;
 		}
+		if (Mario.respawn) {
+			respawn = false;
+			Respawn ();
+		}
+
+
 	}
 
 	public void Respawn(){
-		respawn = true;
 		if(lives == 1){
 			Dead ();
 			return;
