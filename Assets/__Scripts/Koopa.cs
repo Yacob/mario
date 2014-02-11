@@ -4,6 +4,7 @@ using System.Collections;
 public class Koopa : MonoBehaviour {
 	
 	public bool			moveRight;
+	private bool		hitPlayer = false;
 	public int			moveSpd = 1;
 	private int			moveDir;
 	public Transform 	shell;
@@ -19,6 +20,9 @@ public class Koopa : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (hitPlayer){
+			hitPlayer = false;
+		}
 		Vector3 vel = rigidbody.velocity;
 		vel.x = moveSpd * moveDir;
 		rigidbody.velocity = vel;
@@ -141,8 +145,11 @@ public class Koopa : MonoBehaviour {
 			playerUp = true;
 		}
 		
-		if (other.collider.tag == "Player" && !playerUp) {	
-			Mario.takeDamage();
+		if (other.collider.tag == "Player" && !playerUp) {
+			if(!hitPlayer){
+				hitPlayer = true;
+				Mario.takeDamage();
+			}
 		}
 
 

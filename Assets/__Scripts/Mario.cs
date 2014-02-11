@@ -12,11 +12,8 @@ public class Mario : MonoBehaviour {
 
 	public bool				grounded = true;
 	public bool				jumping = false;
+	public Transform		fireBall;
 	private float			curSpeed = 0;
-	private bool			bPressed = false;
-	private bool			aPressed = false;
-	private bool			aDown = false;
-	private bool			downDown = false;
 	private float			personalGravity = 95.15f;
 	private bool			ChangeSize = false;		//keep mario from updating animation repeatitively
 
@@ -32,15 +29,17 @@ public class Mario : MonoBehaviour {
 	public static bool 		dead = false;
 	public static bool		respawn = false;
 	public static bool		hitShroom = false;	
+	public static bool		hitFire = false;
 	public static bool		dmg = false;
 	public static Vector3	respawnLoc = new Vector3(-4.0f, 0.0f, 0);
 	public static bool		toTheNewWorldAway = false;
+	public static int		numFire = 0;
 
 	private static Mario me;	
 
 	public GUIStyle customStyle;
 	
-	Animator marioAnim;
+	public static Animator marioAnim;
 
 	void Awake(){
 		finished = false;
@@ -50,10 +49,12 @@ public class Mario : MonoBehaviour {
 		isFire = false;
 		dead = false;
 		respawn = false;
-		hitShroom = false;	
+		hitShroom = false;
+		hitFire = false;
 		dmg = false;
 		noClip = 0f;
 		respawnLoc = new Vector3(-4.0f, 0.0f, 0);
+		numFire = 0;
 	}
 	void Start(){
 		UnityEngine.Time.fixedDeltaTime = 0.005f; 
@@ -69,6 +70,11 @@ public class Mario : MonoBehaviour {
 	}
 
 	void Update () { // Every Frame
+		bool bPressed;
+		bool aPressed;
+		bool aDown;
+		bool bDown;
+		bool downDown;
 
 		if (ChangeSize) {
 			marioAnim.SetBool ("ChangeSize", false);
@@ -98,6 +104,7 @@ public class Mario : MonoBehaviour {
 		}
 
 		bPressed = (Input.GetKey(KeyCode.Z) || Input.GetKey(KeyCode.J));
+		bDown = (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.J));
 		aDown = (Input.GetKeyDown (KeyCode.X) || Input.GetKeyDown (KeyCode.K));
 		aPressed = (Input.GetKey (KeyCode.X) || Input.GetKey (KeyCode.K));
 		downDown = (Input.GetKey (KeyCode.DownArrow) || Input.GetKey (KeyCode.S));
@@ -171,6 +178,14 @@ public class Mario : MonoBehaviour {
 			curSpeed = h*maxSpeed;
 		}
 
+		//------------Fire ---------
+		if (bDown) {
+			if(numFire < 2){
+				shootFire();
+			}
+		}
+
+
 		// ---------- Anim ----------
 
 		if (isBig) {
@@ -187,7 +202,12 @@ public class Mario : MonoBehaviour {
 			temp = new Vector3(0, 0.5f, 0);
 			((BoxCollider)this.GetComponent<BoxCollider>()).center = temp;
 		}
-
+		if (isFire) {
+			marioAnim.SetBool ("Fire", true);
+		} 
+		else {
+			marioAnim.SetBool ("Fire", false);
+		}
 		if (downDown) {
 			marioAnim.SetBool ("DownDown", true);
 		}
@@ -496,6 +516,16 @@ public class Mario : MonoBehaviour {
 			Debug.Log("here I am");
 			me.Respawn();
 		}
+	}
+	void shootFire(){
+		AnimatorStateInfo state =  marioAnim.GetCurrentAnimatorStateInfo(0);
+		string name = state.ToString();
+		Vector3 offset = new Vector3();
+		if (name.Contains("Right"))
+			offset.x = .5f;
+		else
+			offset.x = -.5f;
+		Instantiate (fireBall, this.transform.position + offset, Quaternion.identity);
 	}
 }
 

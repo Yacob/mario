@@ -6,6 +6,7 @@ public class Goomba : MonoBehaviour {
 	public bool		moveRight;
 	public int		moveSpd = 2;
 	private int		moveDir;
+	private bool	hitPlayer = false;
 	//Start is called at beginning
 	void Start(){
 		if (moveRight) {
@@ -17,6 +18,8 @@ public class Goomba : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		if (hitPlayer)
+			hitPlayer = false;
 		Vector3 vel = rigidbody.velocity;
 		vel.x = moveSpd * moveDir;
 		rigidbody.velocity = vel;
@@ -140,7 +143,10 @@ public class Goomba : MonoBehaviour {
 		}
 
 		if (other.collider.tag == "Player" && !playerUp) {
-			Mario.takeDamage();
+			if (!hitPlayer) {
+				hitPlayer = true;
+				Mario.takeDamage ();
+			}
 		}
 		//left
 		bool hitLeft = Physics.Raycast (topLeft, left, out edgeInfo1, distance);
