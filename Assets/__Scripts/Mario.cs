@@ -35,7 +35,7 @@ public class Mario : MonoBehaviour {
 	public static bool		toTheNewWorldAway = false;
 	public static int		numFire = 0;
 
-	private static Mario me;	
+	public static Mario me;	
 
 	public GUIStyle customStyle;
 	
@@ -179,7 +179,7 @@ public class Mario : MonoBehaviour {
 		}
 
 		//------------Fire ---------
-		if (bDown) {
+		if (bDown && isFire) {
 			if(numFire < 2){
 				shootFire();
 			}
@@ -203,10 +203,10 @@ public class Mario : MonoBehaviour {
 			((BoxCollider)this.GetComponent<BoxCollider>()).center = temp;
 		}
 		if (isFire) {
-			marioAnim.SetBool ("Fire", true);
+//			marioAnim.SetBool ("Fire", true);
 		} 
 		else {
-			marioAnim.SetBool ("Fire", false);
+//			marioAnim.SetBool ("Fire", false);
 		}
 		if (downDown) {
 			marioAnim.SetBool ("DownDown", true);
@@ -519,12 +519,12 @@ public class Mario : MonoBehaviour {
 	}
 	void shootFire(){
 		AnimatorStateInfo state =  marioAnim.GetCurrentAnimatorStateInfo(0);
-		string name = state.ToString();
 		Vector3 offset = new Vector3();
-		if (name.Contains("Right"))
-			offset.x = .5f;
+		if (state.IsTag ("right"))
+			offset.x = 1f;
 		else
-			offset.x = -.5f;
+			offset.x = -1.5f;
+		offset.y += 1f;
 		Instantiate (fireBall, this.transform.position + offset, Quaternion.identity);
 	}
 }

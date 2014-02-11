@@ -6,6 +6,7 @@ public class Flower : MonoBehaviour {
 		if (other.collider.tag == "Player") {
 			Mario.hitFire = true;
 			Mario.isFire = true;
+			Mario.isBig = true;
 
 			Destroy (this.gameObject);
 			return;

@@ -7,6 +7,7 @@ public class BrickScript : MonoBehaviour {
 	public Transform	hasObject;
 	public Transform	emptyBrick;
 	public bool			isHidden;
+	public bool			isMushroom;
 	public GameObject	onTop = null;
 	private int			count;
 	public Transform	flower;
@@ -41,10 +42,12 @@ public class BrickScript : MonoBehaviour {
 		}
 		if ( count > 0) {
 			Vector3 spawnLoc = this.transform.position + /*new Vector3(11.69434f,1.748389f,2.006592f) +*/ new Vector3(0f,1,0f);
-			if(hasObject.GetType().ToString() == "Mushroom" && (Mario.isBig || Mario.isFire)){
+			//Debug.Log(hasObject.GetType().ToString());
+			if(isMushroom && (Mario.isBig || Mario.isFire)){
 				Instantiate(flower, spawnLoc, Quaternion.identity);
 			}
-			Instantiate(hasObject, spawnLoc, Quaternion.identity);
+			else
+				Instantiate(hasObject, spawnLoc, Quaternion.identity);
 			count--;
 			if(count == 0){
 				Vector3 emptyLoc = this.transform.position;

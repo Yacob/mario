@@ -4,38 +4,48 @@ using System.Collections;
 public class FireBall : MonoBehaviour {
 
 	public int 		moveDir;
-	public float	bounceSpeed;
 	public float	moveSpd;
 	public int		vertSpeed;
 	public int		upDown;
 	public float	vertCeil;
-	private float	vertCap = 100;
 	// Use this for initialization
 	void Start () {
+		moveDir = 1;
 		AnimatorStateInfo state =  Mario.marioAnim.GetCurrentAnimatorStateInfo(0);
 		string name = state.ToString();
-		if (name.Contains("Right"))
+		if (state.IsTag ("right"))
 			moveDir = 1;
 		else
 			moveDir = -1;
 		upDown = -1;
+		vertSpeed = 6;
+		moveSpd = 10;
+		vertCeil = 100;
+		Mario.numFire++;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		Vector3 curPos = this.transform.position;
-		Vector3 newPos = this.transform.position;
+		/*Vector3 newPos = this.transform.position;
 		newPos.x = moveSpd * moveDir * Time.deltaTime;
 		newPos.y = vertSpeed * upDown * Time.deltaTime;
 
 		if (newPos.y > vertCap)
 			newPos.y = vertCap;
 
-		transform.position = newPos;
+		transform.position = newPos;*/
+		Vector3 vel = this.rigidbody.velocity;
+		vel.x = moveDir * moveSpd;
+		if(this.transform.position.y > vertCeil){
+			Debug.Log(vertCeil + " = cap, cur = " +this.transform.position.y );
+			upDown = -1;
+		}
+		vel.y = upDown * vertSpeed;
+		this.rigidbody.velocity = vel;
 	
 	}
 	void OnCollisionEnter(Collision other){
-		if(other.collider.tag == "Enemy"){
+		if(other.collider.tag == "Enemy" || other.collider.tag == "Shell"){
 			Destroy (other.gameObject);
 			Destroy (this.gameObject);
 		}
@@ -53,7 +63,7 @@ public class FireBall : MonoBehaviour {
 		Ray uRay = new Ray (this.transform.position, up);*/
 		
 		Vector3 center = this.collider.bounds.center;
-		float distance = .1f;
+		float distance = .05f;
 		
 		Vector3 topRight = center;
 		topRight.y += this.collider.bounds.size.y / 2 - distance/2;
@@ -86,25 +96,22 @@ public class FireBall : MonoBehaviour {
 		bool hitBotLeft = Physics.Raycast (botLeft, down, out edgeInfo2, distance);
 		
 		if(hitBotLeft||hitBotRight){
-			this.vertCap = this.transform.position.y + .5f;
+			vertCeil = this.transform.position.y + 1;
+			upDown = 1;
 		}
 		//left
 		bool hitLeft = Physics.Raycast (topLeft, left, out edgeInfo1, distance);
 		hitLeft = hitLeft || Physics.Raycast (botLeft, left, out edgeInfo2, distance);
 		
 		if (hitLeft) {
-			if(moveDir == -1){
-				moveDir*=-1;
-			}
+			Destroy(this.gameObject);
 		}
 		//right
 		bool hitRight = Physics.Raycast (topRight, right, out edgeInfo1, distance);
 		hitRight = hitRight || Physics.Raycast (botRight, right, out edgeInfo2, distance);
 		
 		if (hitRight) {
-			if(moveDir == 1){
-				moveDir*=-1;
-			}
+			Destroy(this.gameObject);
 		}
 
 	}

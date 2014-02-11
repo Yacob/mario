@@ -2,7 +2,11 @@ fileFormatVersion: 2
 guid: 6063e9171379cec4cb0950417307a149
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - hasObject: {instanceID: 0}
+  - emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
+  - onTop: {instanceID: 0}
+  - flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

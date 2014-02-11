@@ -1290,7 +1290,7 @@ State:
   m_Position: {x: 684, y: 120, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
-  m_Tag: 
+  m_Tag: right
 --- !u!1102 &110201179
 State:
   m_ObjectHideFlags: 3
@@ -1305,7 +1305,7 @@ State:
   m_Position: {x: 696, y: 384, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
-  m_Tag: 
+  m_Tag: right
 --- !u!1102 &110202095
 State:
   m_ObjectHideFlags: 3
@@ -1320,7 +1320,7 @@ State:
   m_Position: {x: 564, y: 324, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
-  m_Tag: 
+  m_Tag: right
 --- !u!1102 &110203540
 State:
   m_ObjectHideFlags: 3
@@ -1350,7 +1350,7 @@ State:
   m_Position: {x: 264, y: 180, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
-  m_Tag: 
+  m_Tag: right
 --- !u!1102 &110217441
 State:
   m_ObjectHideFlags: 3
@@ -1365,7 +1365,7 @@ State:
   m_Position: {x: 540, y: 60, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
-  m_Tag: 
+  m_Tag: right
 --- !u!1102 &110226319
 State:
   m_ObjectHideFlags: 3
@@ -1425,7 +1425,7 @@ State:
   m_Position: {x: 312, y: 468, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
-  m_Tag: 
+  m_Tag: right
 --- !u!1102 &110231356
 State:
   m_ObjectHideFlags: 3
@@ -1485,7 +1485,7 @@ State:
   m_Position: {x: 696, y: 252, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
-  m_Tag: 
+  m_Tag: right
 --- !u!1102 &110240490
 State:
   m_ObjectHideFlags: 3
@@ -1500,7 +1500,7 @@ State:
   m_Position: {x: 684, y: 12, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
-  m_Tag: 
+  m_Tag: right
 --- !u!1102 &110243736
 State:
   m_ObjectHideFlags: 3
@@ -1590,7 +1590,7 @@ State:
   m_Position: {x: 540, y: -72, z: 0}
   m_IKOnFeet: 0
   m_Mirror: 0
-  m_Tag: 
+  m_Tag: right
 --- !u!1102 &110274677
 State:
   m_ObjectHideFlags: 3

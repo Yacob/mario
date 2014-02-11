@@ -777,6 +777,45 @@ Prefab:
   m_RootGameObject: {fileID: 338871508}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &36487969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 36487970}
+  - 65: {fileID: 36487971}
+  m_Layer: 20
+  m_Name: Cube
+  m_TagString: EatThings
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &36487970
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 36487969}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9, y: -7, z: 0}
+  m_LocalScale: {x: 1, y: 18, z: 10}
+  m_Children: []
+  m_Father: {fileID: 1264302306}
+--- !u!65 &36487971
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 36487969}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: .5, y: .5, z: 0}
 --- !u!1 &38744816
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,6 +994,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &47403721
@@ -1896,6 +1936,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!95 &112300009
@@ -1960,6 +2001,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &118002802
@@ -2108,9 +2150,9 @@ GameObject:
   - 64: {fileID: 124130627}
   - 23: {fileID: 124130626}
   - 114: {fileID: 124130625}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spawn Enemies
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2775,6 +2817,14 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
   m_RootGameObject: {fileID: 910175827}
@@ -2951,6 +3001,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &158194647
@@ -3917,6 +3968,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &235249911
@@ -4302,6 +4354,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &259804436
@@ -4853,6 +4906,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!65 &297822089
@@ -5160,6 +5214,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &320833042
@@ -5336,6 +5391,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &322159425
@@ -6177,6 +6233,114 @@ Renderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortingLayerID: 0
+--- !u!1 &357756907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 357756913}
+  - 212: {fileID: 357756912}
+  - 95: {fileID: 357756911}
+  - 114: {fileID: 357756910}
+  - 54: {fileID: 357756909}
+  - 65: {fileID: 357756908}
+  m_Layer: 18
+  m_Name: KoopaShell(Clone)
+  m_TagString: Shell
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &357756908
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 357756907}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: .200000003}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &357756909
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 357756907}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 120
+  m_CollisionDetection: 0
+--- !u!114 &357756910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 357756907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7760eeecf9020194a907aa3144fd1bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 6
+  moveSpd: 9
+--- !u!95 &357756911
+Animator:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 357756907}
+  m_Enabled: 0
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d235f3cbf47af934890099dc014ebd62, type: 2}
+  m_CullingMode: 0
+  m_ApplyRootMotion: 0
+  m_AnimatePhysics: 0
+  m_HasTransformHierarchy: 1
+--- !u!212 &357756912
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 357756907}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+  m_Sprite: {fileID: 21300086, guid: 263c98a80bf404de9946d48f43eef0a2, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &357756913
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 357756907}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 106.204254, y: .5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
 --- !u!1 &359026043
 GameObject:
   m_ObjectHideFlags: 0
@@ -6526,6 +6690,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &371252480
@@ -6637,6 +6802,7 @@ MonoBehaviour:
   hasObject: {fileID: 400000, guid: ded69643df4093a45a616117483b2319, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 1
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!95 &372282459
@@ -7599,6 +7765,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &417785016
@@ -8413,6 +8580,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &463303665
@@ -9453,6 +9621,14 @@ Prefab:
       propertyPath: y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
   m_RootGameObject: {fileID: 1963089006}
@@ -9568,9 +9744,9 @@ GameObject:
   - 64: {fileID: 532622051}
   - 23: {fileID: 532622050}
   - 114: {fileID: 532622049}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spawn Enemies
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10383,6 +10559,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &581851588
@@ -11998,6 +12175,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &680748490
@@ -12531,6 +12709,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &727006351
@@ -12796,9 +12975,9 @@ GameObject:
   - 64: {fileID: 740593080}
   - 23: {fileID: 740593079}
   - 114: {fileID: 740593078}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spawn Enemies
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14036,9 +14215,9 @@ GameObject:
   - 64: {fileID: 818668425}
   - 23: {fileID: 818668424}
   - 114: {fileID: 818668423}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spawn Enemies
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14750,6 +14929,14 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
   m_RootGameObject: {fileID: 532622047}
@@ -15072,6 +15259,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &857013632
@@ -15288,6 +15476,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!95 &865743946
@@ -15462,6 +15651,7 @@ MonoBehaviour:
   jumpAcc: 57.5
   grounded: 1
   jumping: 0
+  fireBall: {fileID: 400000, guid: e817d0c3cf276c34c9ec0383dffa9e92, type: 2}
   customStyle:
     m_Name: 
     m_Normal:
@@ -15679,6 +15869,45 @@ Transform:
   m_Children:
   - {fileID: 199425599}
   m_Father: {fileID: 2018940297}
+--- !u!1 &888212457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 888212459}
+  - 65: {fileID: 888212458}
+  m_Layer: 20
+  m_Name: Cube
+  m_TagString: EatThings
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &888212458
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 888212457}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: .5, y: .5, z: 0}
+--- !u!4 &888212459
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 888212457}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9, y: -7, z: 0}
+  m_LocalScale: {x: 1, y: 18, z: 10}
+  m_Children: []
+  m_Father: {fileID: 1264302306}
 --- !u!1 &891369161
 GameObject:
   m_ObjectHideFlags: 0
@@ -16124,9 +16353,9 @@ GameObject:
   - 64: {fileID: 910175830}
   - 23: {fileID: 910175829}
   - 114: {fileID: 910175828}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spawn Enemies
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16343,6 +16572,14 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
   m_RootGameObject: {fileID: 818668422}
@@ -16360,9 +16597,9 @@ GameObject:
   - 64: {fileID: 917524196}
   - 23: {fileID: 917524195}
   - 114: {fileID: 917524194}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spawn Enemies
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16709,6 +16946,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!95 &961911374
@@ -16773,6 +17011,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &969362213
@@ -16967,6 +17206,10 @@ Prefab:
     - target: {fileID: 9500002, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
+      propertyPath: isMushroom
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
@@ -17212,6 +17455,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!95 &986507309
@@ -17349,6 +17593,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &999167607
@@ -17674,6 +17919,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &1026676176
@@ -18280,6 +18526,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!95 &1059146890
@@ -18355,6 +18602,10 @@ Prefab:
     - target: {fileID: 9500002, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
+      propertyPath: isMushroom
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
@@ -19293,6 +19544,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &1102779682
@@ -19966,9 +20218,9 @@ GameObject:
   - 64: {fileID: 1151166082}
   - 23: {fileID: 1151166081}
   - 114: {fileID: 1151166080}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spawn Enemies
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20119,6 +20371,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!65 &1156742208
@@ -20904,6 +21157,10 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
+      propertyPath: isMushroom
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
   m_RootGameObject: {fileID: 1059146885}
@@ -21282,6 +21539,14 @@ Prefab:
       propertyPath: y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
   m_RootGameObject: {fileID: 1642672655}
@@ -21487,6 +21752,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!65 &1218814823
@@ -21713,6 +21979,14 @@ Prefab:
     - target: {fileID: 2300000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
@@ -22214,9 +22488,9 @@ GameObject:
   - 64: {fileID: 1240950769}
   - 23: {fileID: 1240950768}
   - 114: {fileID: 1240950767}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spawn Enemies
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22352,6 +22626,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!65 &1245459618
@@ -22843,6 +23118,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1914689859}
+  - {fileID: 888212459}
+  - {fileID: 36487970}
   m_Father: {fileID: 0}
 --- !u!114 &1264302307
 MonoBehaviour:
@@ -23122,6 +23399,10 @@ Prefab:
     - target: {fileID: 9500002, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
+      propertyPath: isMushroom
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
@@ -23463,6 +23744,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &1286926477
@@ -23810,6 +24092,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!95 &1309432737
@@ -24177,6 +24460,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &1323731238
@@ -24253,6 +24537,14 @@ Prefab:
     - target: {fileID: 2300000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
@@ -25489,6 +25781,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &1428674535
@@ -25602,6 +25895,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &1431403902
@@ -26223,6 +26517,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!65 &1456634651
@@ -26446,6 +26741,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &1471705935
@@ -27043,6 +27339,14 @@ Prefab:
     - target: {fileID: 2300000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_Layer
+      value: 14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
@@ -28257,6 +28561,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &1565825455
@@ -28978,9 +29283,9 @@ GameObject:
   - 64: {fileID: 1642672659}
   - 23: {fileID: 1642672658}
   - 114: {fileID: 1642672657}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spawn Enemies
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29354,6 +29659,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!65 &1648646981
@@ -30427,6 +30733,7 @@ MonoBehaviour:
   hasObject: {fileID: 400000, guid: ded69643df4093a45a616117483b2319, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 1
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!95 &1703600986
@@ -30590,6 +30897,7 @@ MonoBehaviour:
   hasObject: {fileID: 400000, guid: ded69643df4093a45a616117483b2319, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 1
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!95 &1710798455
@@ -30705,6 +31013,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &1717131112
@@ -31283,6 +31592,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &1775104805
@@ -31983,6 +32293,14 @@ Prefab:
       propertyPath: y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
   m_RootGameObject: {fileID: 1240950765}
@@ -32048,6 +32366,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!65 &1841617023
@@ -32217,6 +32536,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!95 &1847168418
@@ -32280,6 +32600,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &1847795544
@@ -32588,6 +32909,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!95 &1874643667
@@ -33494,9 +33816,9 @@ GameObject:
   - 64: {fileID: 1923355444}
   - 23: {fileID: 1923355443}
   - 114: {fileID: 1923355442}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spawn Enemies
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33960,6 +34282,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!65 &1938309903
@@ -34050,6 +34373,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!65 &1939825261
@@ -34437,9 +34761,9 @@ GameObject:
   - 64: {fileID: 1963089009}
   - 23: {fileID: 1963089008}
   - 114: {fileID: 1963089007}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spawn Enemies
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35037,6 +35361,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!65 &2000475227
@@ -35293,6 +35618,14 @@ Prefab:
       propertyPath: y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
   m_RootGameObject: {fileID: 124130623}
@@ -35451,6 +35784,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!95 &2010624260
@@ -36054,6 +36388,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &2040877602
@@ -36850,6 +37185,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!95 &2078590814
@@ -36942,6 +37278,7 @@ MonoBehaviour:
   hasObject: {fileID: 400002, guid: 32c451afa1f4a304d8a2737a92847b05, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!65 &2084474710
@@ -37238,6 +37575,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &2103997975
@@ -37571,6 +37909,14 @@ Prefab:
       propertyPath: y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c307c946d7bb4d24e8e2e0505d17bd61, type: 2}
   m_RootGameObject: {fileID: 917524192}
@@ -37623,6 +37969,7 @@ MonoBehaviour:
   hasObject: {fileID: 0}
   emptyBrick: {fileID: 0}
   isHidden: 0
+  isMushroom: 0
   onTop: {fileID: 0}
   flower: {fileID: 0}
 --- !u!95 &2116262414
