@@ -15,6 +15,7 @@ TagManager:
   - Shell
   - Upgrade
   - EatThings
+  - EatProj
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -37,7 +38,7 @@ TagManager:
   User Layer 18: Shell
   User Layer 19: Upgrade
   User Layer 20: EatThings
-  User Layer 21: 
+  User Layer 21: EatProj
   User Layer 22: 
   User Layer 23: 
   User Layer 24: 

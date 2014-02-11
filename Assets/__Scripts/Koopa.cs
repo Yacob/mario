@@ -151,6 +151,9 @@ public class Koopa : MonoBehaviour {
 				Mario.takeDamage();
 			}
 		}
+		if (playerUp) {
+			Object aShell = Instantiate(shell, new Vector3(this.transform.position.x,.5f,0f), Quaternion.identity);
+		}
 
 
 		
@@ -177,7 +180,6 @@ public class Koopa : MonoBehaviour {
 		
 	}
 	void OnDestroy(){
-		Object aShell = Instantiate(shell, new Vector3(this.transform.position.x,.5f,0f), Quaternion.identity);
 	}
 }
 

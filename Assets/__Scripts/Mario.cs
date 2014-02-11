@@ -34,6 +34,7 @@ public class Mario : MonoBehaviour {
 	public static Vector3	respawnLoc = new Vector3(-4.0f, 0.0f, 0);
 	public static bool		toTheNewWorldAway = false;
 	public static int		numFire = 0;
+	private static bool		reset = false;
 
 	public static Mario me;	
 
@@ -53,7 +54,8 @@ public class Mario : MonoBehaviour {
 		hitFire = false;
 		dmg = false;
 		noClip = 0f;
-		respawnLoc = new Vector3(-4.0f, 0.0f, 0);
+		if(reset)
+			transform.position = respawnLoc;
 		numFire = 0;
 	}
 	void Start(){
@@ -61,6 +63,8 @@ public class Mario : MonoBehaviour {
 		rigidbody.inertiaTensor = rigidbody.inertiaTensor + new Vector3 (0, 0, rigidbody.inertiaTensor.z * 100);
 		marioAnim = GetComponent<Animator>();
 		me = this;
+		//reset = false;
+		//respawnLoc = new Vector3(-4.0f, 0.0f, 0);
 	}
 	void OnGUI(){
 		GUI.Label (new Rect (0, 10, 100, 30), "Score: " + score.ToString(), customStyle);
@@ -240,15 +244,6 @@ public class Mario : MonoBehaviour {
 			marioAnim.SetBool ("Jumping", true);
 		}
 
-		// ---------- respawn ----------
-		if (respawn) {
-			this.Respawn ();
-		} 
-		else if (dead) {
-			this.Dead ();
-		}
-
-
 		Vector3 right = Vector3.Cross(-1*this.transform.forward,this.transform.up);
 		Vector3 down = Vector3.Cross(-1*this.transform.forward,this.transform.right);
 		Vector3 left = Vector3.Cross(-1*this.transform.forward,-1*this.transform.up);
@@ -329,19 +324,22 @@ public class Mario : MonoBehaviour {
 	}
 
 	public void Respawn(){
-		Debug.Log ("respawning");
 		respawn = true;
 		if(lives == 1){
 			Dead ();
 			return;
 		}
-		transform.position = respawnLoc;
+		//Application.LoadLevel(0);
+		Debug.Log ("respawning");
 		lives--;
 		time = 400;
+		reset = true;
+		Application.LoadLevel(Application.loadedLevel);
+
 	}
 
 	public void Dead(){
-		Debug.Log(Application.loadedLevel);
+		reset = false;
 		lives = 3;
 		Application.LoadLevel(0);
 	}

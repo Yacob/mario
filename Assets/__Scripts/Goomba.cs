@@ -18,8 +18,6 @@ public class Goomba : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (hitPlayer)
-			hitPlayer = false;
 		Vector3 vel = rigidbody.velocity;
 		vel.x = moveSpd * moveDir;
 		rigidbody.velocity = vel;
@@ -144,6 +142,7 @@ public class Goomba : MonoBehaviour {
 
 		if (other.collider.tag == "Player" && !playerUp) {
 			if (!hitPlayer) {
+				Debug.Log("I kill you");
 				hitPlayer = true;
 				Mario.takeDamage ();
 			}

@@ -786,9 +786,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 36487970}
   - 65: {fileID: 36487971}
-  m_Layer: 20
+  - 114: {fileID: 36487972}
+  m_Layer: 21
   m_Name: Cube
-  m_TagString: EatThings
+  m_TagString: EatProj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -816,6 +817,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: .5, y: .5, z: 0}
+--- !u!114 &36487972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 36487969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f83a6147ef71dba42a0ddd2e1960f46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &38744816
 GameObject:
   m_ObjectHideFlags: 0
@@ -15878,6 +15890,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 888212459}
   - 65: {fileID: 888212458}
+  - 114: {fileID: 888212460}
   m_Layer: 20
   m_Name: Cube
   m_TagString: EatThings
@@ -15908,6 +15921,17 @@ Transform:
   m_LocalScale: {x: 1, y: 18, z: 10}
   m_Children: []
   m_Father: {fileID: 1264302306}
+--- !u!114 &888212460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 888212457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f83a6147ef71dba42a0ddd2e1960f46f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &891369161
 GameObject:
   m_ObjectHideFlags: 0
