@@ -27018,7 +27018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d7e861d1aacb884a94baa67be53a2ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flaggyMario: {fileID: 0}
+  flaggyMario: {fileID: 400000, guid: ed82bf8cf2ac6754bb16d22b6b267aff, type: 2}
   y: 6
 --- !u!1 &1348279303
 GameObject:

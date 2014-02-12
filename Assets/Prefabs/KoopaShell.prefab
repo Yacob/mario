@@ -85,6 +85,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timer: 6
   moveSpd: 9
+  koopa: {fileID: 400000, guid: bccfdb2fb0edae645958fa75930ca950, type: 2}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

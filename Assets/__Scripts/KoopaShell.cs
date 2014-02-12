@@ -7,6 +7,7 @@ public class KoopaShell : MonoBehaviour {
 	public int		moveSpd = 4;
 	private int		moveDir;
 	private bool	moving = false;
+	public Transform koopa;
 	
 	//Start is called at beginning
 	void Start(){
@@ -26,6 +27,11 @@ public class KoopaShell : MonoBehaviour {
 			timer -= 1*Time.deltaTime;
 			vel.x = 0;
 			rigidbody.velocity = vel;
+		}
+
+		if (timer < 0) {
+			Destroy(this.gameObject);
+			Instantiate(koopa, new Vector3(this.transform.position.x,1f,0f), Quaternion.identity);
 		}
 
 		Vector3 right = Vector3.Cross(-1*this.transform.forward,this.transform.up);

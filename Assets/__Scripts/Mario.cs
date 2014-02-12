@@ -4,6 +4,7 @@ using System.Collections;
 public class Mario : MonoBehaviour {
 	public float 			maxSpeed = 5.5f;
 	public float			acceleration = 0.45f;
+	private float			slideAcc = 0.25f;
 	public float			baseSpeed = 1;
 	public float			sprintFactor = 1.55f;
 
@@ -138,6 +139,8 @@ public class Mario : MonoBehaviour {
 		Vector3 vel = rigidbody.velocity;
 		curSpeed = vel.x;
 
+		Debug.Log (curSpeed);
+
 		float h = 0.0f;
 
 		if(Input.GetKey(KeyCode.LeftArrow)){
@@ -156,26 +159,31 @@ public class Mario : MonoBehaviour {
 
 		//set sideways motion
 		if ((h == 0 && grounded) || downDown) {
+			Debug.Log ("state1");
+
 			if(curSpeed > 0){
-				curSpeed -= acceleration;
+				curSpeed -= slideAcc;
 				if(curSpeed < 0){
 					curSpeed = 0;
 				}
 			}
 			else {
-				curSpeed += acceleration;
+				curSpeed += slideAcc;
 				if(curSpeed > 0){
 					curSpeed = 0;
 				}
 			}
 		}
 		else if (h != 0 && curSpeed == 0) {
+			Debug.Log ("state2");
+
 			curSpeed = h*baseSpeed;
 		}
 		else if (grounded || h != 0) {
+			Debug.Log ("state3");
+
 			curSpeed = curSpeed + h*acceleration;
 		}
-
 		// ---------- Jumping ----------
 		if (aDown) {
 			if (grounded) {
@@ -194,7 +202,8 @@ public class Mario : MonoBehaviour {
 		}
 
 		// Max speed
-		if(curSpeed > Mathf.Abs(h) * maxSpeed || curSpeed < Mathf.Abs(h) * -1 * maxSpeed){
+		if((curSpeed > Mathf.Abs(h) * maxSpeed || curSpeed < Mathf.Abs(h) * -1 * maxSpeed) && h != 0){
+
 			curSpeed = h*maxSpeed;
 		}
 
