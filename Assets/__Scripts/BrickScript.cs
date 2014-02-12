@@ -19,7 +19,7 @@ public class BrickScript : MonoBehaviour {
 		if (isHidden) {
 			foreach(Transform child in transform){
 				Debug.Log("found child " + child);
-				child.GetComponent<MeshRenderer>().enabled = false;
+				//child.GetComponent<MeshRenderer>().enabled = false;
 				child.GetComponent<SpriteRenderer>().enabled = false;
 				//child. = false;
 				//child.renderer.enabled = false;
