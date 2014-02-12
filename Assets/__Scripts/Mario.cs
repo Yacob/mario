@@ -35,20 +35,13 @@ public class Mario : MonoBehaviour {
 	public static bool		toTheNewWorldAway = false;
 	public static int		numFire = 0;
 	private static bool		reset = false;
+	private float			endTimer = -1;
 
 	public static Mario me;	
 
 	public GUIStyle customStyle;
 	
 	public static Animator marioAnim;
-
-	public struct ScoreCounter{
-		public int 		counter;
-		public float 	decay;
-	};
-
-	public ScoreCounter SCount;
-
 
 	void Awake(){
 		finished = false;
@@ -62,8 +55,10 @@ public class Mario : MonoBehaviour {
 		hitFire = false;
 		dmg = false;
 		noClip = 0f;
-		if(reset)
+		if(reset){
 			transform.position = respawnLoc;
+		}
+		reset = false;
 		numFire = 0;
 	}
 	void Start(){
@@ -71,9 +66,6 @@ public class Mario : MonoBehaviour {
 		rigidbody.inertiaTensor = rigidbody.inertiaTensor + new Vector3 (0, 0, rigidbody.inertiaTensor.z * 100);
 		marioAnim = GetComponent<Animator>();
 		me = this;
-		SCount.counter++;
-		//reset = false;
-		//respawnLoc = new Vector3(-4.0f, 0.0f, 0);
 	}
 	void OnGUI(){
 		GUI.Label (new Rect (0, 10, 100, 30), "Score: " + score.ToString(), customStyle);
@@ -88,7 +80,12 @@ public class Mario : MonoBehaviour {
 		bool aDown;
 		bool bDown;
 		bool downDown;
-
+		if (endTimer > 0) {
+			endTimer-= Time.deltaTime;
+			if(endTimer <= 0){
+				Dead();
+			}
+		}
 		if (ChangeSize) {
 			marioAnim.SetBool ("ChangeSize", false);
 			ChangeSize = false;
@@ -365,11 +362,14 @@ public class Mario : MonoBehaviour {
 	public void Dead(){
 		reset = false;
 		lives = 3;
+		score = 0;
+		coins = 0;
 		Application.LoadLevel(0);
 	}
 
 	public void GameEnd(){
 		this.renderer.enabled = false;
+		endTimer = 4;
 	}
 
 	void OnCollisionEnter(Collision other) {
