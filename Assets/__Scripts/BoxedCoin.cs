@@ -7,8 +7,6 @@ public class BoxedCoin : MonoBehaviour {
 	void Start () {
 		Animator anim = GetComponentInChildren<Animator> ();
 		//anim.Play (0);
-		AnimatorStateInfo info = anim.GetCurrentAnimatorStateInfo(0);
-		timer = info.length;
 	}
 	
 	// Update is called once per frame
@@ -20,6 +18,6 @@ public class BoxedCoin : MonoBehaviour {
 	}
 	void OnDestroy(){
 		Mario.coins++;
-		Mario.score += 100;
+		Mario.score += 200;
 	}
 }

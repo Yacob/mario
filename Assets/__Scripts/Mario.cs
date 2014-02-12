@@ -42,6 +42,14 @@ public class Mario : MonoBehaviour {
 	
 	public static Animator marioAnim;
 
+	public struct ScoreCounter{
+		public int 		counter;
+		public float 	decay;
+	};
+
+	public ScoreCounter SCount;
+
+
 	void Awake(){
 		finished = false;
 		inCave = false;
@@ -63,6 +71,7 @@ public class Mario : MonoBehaviour {
 		rigidbody.inertiaTensor = rigidbody.inertiaTensor + new Vector3 (0, 0, rigidbody.inertiaTensor.z * 100);
 		marioAnim = GetComponent<Animator>();
 		me = this;
+		SCount.counter++;
 		//reset = false;
 		//respawnLoc = new Vector3(-4.0f, 0.0f, 0);
 	}
