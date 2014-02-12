@@ -369,7 +369,7 @@ public class Mario : MonoBehaviour {
 
 	public void GameEnd(){
 		this.renderer.enabled = false;
-		endTimer = 4;
+		endTimer = 3.8f;
 	}
 
 	void OnCollisionEnter(Collision other) {
