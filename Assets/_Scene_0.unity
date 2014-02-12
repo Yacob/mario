@@ -13154,6 +13154,10 @@ Prefab:
       propertyPath: initialCount
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
   m_RootGameObject: {fileID: 640062445}
@@ -14664,7 +14668,7 @@ Animator:
     type: 2}
   m_PrefabInternal: {fileID: 626780617}
   m_GameObject: {fileID: 676884047}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 5776b09f7a435b447820da2ffc4ee601, type: 2}
   m_CullingMode: 0
@@ -14831,10 +14835,14 @@ Prefab:
     - target: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
       propertyPath: hasObject
       value: 
-      objectReference: {fileID: 400002, guid: 89f8077939d83514693e8c7d9539afd4, type: 2}
+      objectReference: {fileID: 400000, guid: ded69643df4093a45a616117483b2319, type: 2}
     - target: {fileID: 400000, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
       propertyPath: m_LocalPosition.z
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
+      propertyPath: isMushroom
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0615ffe5d96adcd409a2ddad9aeff828, type: 2}
@@ -28090,10 +28098,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialCount: 1
-  hasObject: {fileID: 400002, guid: 89f8077939d83514693e8c7d9539afd4, type: 2}
+  hasObject: {fileID: 400000, guid: ded69643df4093a45a616117483b2319, type: 2}
   emptyBrick: {fileID: 400002, guid: 9c36d4ef3647e814d8027de6f7365987, type: 2}
   isHidden: 0
-  isMushroom: 0
+  isMushroom: 1
   onTop: {fileID: 0}
   flower: {fileID: 400002, guid: acdcd27ca08b8f44daf84a3075e9208b, type: 2}
 --- !u!65 &1399071810
