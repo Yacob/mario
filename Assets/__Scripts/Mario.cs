@@ -81,7 +81,7 @@ public class Mario : MonoBehaviour {
 		bool bDown;
 		bool downDown;
 		if (endTimer > 0) {
-			endTimer-= Time.deltaTime;
+			endTimer -= Time.deltaTime;
 			if(endTimer <= 0){
 				Dead();
 			}
@@ -102,12 +102,12 @@ public class Mario : MonoBehaviour {
 		}
 
 		if (finished) {
+			finished = false;
 			this.GameEnd ();
 		}
 
 		if (noClip > 0) {
 			noClip -= Time.deltaTime;
-			//Debug.Log(((int)(noClip*100)));
 			Physics.IgnoreLayerCollision(11,16, true);
 			if(((int)(noClip*10)) % 2 == 0){
 				renderer.enabled = false;
