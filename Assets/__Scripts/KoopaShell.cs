@@ -86,7 +86,10 @@ public class KoopaShell : MonoBehaviour {
 		Vector3 down = Vector3.Cross(-1*this.transform.forward,this.transform.right);
 		Vector3 left = Vector3.Cross(-1*this.transform.forward,-1*this.transform.up);
 		Vector3 up = Vector3.Cross(-1*this.transform.forward,-1*this.transform.right);
-
+		if(other.collider.tag == "Enemy"){
+			Destroy (other.gameObject);
+			return;
+		}
 		/*Ray rRay = new Ray (this.transform.position, right);
 		Ray dRay = new Ray (this.transform.position, down);
 		Ray lRay = new Ray (this.transform.position, left);
