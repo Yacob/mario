@@ -110,7 +110,17 @@ public class Mario : MonoBehaviour {
 
 		if (noClip > 0) {
 			noClip -= Time.deltaTime;
+			//Debug.Log(((int)(noClip*100)));
 			Physics.IgnoreLayerCollision(11,16, true);
+			if(((int)(noClip*10)) % 2 == 0){
+				renderer.enabled = false;
+			}
+			else{
+				renderer.enabled = true;
+			}
+			if (noClip < 0) { 
+				renderer.enabled = true;
+			}
 		}
 		else{
 			Physics.IgnoreLayerCollision(11,16, false);
@@ -515,17 +525,17 @@ public class Mario : MonoBehaviour {
 
 	public static void takeDamage(){
 		if(isFire){
+			isBig = false;
 			isFire = false;
 			dmg = true;
-			noClip = 4;
+			noClip = 2;
 		}
 		else if(isBig){
 			isBig = false;
 			dmg = true;
-			noClip = 4;
+			noClip = 2;
 		}
 		else{
-			Debug.Log("here I am");
 			me.Respawn();
 		}
 	}
